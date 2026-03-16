@@ -1,0 +1,35 @@
+# Shared PostgreSQL Database Service
+# This file should be copied to all industry projects to ensure
+# a shared PostgreSQL instance is available for multi-tenant deployment
+
+services:
+  shared-postgres:
+    platform: linux/amd64
+    image: postgres:16
+    container_name: shared-postgres-multitenant
+    restart: always
+    depends_on: []
+    environment:
+      POSTGRES_USER: multitenant_user
+      POSTGRES_PASSWORD: multitenant_password
+      POSTGRES_DB: postgres # Default database for connection
+    ports:
+      - "5432:5432"
+    volumes:
+      - shared_postgres_data:/var/lib/postgresql/data
+    networks:
+      - multitenant-network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U multitenant_user"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  shared_postgres_data:
+    name: shared_postgres_multitenant_data
+
+networks:
+  multitenant-network:
+    name: multitenant-network
+    driver: bridge
