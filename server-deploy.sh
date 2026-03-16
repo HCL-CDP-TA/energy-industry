@@ -85,7 +85,22 @@ ln -sfn "$DEPLOY_DIR" "$CURRENT_LINK"
 
 # Ensure database setup
 echo "Ensuring shared database is set up..."
-if ! docker ps | grep -q shared-postgres-multitenant; then
+if docker ps | grep -q shared-postgres-multitenant; then
+    echo "Shared database container is already running"
+elif docker ps -a | grep -q shared-postgres-multitenant; then
+    echo "Starting existing shared database container..."
+    docker start shared-postgres-multitenant
+
+    echo "Waiting for database to be ready..."
+    for i in {1..30}; do
+        if docker exec shared-postgres-multitenant pg_isready -U multitenant_user >/dev/null 2>&1; then
+            echo "Shared database container is ready!"
+            break
+        fi
+        echo "   Attempt $i/30 - Database not ready yet..."
+        sleep 2
+    done
+else
     echo "Setting up multi-tenant database from scratch..."
 
     docker network create multitenant-network 2>/dev/null || true
