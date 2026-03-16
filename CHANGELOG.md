@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.2.1](https://github.com/HCL-CDP-TA/energy-industry/compare/v1.2.0...v1.2.1) (2026-03-16)
+
+
+### Bug Fixes
+
+* deploy ([ae0a4a1](https://github.com/HCL-CDP-TA/energy-industry/commit/ae0a4a100aee89824b97ab722fa2fe9d77c85998))
+
+
+### Documentation
+
+* readme ([bb54f56](https://github.com/HCL-CDP-TA/energy-industry/commit/bb54f561d344fe412c9c1b172a00eccb019dd4e2))
+
 ## [1.2.0](https://github.com/HCL-CDP-TA/energy-industry/compare/v1.1.0...v1.2.0) (2026-03-16)
 
 
