@@ -20,6 +20,8 @@ export default function CdpProvider({ children }: { children: React.ReactNode })
     }
   }
 
+  const gaMeasurementId = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID || ""
+
   const cdpConfig: HclCdpConfig = {
     writeKey,
     inactivityTimeout: 120, // in minutes
@@ -27,13 +29,15 @@ export default function CdpProvider({ children }: { children: React.ReactNode })
     enableUserSessionLogging: true,
     enableUserLogoutLogging: true,
     cdpEndpoint: process.env.NEXT_PUBLIC_CDP_ENDPOINT || "",
-    destinations: [
-      {
-        id: "GA4",
-        classRef: GoogleAnalytics,
-        config: { measurementId: process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID || "" },
-      },
-    ],
+    destinations: gaMeasurementId
+      ? [
+          {
+            id: "GA4",
+            classRef: GoogleAnalytics,
+            config: { measurementId: gaMeasurementId },
+          },
+        ]
+      : [],
   }
 
   return <CdpClientWrapper config={cdpConfig}>{children}</CdpClientWrapper>
