@@ -58,7 +58,7 @@ export default function HomePage() {
               </Link>
               {!isLoggedIn && (
                 <Link href={getFullPath("plans")}>
-                  <Button size="lg" variant="outline" className="cursor-pointer text-lg px-8 py-6 border-white text-white hover:bg-white hover:text-slate-900">
+                  <Button size="lg" variant="outline" className="cursor-pointer text-lg px-8 py-6 bg-transparent border-white text-white hover:bg-white hover:text-slate-900">
                     {t("hero.secondaryCta")}
                   </Button>
                 </Link>
@@ -251,7 +251,7 @@ export default function HomePage() {
           <h2 className="text-3xl md:text-4xl font-bold mb-4">{t("cta.title")}</h2>
           <p className="text-xl mb-8 opacity-90 max-w-2xl mx-auto">{t("cta.subtitle")}</p>
           <Link href={getFullPath("plans")}>
-            <Button size="lg" variant="outline" className="cursor-pointer text-lg px-8 py-6 border-white text-white hover:bg-white hover:text-slate-900">
+            <Button size="lg" variant="outline" className="cursor-pointer text-lg px-8 py-6 bg-transparent border-white text-white hover:bg-white hover:text-slate-900">
               {t("cta.button")}
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
