@@ -2,9 +2,9 @@
 
 import { useTranslations } from "next-intl"
 import { useSiteContext } from "@/lib/SiteContext"
-import { Zap, Shield, Leaf, Users, ArrowRight } from "lucide-react"
+import { Zap, Shield, Leaf, Users, ArrowRight, CheckCircle, Lightbulb, Clock, BarChart3, Sun, Battery, Quote } from "lucide-react"
 import { Button } from "@/components/ui/button"
-import { Card, CardContent } from "@/components/ui/card"
+import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
 import Link from "next/link"
 import { useState, useEffect } from "react"
 
@@ -32,6 +32,10 @@ export default function HomePage() {
   }, [brand.key])
 
   const trustIcons = [Zap, Shield, Leaf, Users]
+  const productIcons = [Zap, Leaf, Shield]
+  const stepIcons = [BarChart3, Lightbulb, CheckCircle, Zap]
+  const tipIcons = [Clock, Sun, Lightbulb, BarChart3]
+  const manageIcons = [BarChart3, Lightbulb, Battery]
 
   return (
     <main>
@@ -89,22 +93,129 @@ export default function HomePage() {
           <p className="text-lg text-slate-600 text-center mb-12 max-w-2xl mx-auto">{t("products.subtitle")}</p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {[0, 1, 2].map(i => (
-              <Card key={i} className="hover:shadow-lg transition-shadow cursor-pointer border-0 shadow-md">
-                <CardContent className="p-8">
-                  <div className="w-14 h-14 bg-[var(--primary)]/10 rounded-xl flex items-center justify-center mb-6">
-                    {i === 0 && <Zap className="h-7 w-7 text-[var(--primary)]" />}
-                    {i === 1 && <Leaf className="h-7 w-7 text-[var(--primary)]" />}
-                    {i === 2 && <Shield className="h-7 w-7 text-[var(--primary)]" />}
+            {[0, 1, 2].map(i => {
+              const Icon = productIcons[i]
+              return (
+                <Card key={i} className="hover:shadow-lg transition-shadow border-0 shadow-md">
+                  <CardHeader className="pb-4">
+                    <div className="w-14 h-14 bg-[var(--primary)]/10 rounded-xl flex items-center justify-center mb-4">
+                      <Icon className="h-7 w-7 text-[var(--primary)]" />
+                    </div>
+                    <CardTitle className="text-xl">{t(`products.cards.${i}.title`)}</CardTitle>
+                    <CardDescription className="leading-relaxed">{t(`products.cards.${i}.description`)}</CardDescription>
+                  </CardHeader>
+                  <CardContent>
+                    <ul className="text-sm text-slate-600 space-y-2 mb-6">
+                      {[0, 1, 2].map(j => (
+                        <li key={j} className="flex items-center gap-2">
+                          <CheckCircle className="h-4 w-4 text-green-600 shrink-0" />
+                          {t(`products.cards.${i}.features.${j}`)}
+                        </li>
+                      ))}
+                    </ul>
+                    <Link href={getFullPath(t(`products.cards.${i}.href`))}>
+                      <Button variant="outline" className="cursor-pointer w-full">
+                        {t(`products.cards.${i}.cta`)}
+                        <ArrowRight className="ml-2 h-4 w-4" />
+                      </Button>
+                    </Link>
+                  </CardContent>
+                </Card>
+              )
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* How Switching Works */}
+      <section className="py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-bold text-center mb-4">{t("howItWorks.title")}</h2>
+          <p className="text-lg text-slate-600 text-center mb-12 max-w-2xl mx-auto">{t("howItWorks.subtitle")}</p>
+
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+            {[0, 1, 2, 3].map(i => {
+              const Icon = stepIcons[i]
+              return (
+                <div key={i} className="text-center relative">
+                  <div className="w-16 h-16 bg-[var(--primary)] rounded-full flex items-center justify-center mx-auto mb-4 text-white text-xl font-bold">
+                    {t(`howItWorks.steps.${i}.step`)}
                   </div>
-                  <h3 className="text-xl font-semibold mb-3">{t(`products.cards.${i}.title`)}</h3>
-                  <p className="text-slate-600 mb-6 leading-relaxed">{t(`products.cards.${i}.description`)}</p>
-                  <Link href={getFullPath(t(`products.cards.${i}.href`))}>
-                    <Button variant="outline" className="cursor-pointer w-full">
-                      {t(`products.cards.${i}.cta`)}
-                      <ArrowRight className="ml-2 h-4 w-4" />
-                    </Button>
-                  </Link>
+                  <h3 className="text-lg font-semibold mb-2">{t(`howItWorks.steps.${i}.title`)}</h3>
+                  <p className="text-slate-600 text-sm leading-relaxed">{t(`howItWorks.steps.${i}.description`)}</p>
+                </div>
+              )
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* Energy Savings Tips */}
+      <section className="py-16 bg-slate-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-bold text-center mb-4">{t("savingsTips.title")}</h2>
+          <p className="text-lg text-slate-600 text-center mb-12 max-w-2xl mx-auto">{t("savingsTips.subtitle")}</p>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {[0, 1, 2, 3].map(i => {
+              const Icon = tipIcons[i]
+              return (
+                <div key={i} className="bg-white rounded-xl p-6 shadow-sm">
+                  <div className="w-12 h-12 bg-[var(--primary)]/10 rounded-lg flex items-center justify-center mb-4">
+                    <Icon className="h-6 w-6 text-[var(--primary)]" />
+                  </div>
+                  <h3 className="font-semibold mb-2">{t(`savingsTips.tips.${i}.title`)}</h3>
+                  <p className="text-slate-600 text-sm leading-relaxed">{t(`savingsTips.tips.${i}.description`)}</p>
+                </div>
+              )
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* Manage Your Energy */}
+      <section className="py-16 bg-gradient-to-br from-[var(--secondary)] to-slate-800 text-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold mb-4">{t("manageEnergy.title")}</h2>
+            <p className="text-lg text-slate-300 max-w-2xl mx-auto">{t("manageEnergy.subtitle")}</p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {[0, 1, 2].map(i => {
+              const Icon = manageIcons[i]
+              return (
+                <div key={i} className="bg-white/10 backdrop-blur-sm rounded-xl p-8">
+                  <div className="w-12 h-12 bg-white/20 rounded-lg flex items-center justify-center mb-4">
+                    <Icon className="h-6 w-6 text-white" />
+                  </div>
+                  <h3 className="text-xl font-semibold mb-2">{t(`manageEnergy.features.${i}.title`)}</h3>
+                  <p className="text-slate-300 leading-relaxed">{t(`manageEnergy.features.${i}.description`)}</p>
+                </div>
+              )
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* Testimonials */}
+      <section className="py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-bold text-center mb-4">{t("testimonials.title")}</h2>
+          <p className="text-lg text-slate-600 text-center mb-12 max-w-2xl mx-auto">{t("testimonials.subtitle")}</p>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {[0, 1, 2].map(i => (
+              <Card key={i} className="border-0 shadow-md">
+                <CardContent className="p-8">
+                  <Quote className="h-8 w-8 text-[var(--primary)]/30 mb-4" />
+                  <p className="text-slate-700 leading-relaxed mb-6 italic">
+                    &ldquo;{t(`testimonials.items.${i}.quote`)}&rdquo;
+                  </p>
+                  <div>
+                    <p className="font-semibold text-slate-900">{t(`testimonials.items.${i}.name`)}</p>
+                    <p className="text-sm text-slate-500">{t(`testimonials.items.${i}.location`)}</p>
+                  </div>
                 </CardContent>
               </Card>
             ))}
@@ -113,7 +224,7 @@ export default function HomePage() {
       </section>
 
       {/* Why Choose Us */}
-      <section className="py-16 bg-white">
+      <section className="py-16 bg-slate-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center mb-4">{t("whyChoose.title")}</h2>
           <p className="text-lg text-slate-600 text-center mb-12 max-w-2xl mx-auto">{t("whyChoose.subtitle")}</p>

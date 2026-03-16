@@ -38,21 +38,123 @@
       "cards": [
         {
           "title": "Electricity Plans",
-          "description": "Choose from fixed, variable, and time-of-use plans designed to suit every household. Compare rates and find savings.",
+          "description": "Choose from fixed, variable, and time-of-use plans designed to suit every household.",
           "cta": "Compare plans",
-          "href": "plans"
+          "href": "plans",
+          "features": [
+            "Fixed, variable & time-of-use options",
+            "No hidden fees or exit charges",
+            "Up to 100% green energy available"
+          ]
         },
         {
           "title": "Solar & Storage",
-          "description": "Harness the power of the sun with our solar panel and battery storage solutions. Reduce your bills and your carbon footprint.",
+          "description": "Harness the power of the sun with our solar panel and battery storage solutions.",
           "cta": "Learn more",
-          "href": "solar-storage"
+          "href": "solar-storage",
+          "features": [
+            "Panels, inverters & battery bundles",
+            "Feed-in tariff for excess generation",
+            "Professional installation included"
+          ]
         },
         {
           "title": "Electric Vehicles",
-          "description": "Power your EV with competitive charging plans. Low off-peak rates and smart charging solutions for EV owners.",
+          "description": "Power your EV with competitive charging plans and smart home charging solutions.",
           "cta": "Explore EV plans",
-          "href": "electric-vehicles"
+          "href": "electric-vehicles",
+          "features": [
+            "Low off-peak charging rates",
+            "Home charger installation",
+            "Smart scheduling via our app"
+          ]
+        }
+      ]
+    },
+    "howItWorks": {
+      "title": "Switching is simple",
+      "subtitle": "Move to a better energy deal in just a few steps. We handle the hard part.",
+      "steps": [
+        {
+          "step": "1",
+          "title": "Compare plans",
+          "description": "Enter your address and see plans available in your area with estimated costs."
+        },
+        {
+          "step": "2",
+          "title": "Choose your plan",
+          "description": "Pick the plan that suits your household — fixed, variable, time-of-use, or green."
+        },
+        {
+          "step": "3",
+          "title": "Sign up online",
+          "description": "Complete your details in minutes. No paperwork, no phone calls required."
+        },
+        {
+          "step": "4",
+          "title": "Start saving",
+          "description": "We notify your old provider. Your supply continues uninterrupted while we switch you over."
+        }
+      ]
+    },
+    "savingsTips": {
+      "title": "Simple ways to lower your bill",
+      "subtitle": "Small changes add up. Here are some easy ways to reduce your energy costs.",
+      "tips": [
+        {
+          "title": "Shift to off-peak",
+          "description": "Run your dishwasher, washing machine, and dryer during off-peak hours to take advantage of lower rates."
+        },
+        {
+          "title": "Optimise heating & cooling",
+          "description": "Set your thermostat to 18-20°C in winter and 24-26°C in summer. Each degree saves up to 10% on heating and cooling."
+        },
+        {
+          "title": "Switch to LED lighting",
+          "description": "LED bulbs use up to 80% less energy than traditional bulbs and last up to 25 times longer."
+        },
+        {
+          "title": "Monitor your usage",
+          "description": "Use our app to track your daily consumption and identify where you can cut back."
+        }
+      ]
+    },
+    "manageEnergy": {
+      "title": "Take control of your energy",
+      "subtitle": "Our tools make it easy to understand and manage your electricity usage.",
+      "features": [
+        {
+          "title": "Real-time usage tracking",
+          "description": "See your energy consumption as it happens, broken down by time of day."
+        },
+        {
+          "title": "Bill predictions",
+          "description": "Know what your next bill will be before it arrives, with no surprises."
+        },
+        {
+          "title": "Solar dashboard",
+          "description": "Track your solar generation, battery storage, and grid export in one place."
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "What our customers say",
+      "subtitle": "Join the thousands of households making smarter energy choices.",
+      "items": [
+        {
+          "name": "Sarah M.",
+          "location": "London, UK",
+          "quote": "Switching was incredibly easy. I'm saving around 15% compared to my old provider, and I love that my plan is 100% renewable."
+        },
+        {
+          "name": "James R.",
+          "location": "Toronto, Canada",
+          "quote": "The app is brilliant. I can see exactly when I'm using the most energy and shift things to off-peak. My bills have dropped noticeably."
+        },
+        {
+          "name": "Priya K.",
+          "location": "Mumbai, India",
+          "quote": "The solar and storage bundle was exactly what we needed. Installation was smooth and we're already seeing savings on our monthly bill."
         }
       ]
     },
@@ -62,15 +164,15 @@
       "items": [
         {
           "title": "Competitive rates",
-          "description": "Our plans are designed to save you money with transparent pricing and no lock-in contracts on select plans."
+          "description": "Transparent pricing with no lock-in contracts on select plans. Our rates are regularly benchmarked against the market."
         },
         {
           "title": "Green energy options",
-          "description": "Choose plans powered by up to 100% renewable energy sources. Make a difference with every kilowatt."
+          "description": "Choose plans powered by up to 100% renewable energy sources. We invest in wind, solar, and hydro projects."
         },
         {
           "title": "Award-winning service",
-          "description": "Trusted by over a million customers with industry-leading customer satisfaction ratings and 24/7 support."
+          "description": "Trusted by over a million customers with industry-leading satisfaction ratings and 24/7 support."
         }
       ]
     },
