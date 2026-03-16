@@ -21,8 +21,7 @@ if [ -z "$TAG" ]; then
     exit 1
 fi
 
-# Configuration - UPDATE THIS URL when the repo is created
-REPO="https://github.com/HCL-CDP-TA/demo-energy.git"
+REPO="https://github.com/HCL-CDP-TA/energy-industry.git"
 BASE_DIR="${DEPLOY_BASE_DIR:-$(pwd)/${DEPLOY_CONTAINER_PREFIX:-energy}-app-deploy}"
 RELEASES_DIR="$BASE_DIR/releases"
 DEPLOY_DIR="$RELEASES_DIR/$TAG"
