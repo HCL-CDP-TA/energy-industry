@@ -1,0 +1,51 @@
+{
+  "home": {
+    "meta": {
+      "title": "EnergyAustralia - Powering Australia",
+      "description": "Switch to EnergyAustralia for competitive electricity plans, solar solutions, and award-winning customer service."
+    },
+    "hero": {
+      "title": "Simple, more affordable energy",
+      "subtitle": "We're more than just an electricity provider. Compare our plans and find the right one for your home.",
+      "cta": "Compare plans",
+      "secondaryCta": "Get a quote"
+    },
+    "trustNumbers": {
+      "items": [
+        { "value": "1.6M+", "label": "Australian customers" },
+        { "value": "No.1", "label": "Digital experience" },
+        { "value": "100%", "label": "Carbon neutral by 2025" },
+        { "value": "24/7", "label": "Customer support" }
+      ]
+    },
+    "whyChoose": {
+      "title": "Why choose EnergyAustralia?",
+      "subtitle": "Simple, more affordable energy. We're more than just an electricity provider.",
+      "items": [
+        {
+          "title": "Award winning",
+          "description": "Awarded No. 1 Digital Customer Experience by Global Reviews for 6 years running."
+        },
+        {
+          "title": "Great range",
+          "description": "With a great range of power plans, find one to suit your needs and start saving today."
+        },
+        {
+          "title": "Powering Australia",
+          "description": "We are the energy provider for more than 1.6 million Australian customers."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ready to make the switch?",
+      "subtitle": "Join 1.6 million Australians who trust EnergyAustralia. Switching is quick and easy.",
+      "button": "Find your plan"
+    }
+  },
+  "footer": {
+    "description": "EnergyAustralia is one of the country's leading energy retailers, providing electricity to homes and businesses across Australia.",
+    "phone": "133 466",
+    "email": "support@energyaustralia.com.au",
+    "copyright": "2026 EnergyAustralia. All rights reserved. Australian Energy Retailer."
+  }
+}

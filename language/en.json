@@ -1,0 +1,180 @@
+{
+  "navigation": {
+    "login": "Log in",
+    "logout": "Log out",
+    "themeTooltip": "Switch brand",
+    "themeHeader": "Select Brand",
+    "localeTooltip": "Change language",
+    "localeHeader": "Language",
+    "settings": "Settings"
+  },
+  "products": [
+    { "label": "Plans", "href": "plans" },
+    { "label": "Solar & Storage", "href": "solar-storage" },
+    { "label": "Electric Vehicles", "href": "electric-vehicles" }
+  ],
+  "home": {
+    "meta": {
+      "title": "UniPower - Your Energy, Your Way",
+      "description": "Switch to a smarter energy plan. Competitive rates, renewable options, and tools to manage your electricity usage."
+    },
+    "hero": {
+      "title": "Energy that works for you",
+      "subtitle": "Compare our electricity plans and find the right fit for your home. Simple pricing, no hidden fees, and options to go green.",
+      "cta": "View plans",
+      "secondaryCta": "Get a quote"
+    },
+    "trustNumbers": {
+      "items": [
+        { "value": "1.2M+", "label": "Customers served" },
+        { "value": "99.9%", "label": "Grid reliability" },
+        { "value": "40%", "label": "Renewable energy" },
+        { "value": "24/7", "label": "Customer support" }
+      ]
+    },
+    "products": {
+      "title": "Explore our services",
+      "subtitle": "From electricity plans to solar and EV solutions, we have everything you need for a smarter energy future.",
+      "cards": [
+        {
+          "title": "Electricity Plans",
+          "description": "Choose from fixed, variable, and time-of-use plans designed to suit every household. Compare rates and find savings.",
+          "cta": "Compare plans",
+          "href": "plans"
+        },
+        {
+          "title": "Solar & Storage",
+          "description": "Harness the power of the sun with our solar panel and battery storage solutions. Reduce your bills and your carbon footprint.",
+          "cta": "Learn more",
+          "href": "solar-storage"
+        },
+        {
+          "title": "Electric Vehicles",
+          "description": "Power your EV with competitive charging plans. Low off-peak rates and smart charging solutions for EV owners.",
+          "cta": "Explore EV plans",
+          "href": "electric-vehicles"
+        }
+      ]
+    },
+    "whyChoose": {
+      "title": "Why choose us?",
+      "subtitle": "We make energy simple, affordable, and sustainable for everyone.",
+      "items": [
+        {
+          "title": "Competitive rates",
+          "description": "Our plans are designed to save you money with transparent pricing and no lock-in contracts on select plans."
+        },
+        {
+          "title": "Green energy options",
+          "description": "Choose plans powered by up to 100% renewable energy sources. Make a difference with every kilowatt."
+        },
+        {
+          "title": "Award-winning service",
+          "description": "Trusted by over a million customers with industry-leading customer satisfaction ratings and 24/7 support."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ready to switch?",
+      "subtitle": "Join thousands of happy customers who have already made the switch. It only takes a few minutes.",
+      "button": "Find your plan"
+    }
+  },
+  "plans": {
+    "meta": {
+      "title": "Electricity Plans - UniPower",
+      "description": "Compare electricity plans and find the best rate for your home."
+    },
+    "hero": {
+      "title": "Electricity Plans",
+      "subtitle": "Find the right plan for your home. Compare rates, features, and green energy options."
+    }
+  },
+  "solarStorage": {
+    "meta": {
+      "title": "Solar & Storage - UniPower",
+      "description": "Explore solar panel and battery storage solutions for your home."
+    },
+    "hero": {
+      "title": "Solar & Storage",
+      "subtitle": "Harness solar energy and store it for when you need it most. Reduce your bills and environmental impact."
+    }
+  },
+  "electricVehicles": {
+    "meta": {
+      "title": "Electric Vehicles - UniPower",
+      "description": "EV charging plans and solutions for electric vehicle owners."
+    },
+    "hero": {
+      "title": "Electric Vehicles",
+      "subtitle": "Power your electric vehicle with our dedicated EV charging plans and smart charging solutions."
+    }
+  },
+  "checkout": {
+    "meta": {
+      "title": "Checkout - UniPower",
+      "description": "Complete your energy plan signup."
+    },
+    "hero": {
+      "title": "Complete your sign-up",
+      "subtitle": "You're almost there. Review your selected plan and complete your details."
+    }
+  },
+  "loginModal": {
+    "description": "Sign in to manage your energy account",
+    "tabs": {
+      "login": "Sign In",
+      "register": "Create Account"
+    },
+    "fields": {
+      "email": "Email Address",
+      "password": "Password",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "phone": "Phone Number",
+      "confirmPassword": "Confirm Password"
+    },
+    "placeholders": {
+      "email": "Enter your email",
+      "password": "Enter your password",
+      "firstName": "John",
+      "lastName": "Smith",
+      "phone": "+1 234 567 890",
+      "confirmPassword": "Confirm your password"
+    },
+    "buttons": {
+      "signIn": "Sign In",
+      "signingIn": "Signing in...",
+      "createAccount": "Create Account",
+      "creatingAccount": "Creating account..."
+    },
+    "links": {
+      "forgotPassword": "Forgot your password?"
+    },
+    "errors": {
+      "userNotFound": "No account found with that email address.",
+      "invalidPassword": "Invalid password. Please try again.",
+      "passwordMismatch": "Passwords do not match.",
+      "genericError": "Something went wrong. Please try again.",
+      "emailExists": "An account with this email already exists."
+    }
+  },
+  "footer": {
+    "description": "Your trusted energy partner. We provide reliable, affordable electricity with a commitment to renewable energy and exceptional customer service.",
+    "phone": "1-800-ENERGY",
+    "email": "support@unipower.com",
+    "sections": {
+      "products": {
+        "title": "Our Services"
+      },
+      "support": {
+        "title": "Support",
+        "contact": "Contact Us",
+        "help": "Help Centre",
+        "security": "Outages & Faults",
+        "privacy": "Privacy Policy"
+      }
+    },
+    "copyright": "2026 UniPower. All rights reserved. Energy retailer licence example."
+  }
+}

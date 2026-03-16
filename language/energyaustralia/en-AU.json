@@ -1,0 +1,32 @@
+{
+  "home": {
+    "hero": {
+      "title": "Simple, more affordable energy",
+      "subtitle": "We're more than just an electricity & gas provider. Compare our plans and find the right one for your home."
+    },
+    "trustNumbers": {
+      "items": [
+        { "value": "1.6M+", "label": "Australian customers" },
+        { "value": "No.1", "label": "Digital experience" },
+        { "value": "100%", "label": "Carbon neutral by 2025" },
+        { "value": "24/7", "label": "Customer support" }
+      ]
+    }
+  },
+  "loginModal": {
+    "placeholders": {
+      "phone": "+61 4XX XXX XXX"
+    }
+  },
+  "plans": {
+    "hero": {
+      "title": "Electricity Plans",
+      "subtitle": "Find the right energy plan for your home. Compare rates, features and green energy options across NSW, VIC, QLD and SA."
+    }
+  },
+  "footer": {
+    "phone": "133 466",
+    "email": "support@energyaustralia.com.au",
+    "copyright": "2026 EnergyAustralia Pty Ltd. All rights reserved. ABN example."
+  }
+}
