@@ -6,10 +6,13 @@ import { Sun, Battery, Package, Wrench, Compass, Zap, ArrowRight, CheckCircle, L
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
 import Link from "next/link"
+import { CdpPageEvent } from "@hcl-cdp-ta/hclcdp-web-sdk-react"
+import { useCDPTracking } from "@/lib/hooks/useCDPTracking"
 
 export default function SolarStoragePage() {
   const t = useTranslations("solarStorage")
-  const { getFullPath } = useSiteContext()
+  const { brand, locale, getFullPath } = useSiteContext()
+  const { isCDPTrackingEnabled, isLoading: isCDPLoading } = useCDPTracking()
 
   const statIcons = [DollarSign, Shield, Zap, Wrench]
   const solutionIcons = [Sun, Battery, Package]
@@ -18,6 +21,10 @@ export default function SolarStoragePage() {
 
   return (
     <main>
+      {!isCDPLoading && isCDPTrackingEnabled && (
+        <CdpPageEvent pageName={t("cdp.pageEventName")} pageProperties={{ brand: brand.label, locale: locale.code }} />
+      )}
+
       {/* Hero */}
       <section className="relative text-white py-20 md:py-32 bg-cover bg-center bg-no-repeat" style={{ backgroundImage: "url('https://pixeldock.demo.now.hclsoftware.cloud/api/image/2b46fa76-fef6-4194-b1d9-f8e85dc3f86e?preset=large')" }}>
         <div className="absolute inset-0 bg-black/50" />

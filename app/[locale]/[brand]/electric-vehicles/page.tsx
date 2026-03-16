@@ -7,10 +7,13 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import Link from "next/link"
+import { CdpPageEvent } from "@hcl-cdp-ta/hclcdp-web-sdk-react"
+import { useCDPTracking } from "@/lib/hooks/useCDPTracking"
 
 export default function ElectricVehiclesPage() {
   const t = useTranslations("electricVehicles")
-  const { getFullPath } = useSiteContext()
+  const { brand, locale, getFullPath } = useSiteContext()
+  const { isCDPTrackingEnabled, isLoading: isCDPLoading } = useCDPTracking()
 
   const statIcons = [DollarSign, Clock, Zap, Leaf]
   const stepIcons = [Zap, Plug, Clock, Car]
@@ -19,6 +22,10 @@ export default function ElectricVehiclesPage() {
 
   return (
     <main>
+      {!isCDPLoading && isCDPTrackingEnabled && (
+        <CdpPageEvent pageName={t("cdp.pageEventName")} pageProperties={{ brand: brand.label, locale: locale.code }} />
+      )}
+
       {/* Hero */}
       <section className="relative text-white py-20 md:py-32 bg-cover bg-center bg-no-repeat" style={{ backgroundImage: "url('https://pixeldock.demo.now.hclsoftware.cloud/api/image/65567256-c726-4e09-9718-db167116468a?preset=large')" }}>
         <div className="absolute inset-0 bg-black/50" />

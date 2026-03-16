@@ -14,6 +14,9 @@
     { "label": "Electric Vehicles", "href": "electric-vehicles" }
   ],
   "home": {
+    "cdp": {
+      "pageEventName": "Home Page"
+    },
     "meta": {
       "title": "UniPower - Your Energy, Your Way",
       "description": "Switch to a smarter energy plan. Competitive rates, renewable options, and tools to manage your electricity usage."
@@ -183,6 +186,9 @@
     }
   },
   "plans": {
+    "cdp": {
+      "pageEventName": "Plans Page"
+    },
     "meta": {
       "title": "Electricity Plans - UniPower",
       "description": "Compare electricity plans and find the best rate for your home."
@@ -232,6 +238,9 @@
     }
   },
   "solarStorage": {
+    "cdp": {
+      "pageEventName": "Solar & Storage Page"
+    },
     "meta": {
       "title": "Solar & Storage - UniPower",
       "description": "Explore solar panel and battery storage solutions for your home."
@@ -379,6 +388,9 @@
     }
   },
   "electricVehicles": {
+    "cdp": {
+      "pageEventName": "Electric Vehicles Page"
+    },
     "meta": {
       "title": "Electric Vehicles - UniPower",
       "description": "EV charging plans and solutions for electric vehicle owners."
@@ -551,6 +563,9 @@
     }
   },
   "checkout": {
+    "cdp": {
+      "pageEventName": "Checkout Page"
+    },
     "meta": {
       "title": "Checkout - UniPower",
       "description": "Complete your energy plan signup."

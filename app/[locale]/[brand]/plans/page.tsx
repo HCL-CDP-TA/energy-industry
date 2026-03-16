@@ -7,13 +7,20 @@ import { PlanGrid } from "@/components/plans/PlanGrid"
 import { Phone, ArrowRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
+import { CdpPageEvent } from "@hcl-cdp-ta/hclcdp-web-sdk-react"
+import { useCDPTracking } from "@/lib/hooks/useCDPTracking"
 
 export default function PlansPage() {
   const t = useTranslations("plans")
-  const { getFullPath } = useSiteContext()
+  const { brand, locale, getFullPath } = useSiteContext()
+  const { isCDPTrackingEnabled, isLoading: isCDPLoading } = useCDPTracking()
 
   return (
     <main className="min-h-screen">
+      {!isCDPLoading && isCDPTrackingEnabled && (
+        <CdpPageEvent pageName={t("cdp.pageEventName")} pageProperties={{ brand: brand.label, locale: locale.code }} />
+      )}
+
       <section className="bg-gradient-to-br from-[var(--secondary)] to-slate-800 text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">{t("hero.title")}</h1>

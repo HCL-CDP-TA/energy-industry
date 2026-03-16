@@ -7,10 +7,13 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
 import Link from "next/link"
 import { useState, useEffect } from "react"
+import { CdpPageEvent } from "@hcl-cdp-ta/hclcdp-web-sdk-react"
+import { useCDPTracking } from "@/lib/hooks/useCDPTracking"
 
 export default function HomePage() {
   const t = useTranslations("home")
-  const { brand, getFullPath } = useSiteContext()
+  const { brand, locale, getFullPath } = useSiteContext()
+  const { isCDPTrackingEnabled, isLoading: isCDPLoading } = useCDPTracking()
   const [isLoggedIn, setIsLoggedIn] = useState(false)
 
   useEffect(() => {
@@ -39,6 +42,10 @@ export default function HomePage() {
 
   return (
     <main>
+      {!isCDPLoading && isCDPTrackingEnabled && (
+        <CdpPageEvent pageName={t("cdp.pageEventName")} pageProperties={{ brand: brand.label, locale: locale.code }} />
+      )}
+
       {/* Hero Section */}
       <section className="relative text-white py-20 md:py-32 bg-cover bg-center" style={{ backgroundImage: "url('https://pixeldock.demo.now.hclsoftware.cloud/api/image/0862630e-da84-45c4-9a8d-e189a7dd1359?preset=large')" }}>
         <div className="absolute inset-0 bg-slate-900/60" />
