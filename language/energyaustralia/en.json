@@ -85,6 +85,114 @@
       "button": "Find your plan"
     }
   },
+  "plans": {
+    "meta": {
+      "title": "Electricity Plans - EnergyAustralia",
+      "description": "Compare EnergyAustralia electricity plans. Find competitive rates for your home across NSW, VIC, QLD and SA."
+    },
+    "hero": {
+      "title": "Electricity Plans",
+      "subtitle": "Find the right energy plan for your home. Compare rates, features and green energy options."
+    },
+    "grid": {
+      "title": "Compare our electricity plans",
+      "subtitle": "We have a range of plans to suit every Australian household."
+    },
+    "help": {
+      "title": "Need help choosing a plan?",
+      "subtitle": "Our Australian-based energy specialists are here to help you find the right plan. Call us or chat online.",
+      "cta": "Call 133 466"
+    }
+  },
+  "solarStorage": {
+    "meta": {
+      "title": "Solar & Storage - EnergyAustralia",
+      "description": "Explore EnergyAustralia's solar panel and battery storage solutions for Australian homes."
+    },
+    "hero": {
+      "subtitle": "Harness Australia's abundant sunshine and store it for when you need it most. Reduce your bills and your carbon footprint."
+    },
+    "stats": {
+      "items": [
+        { "value": "30%", "label": "Average bill reduction" },
+        { "value": "25yr", "label": "Panel warranty" },
+        { "value": "6-10yr", "label": "Typical payback period" },
+        { "value": "10,000+", "label": "Australian installations" }
+      ]
+    },
+    "feedIn": {
+      "rateValue": "5-12c/kWh",
+      "rateNote": "Rates vary by state and distributor"
+    },
+    "testimonials": {
+      "title": "What solar customers say",
+      "subtitle": "Hear from Australian households already saving with solar and storage.",
+      "items": [
+        {
+          "name": "David L.",
+          "location": "Sydney, NSW",
+          "quote": "Our electricity bills have dropped by about 40% since the panels went in. The battery means we barely use grid power in summer."
+        },
+        {
+          "name": "Maria S.",
+          "location": "Melbourne, VIC",
+          "quote": "The installation team was fantastic. Everything was done in a day and the monitoring app is really intuitive."
+        },
+        {
+          "name": "Raj P.",
+          "location": "Brisbane, QLD",
+          "quote": "With the battery, we have backup power during storms. It has completely changed how we think about our energy."
+        }
+      ]
+    },
+    "cta": {
+      "subtitle": "Get a free, no-obligation quote and find out how much Australian sunshine could save you."
+    }
+  },
+  "electricVehicles": {
+    "meta": {
+      "title": "Electric Vehicles - EnergyAustralia",
+      "description": "EV charging plans and solutions for Australian electric vehicle owners."
+    },
+    "comparison": {
+      "ev": {
+        "cost": "~3-5c per km",
+        "annual": "~$800/year"
+      },
+      "petrol": {
+        "cost": "~14-20c per km",
+        "annual": "~$3,000/year"
+      },
+      "note": "Based on 15,000 km/year. Actual costs depend on vehicle, electricity rates, and driving habits."
+    },
+    "testimonials": {
+      "title": "What EV drivers say",
+      "subtitle": "Hear from Australian customers who have made the switch to electric driving.",
+      "items": [
+        {
+          "name": "Tom H.",
+          "location": "Perth, WA",
+          "quote": "Charging overnight on the EV plan costs me a fraction of what I used to spend on petrol. The home charger installation was quick and easy."
+        },
+        {
+          "name": "Anna W.",
+          "location": "Adelaide, SA",
+          "quote": "We paired our EV with our solar panels and now most of our driving is essentially free. The app makes scheduling really simple."
+        },
+        {
+          "name": "Chen Y.",
+          "location": "Sydney, NSW",
+          "quote": "The off-peak rates are excellent. I set the charger to start at midnight and wake up with a full battery every day."
+        }
+      ]
+    }
+  },
+  "checkout": {
+    "meta": {
+      "title": "Checkout - EnergyAustralia",
+      "description": "Complete your EnergyAustralia energy plan sign-up."
+    }
+  },
   "footer": {
     "description": "EnergyAustralia is one of the country's leading energy retailers, providing electricity to homes and businesses across Australia.",
     "phone": "133 466",

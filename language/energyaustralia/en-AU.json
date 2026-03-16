@@ -22,6 +22,14 @@
     "hero": {
       "title": "Electricity Plans",
       "subtitle": "Find the right energy plan for your home. Compare rates, features and green energy options across NSW, VIC, QLD and SA."
+    },
+    "addressLookup": {
+      "title": "Enter your address",
+      "subtitle": "We'll show you plans available in your area across NSW, VIC, QLD and SA.",
+      "placeholder": "Start typing your Australian address..."
+    },
+    "grid": {
+      "subtitle": "Choose from a range of plans designed for Australian households."
     }
   },
   "footer": {

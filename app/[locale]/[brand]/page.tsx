@@ -40,8 +40,9 @@ export default function HomePage() {
   return (
     <main>
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-[var(--secondary)] to-slate-800 text-white py-20 md:py-32">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="relative text-white py-20 md:py-32 bg-cover bg-center" style={{ backgroundImage: "url('https://pixeldock.demo.now.hclsoftware.cloud/api/image/0862630e-da84-45c4-9a8d-e189a7dd1359?preset=large')" }}>
+        <div className="absolute inset-0 bg-slate-900/60" />
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
             <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
               {t("hero.title")}

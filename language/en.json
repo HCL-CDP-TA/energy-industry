@@ -190,6 +190,45 @@
     "hero": {
       "title": "Electricity Plans",
       "subtitle": "Find the right plan for your home. Compare rates, features, and green energy options."
+    },
+    "addressLookup": {
+      "title": "Enter your address",
+      "subtitle": "We'll use your address to help tailor your experience.",
+      "placeholder": "Start typing your address..."
+    },
+    "grid": {
+      "title": "Compare our plans",
+      "subtitle": "Choose from fixed, variable, time-of-use, and EV charging plans to suit your needs."
+    },
+    "filters": {
+      "all": "All Plans",
+      "fixed": "Fixed Rate",
+      "variable": "Variable",
+      "tou": "Time of Use",
+      "ev": "EV Charging"
+    },
+    "card": {
+      "types": {
+        "fixed": "Fixed Rate",
+        "variable": "Variable",
+        "tou": "Time of Use",
+        "ev": "EV Charging"
+      },
+      "popular": "Most Popular",
+      "peak": "Peak",
+      "shoulder": "Shoulder",
+      "offPeak": "Off-Peak",
+      "dailySupply": "Daily supply charge",
+      "monthContract": "month contract",
+      "noLockIn": "No lock-in contract",
+      "discount": "discount",
+      "greenEnergy": "green energy",
+      "selectPlan": "Select this plan"
+    },
+    "help": {
+      "title": "Need help choosing?",
+      "subtitle": "Our energy specialists can help you find the right plan for your home and usage patterns.",
+      "cta": "Contact us"
     }
   },
   "solarStorage": {
@@ -199,7 +238,144 @@
     },
     "hero": {
       "title": "Solar & Storage",
-      "subtitle": "Harness solar energy and store it for when you need it most. Reduce your bills and environmental impact."
+      "subtitle": "Harness solar energy and store it for when you need it most. Reduce your bills and your environmental impact.",
+      "cta": "Get a free quote"
+    },
+    "stats": {
+      "items": [
+        { "value": "30%", "label": "Average bill reduction" },
+        { "value": "25yr", "label": "Panel warranty" },
+        { "value": "8-12yr", "label": "Typical payback period" },
+        { "value": "5,000+", "label": "Systems installed" }
+      ]
+    },
+    "solutions": {
+      "title": "Our solar & storage solutions",
+      "subtitle": "From rooftop panels to whole-home battery systems, we have a solution for every household.",
+      "cards": [
+        {
+          "title": "Solar Panels",
+          "description": "High-efficiency rooftop solar panels that convert sunlight into clean electricity for your home.",
+          "features": [
+            "Tier 1 panels from leading manufacturers",
+            "Output monitoring via our app",
+            "25-year performance warranty"
+          ]
+        },
+        {
+          "title": "Battery Storage",
+          "description": "Store excess solar energy during the day and use it at night or during peak rate periods.",
+          "features": [
+            "Lithium-ion battery systems from 5kWh to 15kWh",
+            "Backup power during outages",
+            "Smart charge and discharge scheduling"
+          ]
+        },
+        {
+          "title": "Solar + Battery Bundles",
+          "description": "Get the best value with our combined solar and storage packages, designed to maximise your savings.",
+          "features": [
+            "Panels and battery sized to your usage",
+            "Single installation, one warranty",
+            "Eligible for government rebates"
+          ]
+        }
+      ]
+    },
+    "howItWorks": {
+      "title": "How it works",
+      "subtitle": "Going solar is simpler than you think. Here's how we make it happen.",
+      "steps": [
+        {
+          "step": "1",
+          "title": "Free consultation",
+          "description": "We assess your roof, energy usage, and goals to design the right system for your home."
+        },
+        {
+          "step": "2",
+          "title": "Custom design",
+          "description": "Our engineers design a system optimised for your roof orientation, shading, and electricity consumption."
+        },
+        {
+          "step": "3",
+          "title": "Professional installation",
+          "description": "Our accredited installers fit your system in one to two days with minimal disruption."
+        },
+        {
+          "step": "4",
+          "title": "Start generating",
+          "description": "Your system is connected and generating clean energy. Monitor performance from your phone."
+        }
+      ]
+    },
+    "benefits": {
+      "title": "Why go solar?",
+      "subtitle": "Solar and battery storage puts you in control of your energy costs and carbon footprint.",
+      "items": [
+        {
+          "title": "Lower electricity bills",
+          "description": "Generate your own power during the day and reduce what you draw from the grid."
+        },
+        {
+          "title": "Earn feed-in credits",
+          "description": "Export excess solar energy to the grid and receive a credit on your electricity bill."
+        },
+        {
+          "title": "Reduce your carbon footprint",
+          "description": "A typical residential solar system offsets several tonnes of CO2 emissions each year."
+        },
+        {
+          "title": "Energy independence",
+          "description": "With battery storage, you're less reliant on the grid and protected from price rises."
+        },
+        {
+          "title": "Increase property value",
+          "description": "Homes with solar systems consistently sell for more than comparable properties without them."
+        },
+        {
+          "title": "Government incentives",
+          "description": "Take advantage of rebates, tax credits, and renewable energy certificates to reduce upfront costs."
+        }
+      ]
+    },
+    "feedIn": {
+      "title": "Feed-in tariffs",
+      "subtitle": "When your solar panels generate more electricity than your home uses, the excess is exported to the grid. You receive a credit for every kilowatt-hour exported.",
+      "rate": "Feed-in rate from",
+      "rateValue": "5-12c/kWh",
+      "rateNote": "Rates vary by location and plan",
+      "features": [
+        "Automatic export when your generation exceeds consumption",
+        "Credits applied directly to your electricity bill",
+        "Track your exports in real time via our app",
+        "Compatible with all our electricity plans"
+      ]
+    },
+    "testimonials": {
+      "title": "What solar customers say",
+      "subtitle": "Hear from households already saving with solar and storage.",
+      "items": [
+        {
+          "name": "David L.",
+          "location": "Manchester, UK",
+          "quote": "Our electricity bills have dropped by about 40% since the panels went in. The battery means we barely use grid power in summer."
+        },
+        {
+          "name": "Maria S.",
+          "location": "Vancouver, Canada",
+          "quote": "The installation team was fantastic. Everything was done in a day and the monitoring app is really intuitive."
+        },
+        {
+          "name": "Raj P.",
+          "location": "Delhi, India",
+          "quote": "With the battery, we have power even during outages. It has completely changed how we think about our energy."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ready to go solar?",
+      "subtitle": "Get a free, no-obligation quote and find out how much you could save with solar and storage.",
+      "button": "Request a quote"
     }
   },
   "electricVehicles": {
@@ -209,7 +385,169 @@
     },
     "hero": {
       "title": "Electric Vehicles",
-      "subtitle": "Power your electric vehicle with our dedicated EV charging plans and smart charging solutions."
+      "subtitle": "Power your electric vehicle with our dedicated EV charging plans and smart home charging solutions.",
+      "cta": "View EV plans"
+    },
+    "stats": {
+      "items": [
+        { "value": "70%", "label": "Cheaper than petrol per km" },
+        { "value": "3-8hrs", "label": "Home charging time" },
+        { "value": "50%", "label": "Off-peak savings" },
+        { "value": "0g", "label": "Tailpipe emissions" }
+      ]
+    },
+    "plans": {
+      "title": "EV charging plans",
+      "subtitle": "Dedicated plans designed for electric vehicle owners, with low off-peak rates to keep charging costs down.",
+      "cards": [
+        {
+          "title": "EV Saver",
+          "description": "Our most affordable EV plan with ultra-low overnight rates for scheduled charging.",
+          "features": [
+            "Lowest off-peak rate available",
+            "Ideal for overnight home charging",
+            "No lock-in contract"
+          ],
+          "highlight": "Most Popular"
+        },
+        {
+          "title": "EV Flex",
+          "description": "A flexible plan for EV owners who also want competitive rates for their household usage.",
+          "features": [
+            "Low EV charging rates",
+            "Competitive household rates",
+            "Smart scheduling via our app"
+          ],
+          "highlight": ""
+        },
+        {
+          "title": "EV + Solar",
+          "description": "Combine solar generation with EV charging for maximum savings and minimal environmental impact.",
+          "features": [
+            "Charge your EV from your solar panels",
+            "Feed-in credits for excess generation",
+            "Battery storage compatible"
+          ],
+          "highlight": "Best Value"
+        }
+      ]
+    },
+    "charging": {
+      "title": "Home charging solutions",
+      "subtitle": "Charge your EV conveniently at home with our range of smart chargers.",
+      "features": [
+        {
+          "title": "Smart wall chargers",
+          "description": "Level 2 chargers that deliver a full charge overnight. Wi-Fi enabled for remote monitoring and scheduling."
+        },
+        {
+          "title": "Professional installation",
+          "description": "Our licensed electricians handle the full installation, including any switchboard upgrades needed."
+        },
+        {
+          "title": "Solar integration",
+          "description": "Connect your charger to your solar system to charge your EV with clean, free energy during the day."
+        }
+      ]
+    },
+    "howItWorks": {
+      "title": "Getting started is easy",
+      "subtitle": "From choosing a plan to plugging in, we make the switch to electric driving simple.",
+      "steps": [
+        {
+          "step": "1",
+          "title": "Choose your plan",
+          "description": "Select an EV charging plan that suits your driving habits and household energy needs."
+        },
+        {
+          "step": "2",
+          "title": "Get a home charger",
+          "description": "Order a smart wall charger and we'll arrange professional installation at your home."
+        },
+        {
+          "step": "3",
+          "title": "Set your schedule",
+          "description": "Use our app to schedule charging during off-peak hours for the lowest possible cost."
+        },
+        {
+          "step": "4",
+          "title": "Drive and save",
+          "description": "Enjoy the savings. EV drivers typically spend 70% less on fuel compared to petrol vehicles."
+        }
+      ]
+    },
+    "benefits": {
+      "title": "Why drive electric?",
+      "subtitle": "Electric vehicles are cleaner, cheaper to run, and more fun to drive.",
+      "items": [
+        {
+          "title": "Lower running costs",
+          "description": "Electricity is significantly cheaper than petrol or diesel, especially when charging off-peak."
+        },
+        {
+          "title": "Zero tailpipe emissions",
+          "description": "EVs produce no exhaust emissions, improving air quality and reducing your carbon footprint."
+        },
+        {
+          "title": "Less maintenance",
+          "description": "Fewer moving parts means no oil changes, fewer brake replacements, and lower servicing costs."
+        },
+        {
+          "title": "Charge while you sleep",
+          "description": "Plug in at home overnight and wake up to a full battery every morning."
+        },
+        {
+          "title": "Government incentives",
+          "description": "Many regions offer tax credits, rebates, and registration discounts for electric vehicle purchases."
+        },
+        {
+          "title": "Solar powered driving",
+          "description": "Pair your EV with rooftop solar to charge with clean, free energy from your own roof."
+        }
+      ]
+    },
+    "comparison": {
+      "title": "EV vs petrol: running costs",
+      "subtitle": "See how much you could save by switching to an electric vehicle.",
+      "ev": {
+        "label": "Electric Vehicle",
+        "cost": "~3-5c per km",
+        "annual": "~$600/year",
+        "annualLabel": "Estimated annual fuel cost"
+      },
+      "petrol": {
+        "label": "Petrol Vehicle",
+        "cost": "~12-18c per km",
+        "annual": "~$2,400/year",
+        "annualLabel": "Estimated annual fuel cost"
+      },
+      "note": "Based on 15,000 km/year. Actual costs depend on vehicle, electricity rates, and driving habits."
+    },
+    "testimonials": {
+      "title": "What EV drivers say",
+      "subtitle": "Hear from customers who have made the switch to electric driving.",
+      "items": [
+        {
+          "name": "Tom H.",
+          "location": "Bristol, UK",
+          "quote": "Charging overnight on the EV plan costs me a fraction of what I used to spend on petrol. The home charger installation was quick and easy."
+        },
+        {
+          "name": "Anna W.",
+          "location": "Calgary, Canada",
+          "quote": "We paired our EV with our solar panels and now most of our driving is essentially free. The app makes scheduling really simple."
+        },
+        {
+          "name": "Chen Y.",
+          "location": "Singapore",
+          "quote": "The off-peak rates are excellent. I set the charger to start at midnight and wake up with a full battery every day."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ready to go electric?",
+      "subtitle": "Explore our EV plans and find out how much you could save on fuel costs.",
+      "button": "View EV plans"
     }
   },
   "checkout": {
@@ -220,7 +558,26 @@
     "hero": {
       "title": "Complete your sign-up",
       "subtitle": "You're almost there. Review your selected plan and complete your details."
-    }
+    },
+    "selectedPlan": "Your selected plan",
+    "popular": "Most Popular",
+    "planTypes": {
+      "fixed": "Fixed Rate",
+      "variable": "Variable",
+      "tou": "Time of Use",
+      "ev": "EV Charging"
+    },
+    "rate": "Rate",
+    "peakRate": "Peak rate",
+    "shoulderRate": "Shoulder rate",
+    "offPeakRate": "Off-peak rate",
+    "dailySupply": "Daily supply",
+    "monthContract": "month contract",
+    "noLockIn": "No lock-in contract",
+    "discount": "discount",
+    "greenEnergy": "green energy",
+    "comingSoon": "Full checkout flow coming soon.",
+    "noPlanSelected": "No plan selected. Please go back and choose a plan."
   },
   "loginModal": {
     "description": "Sign in to manage your energy account",
