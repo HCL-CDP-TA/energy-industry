@@ -15,11 +15,23 @@ export function AddressLookup({ onAddressChange }: AddressLookupProps) {
   const inputRef = useRef<HTMLInputElement>(null)
   const autocompleteRef = useRef<google.maps.places.Autocomplete | null>(null)
   const t = useTranslations("plans.addressLookup")
-  const { brand } = useSiteContext()
+  const { brand, locale } = useSiteContext()
   const { track } = useCdp()
   const { isCDPTrackingEnabled } = useCDPTracking()
 
   const apiKey = process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY
+
+  const localeCountryMap: Record<string, string> = {
+    "en-US": "us",
+    "en-GB": "gb",
+    "en-AU": "au",
+    "en-CA": "ca",
+    "en-IN": "in",
+    "fr-CA": "ca",
+    "de": "de",
+    "it-IT": "it",
+    "sv-SE": "se",
+  }
 
   const saveAddress = useCallback((place: google.maps.places.PlaceResult) => {
     const components = place.address_components || []
@@ -60,11 +72,15 @@ export function AddressLookup({ onAddressChange }: AddressLookupProps) {
 
     const scriptId = "google-maps-script"
 
+    autocompleteRef.current = null
+
     function initAutocomplete() {
       if (!inputRef.current || autocompleteRef.current) return
+      const countryCode = localeCountryMap[locale.code]
       autocompleteRef.current = new google.maps.places.Autocomplete(inputRef.current, {
         types: ["address"],
         fields: ["formatted_address", "address_components", "geometry"],
+        ...(countryCode ? { componentRestrictions: { country: countryCode } } : {}),
       })
       autocompleteRef.current.addListener("place_changed", () => {
         const place = autocompleteRef.current!.getPlace()
@@ -91,7 +107,7 @@ export function AddressLookup({ onAddressChange }: AddressLookupProps) {
         initAutocomplete()
       }
     }
-  }, [apiKey, saveAddress])
+  }, [apiKey, locale.code, saveAddress])
 
   return (
     <section className="py-12 bg-white">
