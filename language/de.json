@@ -1,0 +1,894 @@
+{
+  "navigation": {
+    "login": "Anmelden",
+    "logout": "Abmelden",
+    "themeTooltip": "Marke wechseln",
+    "themeHeader": "Marke auswählen",
+    "localeTooltip": "Sprache ändern",
+    "localeHeader": "Sprache",
+    "settings": "Einstellungen"
+  },
+  "products": [
+    { "label": "Stromtarife", "href": "plans" },
+    { "label": "Solar & Speicher", "href": "solar-storage" },
+    { "label": "Elektrofahrzeuge", "href": "electric-vehicles" }
+  ],
+  "home": {
+    "cdp": {
+      "pageEventName": "Home Page"
+    },
+    "meta": {
+      "title": "UniPower - Ihre Energie, Ihr Weg",
+      "description": "Wechseln Sie zu einem intelligenteren Stromtarif. Wettbewerbsfähige Preise, erneuerbare Optionen und Tools zur Verwaltung Ihres Stromverbrauchs."
+    },
+    "hero": {
+      "title": "Energie, die für Sie arbeitet",
+      "subtitle": "Vergleichen Sie unsere Stromtarife und finden Sie den passenden für Ihr Zuhause. Transparente Preise, keine versteckten Gebühren und Optionen für grünen Strom.",
+      "cta": "Tarife ansehen",
+      "secondaryCta": "Angebot einholen"
+    },
+    "trustNumbers": {
+      "items": [
+        { "value": "1,2 Mio.+", "label": "Versorgte Kunden" },
+        { "value": "99,9 %", "label": "Netzzuverlässigkeit" },
+        { "value": "40 %", "label": "Erneuerbare Energie" },
+        { "value": "24/7", "label": "Kundenservice" }
+      ]
+    },
+    "products": {
+      "title": "Unsere Leistungen entdecken",
+      "subtitle": "Von Stromtarifen über Solar- bis hin zu E-Mobilitätslösungen – alles für eine intelligentere Energiezukunft.",
+      "cards": [
+        {
+          "title": "Stromtarife",
+          "description": "Wählen Sie aus Festpreis-, variablen und zeitabhängigen Tarifen, die zu jedem Haushalt passen.",
+          "cta": "Tarife vergleichen",
+          "href": "plans",
+          "features": [
+            "Festpreis-, variable & zeitabhängige Optionen",
+            "Keine versteckten Gebühren oder Kündigungskosten",
+            "Bis zu 100 % grüner Strom verfügbar"
+          ]
+        },
+        {
+          "title": "Solar & Speicher",
+          "description": "Nutzen Sie die Kraft der Sonne mit unseren Solarmodul- und Batteriespeicherlösungen.",
+          "cta": "Mehr erfahren",
+          "href": "solar-storage",
+          "features": [
+            "Module, Wechselrichter & Batteriepakete",
+            "Einspeisevergütung für Überschusseinspeisung",
+            "Professionelle Installation inklusive"
+          ]
+        },
+        {
+          "title": "Elektrofahrzeuge",
+          "description": "Laden Sie Ihr E-Auto mit günstigen Ladetarifen und intelligenten Heimladelösungen.",
+          "cta": "E-Auto-Tarife entdecken",
+          "href": "electric-vehicles",
+          "features": [
+            "Günstige Schwachlast-Ladepreise",
+            "Installation einer Heimladestation",
+            "Intelligente Zeitplanung über unsere App"
+          ]
+        }
+      ]
+    },
+    "howItWorks": {
+      "title": "Der Wechsel ist einfach",
+      "subtitle": "Wechseln Sie in nur wenigen Schritten zu einem besseren Stromtarif. Wir kümmern uns um den Rest.",
+      "steps": [
+        {
+          "step": "1",
+          "title": "Tarife vergleichen",
+          "description": "Geben Sie Ihre Adresse ein und sehen Sie verfügbare Tarife in Ihrer Region mit geschätzten Kosten."
+        },
+        {
+          "step": "2",
+          "title": "Tarif auswählen",
+          "description": "Wählen Sie den Tarif, der zu Ihrem Haushalt passt – Festpreis, variabel, zeitabhängig oder grün."
+        },
+        {
+          "step": "3",
+          "title": "Online anmelden",
+          "description": "Vervollständigen Sie Ihre Angaben in wenigen Minuten. Kein Papierkram, kein Telefonat nötig."
+        },
+        {
+          "step": "4",
+          "title": "Sparen Sie los",
+          "description": "Wir informieren Ihren alten Anbieter. Ihre Versorgung läuft während des Wechsels unterbrechungsfrei weiter."
+        }
+      ]
+    },
+    "savingsTips": {
+      "title": "Einfache Wege, Ihre Rechnung zu senken",
+      "subtitle": "Kleine Änderungen summieren sich. Hier sind einige einfache Möglichkeiten, Ihre Energiekosten zu reduzieren.",
+      "tips": [
+        {
+          "title": "In die Schwachlastzeit verlegen",
+          "description": "Betreiben Sie Geschirrspüler, Waschmaschine und Trockner während der Schwachlastzeiten, um von günstigeren Tarifen zu profitieren."
+        },
+        {
+          "title": "Heizung & Kühlung optimieren",
+          "description": "Stellen Sie Ihr Thermostat im Winter auf 18-20°C und im Sommer auf 24-26°C. Jedes Grad spart bis zu 10 % bei Heiz- und Kühlkosten."
+        },
+        {
+          "title": "Auf LED-Beleuchtung umsteigen",
+          "description": "LED-Lampen verbrauchen bis zu 80 % weniger Energie als herkömmliche Glühbirnen und halten bis zu 25-mal länger."
+        },
+        {
+          "title": "Verbrauch überwachen",
+          "description": "Nutzen Sie unsere App, um Ihren täglichen Verbrauch zu verfolgen und Einsparpotenziale zu erkennen."
+        }
+      ]
+    },
+    "manageEnergy": {
+      "title": "Behalten Sie die Kontrolle über Ihre Energie",
+      "subtitle": "Unsere Tools machen es einfach, Ihren Stromverbrauch zu verstehen und zu steuern.",
+      "features": [
+        {
+          "title": "Echtzeit-Verbrauchsüberwachung",
+          "description": "Sehen Sie Ihren Energieverbrauch in Echtzeit, aufgeschlüsselt nach Tageszeit."
+        },
+        {
+          "title": "Rechnungsprognosen",
+          "description": "Wissen Sie schon im Voraus, wie hoch Ihre nächste Rechnung ausfällt – ohne Überraschungen."
+        },
+        {
+          "title": "Solar-Dashboard",
+          "description": "Verfolgen Sie Ihre Solarproduktion, Batteriespeicherung und Netzeinspeisung an einem Ort."
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "Was unsere Kunden sagen",
+      "subtitle": "Schließen Sie sich den Tausenden von Haushalten an, die intelligentere Energieentscheidungen treffen.",
+      "items": [
+        {
+          "name": "Katharina M.",
+          "location": "Berlin",
+          "quote": "Der Wechsel war unglaublich einfach. Ich spare rund 15 % im Vergleich zu meinem alten Anbieter, und ich finde es toll, dass mein Tarif zu 100 % aus erneuerbaren Energien besteht."
+        },
+        {
+          "name": "Thomas R.",
+          "location": "München",
+          "quote": "Die App ist großartig. Ich sehe genau, wann ich am meisten Strom verbrauche, und kann Geräte in die Schwachlastzeit verschieben. Meine Rechnungen sind spürbar gesunken."
+        },
+        {
+          "name": "Fatima K.",
+          "location": "Hamburg",
+          "quote": "Das Solar- und Speicherpaket war genau das, was wir gebraucht haben. Die Installation lief reibungslos und wir sehen bereits Einsparungen auf unserer monatlichen Rechnung."
+        }
+      ]
+    },
+    "whyChoose": {
+      "title": "Warum UniPower?",
+      "subtitle": "Wir machen Energie einfach, bezahlbar und nachhaltig für alle.",
+      "items": [
+        {
+          "title": "Wettbewerbsfähige Preise",
+          "description": "Transparente Preisgestaltung ohne Vertragsbindung bei ausgewählten Tarifen. Unsere Preise werden regelmäßig mit dem Markt verglichen."
+        },
+        {
+          "title": "Grüne Energieoptionen",
+          "description": "Wählen Sie Tarife mit bis zu 100 % erneuerbaren Energiequellen. Wir investieren in Wind-, Solar- und Wasserkraftprojekte."
+        },
+        {
+          "title": "Ausgezeichneter Service",
+          "description": "Über eine Million Kunden vertrauen uns – mit branchenführenden Zufriedenheitswerten und 24/7-Support."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Bereit zum Wechsel?",
+      "subtitle": "Schließen Sie sich Tausenden zufriedener Kunden an, die bereits gewechselt haben. Es dauert nur wenige Minuten.",
+      "button": "Ihren Tarif finden"
+    }
+  },
+  "plans": {
+    "cdp": {
+      "pageEventName": "Plans Page"
+    },
+    "meta": {
+      "title": "Stromtarife - UniPower",
+      "description": "Vergleichen Sie Stromtarife und finden Sie den besten Preis für Ihr Zuhause."
+    },
+    "hero": {
+      "title": "Stromtarife",
+      "subtitle": "Finden Sie den richtigen Tarif für Ihr Zuhause. Vergleichen Sie Preise, Leistungen und grüne Energieoptionen."
+    },
+    "addressLookup": {
+      "title": "Geben Sie Ihre Adresse ein",
+      "subtitle": "Wir nutzen Ihre Adresse, um Ihr Erlebnis zu personalisieren.",
+      "placeholder": "Beginnen Sie mit der Eingabe Ihrer Adresse..."
+    },
+    "grid": {
+      "title": "Unsere Tarife vergleichen",
+      "subtitle": "Wählen Sie aus Festpreis-, variablen, zeitabhängigen und E-Auto-Ladetarifen."
+    },
+    "filters": {
+      "all": "Alle Tarife",
+      "fixed": "Festpreis",
+      "variable": "Variabel",
+      "tou": "Zeitabhängig",
+      "ev": "E-Auto-Laden"
+    },
+    "card": {
+      "types": {
+        "fixed": "Festpreis",
+        "variable": "Variabel",
+        "tou": "Zeitabhängig",
+        "ev": "E-Auto-Laden"
+      },
+      "popular": "Beliebtester Tarif",
+      "peak": "Hochtarif",
+      "shoulder": "Mitteltarif",
+      "offPeak": "Niedertarif",
+      "dailySupply": "Tägliche Grundgebühr",
+      "monthContract": "Monatslaufzeit",
+      "noLockIn": "Keine Vertragsbindung",
+      "discount": "Rabatt",
+      "greenEnergy": "grüner Strom",
+      "selectPlan": "Diesen Tarif wählen",
+      "enterAddress": "Adresse eingeben"
+    },
+    "help": {
+      "title": "Hilfe bei der Auswahl?",
+      "subtitle": "Unsere Energieberater helfen Ihnen, den richtigen Tarif für Ihr Zuhause und Ihren Verbrauch zu finden.",
+      "cta": "Kontaktieren Sie uns"
+    },
+    "planOrder": ["fixed-saver", "fixed-green", "flexi-variable", "variable-saver", "smart-tou", "green-tou", "ev-home-charger", "ev-green-drive"],
+    "data": {
+      "fixed-saver": {
+        "id": "fixed-saver",
+        "type": "fixed",
+        "name": "Festpreis-Sparer",
+        "rate": 30.5,
+        "unit": "ct/kWh",
+        "dailySupplyCharge": 32.0,
+        "dailySupplyChargeUnit": "ct/Tag",
+        "contractTerm": 12,
+        "discountPercent": 0,
+        "greenEnergyPercent": 0,
+        "popular": false,
+        "features": ["Garantierter Preis für 12 Monate", "Keine Preiserhöhungen während der Vertragslaufzeit", "Einfacher Einheitstarif, leicht zu kalkulieren"]
+      },
+      "fixed-green": {
+        "id": "fixed-green",
+        "type": "fixed",
+        "name": "Festpreis Grün",
+        "rate": 35.8,
+        "unit": "ct/kWh",
+        "dailySupplyCharge": 32.0,
+        "dailySupplyChargeUnit": "ct/Tag",
+        "contractTerm": 12,
+        "discountPercent": 0,
+        "greenEnergyPercent": 100,
+        "popular": true,
+        "features": ["100 % zertifizierter Ökostrom", "Festpreis für 12 Monate", "Unterstützung erneuerbarer Energieprojekte"]
+      },
+      "flexi-variable": {
+        "id": "flexi-variable",
+        "type": "variable",
+        "name": "Flexi Variabel",
+        "rate": 28.9,
+        "unit": "ct/kWh",
+        "dailySupplyCharge": 30.0,
+        "dailySupplyChargeUnit": "ct/Tag",
+        "contractTerm": 0,
+        "discountPercent": 5,
+        "greenEnergyPercent": 0,
+        "popular": false,
+        "features": ["Keine Vertragsbindung", "5 % Rabatt bei pünktlicher Zahlung", "Preise bewegen sich mit dem Markt"]
+      },
+      "variable-saver": {
+        "id": "variable-saver",
+        "type": "variable",
+        "name": "Variabel-Sparer",
+        "rate": 28.0,
+        "unit": "ct/kWh",
+        "dailySupplyCharge": 30.0,
+        "dailySupplyChargeUnit": "ct/Tag",
+        "contractTerm": 0,
+        "discountPercent": 12,
+        "greenEnergyPercent": 0,
+        "popular": true,
+        "features": ["Unser günstigster variabler Tarif", "12 % garantierter Rabatt", "Keine Ausstiegsgebühren, jederzeit kündbar"]
+      },
+      "smart-tou": {
+        "id": "smart-tou",
+        "type": "tou",
+        "name": "Smart Zeitabhängig",
+        "peakRate": 44.5,
+        "shoulderRate": 32.0,
+        "offPeakRate": 22.0,
+        "unit": "ct/kWh",
+        "dailySupplyCharge": 33.0,
+        "dailySupplyChargeUnit": "ct/Tag",
+        "contractTerm": 12,
+        "discountPercent": 0,
+        "greenEnergyPercent": 0,
+        "popular": false,
+        "features": ["Sparen durch Verlagerung in die Schwachlastzeit", "Smart Meter erforderlich", "Ideal für Solaranlagen-Haushalte"]
+      },
+      "green-tou": {
+        "id": "green-tou",
+        "type": "tou",
+        "name": "Grün Zeitabhängig",
+        "peakRate": 47.5,
+        "shoulderRate": 34.0,
+        "offPeakRate": 24.0,
+        "unit": "ct/kWh",
+        "dailySupplyCharge": 35.0,
+        "dailySupplyChargeUnit": "ct/Tag",
+        "contractTerm": 12,
+        "discountPercent": 0,
+        "greenEnergyPercent": 100,
+        "popular": false,
+        "features": ["100 % zertifizierter Ökostrom", "Günstigere Schwachlasttarife", "Unterstützung erneuerbarer Energien"]
+      },
+      "ev-home-charger": {
+        "id": "ev-home-charger",
+        "type": "ev",
+        "name": "E-Auto Heimlader",
+        "peakRate": 40.0,
+        "offPeakRate": 16.5,
+        "unit": "ct/kWh",
+        "dailySupplyCharge": 35.0,
+        "dailySupplyChargeUnit": "ct/Tag",
+        "contractTerm": 24,
+        "discountPercent": 0,
+        "greenEnergyPercent": 0,
+        "popular": true,
+        "features": ["Ultraniedriger Nachttarif fürs E-Auto-Laden", "Intelligente Ladeplanung inklusive", "Separate Messung für E-Auto"]
+      },
+      "ev-green-drive": {
+        "id": "ev-green-drive",
+        "type": "ev",
+        "name": "E-Auto Grün Fahren",
+        "peakRate": 43.0,
+        "offPeakRate": 18.5,
+        "unit": "ct/kWh",
+        "dailySupplyCharge": 38.0,
+        "dailySupplyChargeUnit": "ct/Tag",
+        "contractTerm": 24,
+        "discountPercent": 0,
+        "greenEnergyPercent": 100,
+        "popular": false,
+        "features": ["100 % erneuerbares E-Auto-Laden", "Günstiger Schwachlasttarif für nächtliches Laden", "CO2-neutrales Fahren"]
+      }
+    }
+  },
+  "solarStorage": {
+    "cdp": {
+      "pageEventName": "Solar & Storage Page"
+    },
+    "meta": {
+      "title": "Solar & Speicher - UniPower",
+      "description": "Entdecken Sie Solarmodul- und Batteriespeicherlösungen für Ihr Zuhause."
+    },
+    "hero": {
+      "title": "Solar & Speicher",
+      "subtitle": "Nutzen Sie Solarenergie und speichern Sie sie für den Bedarfsfall. Senken Sie Ihre Rechnungen und Ihren ökologischen Fußabdruck.",
+      "cta": "Kostenloses Angebot einholen"
+    },
+    "stats": {
+      "items": [
+        { "value": "30 %", "label": "Durchschnittliche Rechnungsreduzierung" },
+        { "value": "25 J.", "label": "Modulgarantie" },
+        { "value": "8-12 J.", "label": "Typische Amortisationszeit" },
+        { "value": "5.000+", "label": "Installierte Anlagen" }
+      ]
+    },
+    "solutions": {
+      "title": "Unsere Solar- & Speicherlösungen",
+      "subtitle": "Von Dachmodulen bis zu Hausspeichersystemen – wir haben eine Lösung für jeden Haushalt.",
+      "cards": [
+        {
+          "title": "Solarmodule",
+          "description": "Hocheffiziente Dach-Solarmodule, die Sonnenlicht in sauberen Strom für Ihr Zuhause umwandeln.",
+          "features": [
+            "Tier-1-Module führender Hersteller",
+            "Ertragsüberwachung über unsere App",
+            "25 Jahre Leistungsgarantie"
+          ]
+        },
+        {
+          "title": "Batteriespeicher",
+          "description": "Speichern Sie tagsüber überschüssige Solarenergie und nutzen Sie sie nachts oder zu Hochtarifzeiten.",
+          "features": [
+            "Lithium-Ionen-Batteriesysteme von 5 kWh bis 15 kWh",
+            "Notstromversorgung bei Ausfällen",
+            "Intelligente Lade- und Entladesteuerung"
+          ]
+        },
+        {
+          "title": "Solar- & Batteriepakete",
+          "description": "Erhalten Sie den besten Wert mit unseren kombinierten Solar- und Speicherpaketen, die Ihre Einsparungen maximieren.",
+          "features": [
+            "Module und Batterie auf Ihren Verbrauch abgestimmt",
+            "Eine Installation, eine Garantie",
+            "Förderfähig durch staatliche Zuschüsse"
+          ]
+        }
+      ]
+    },
+    "howItWorks": {
+      "title": "So funktioniert es",
+      "subtitle": "Der Umstieg auf Solar ist einfacher, als Sie denken. So setzen wir es um.",
+      "steps": [
+        {
+          "step": "1",
+          "title": "Kostenlose Beratung",
+          "description": "Wir bewerten Ihr Dach, Ihren Energieverbrauch und Ihre Ziele, um das richtige System für Ihr Zuhause zu planen."
+        },
+        {
+          "step": "2",
+          "title": "Individuelle Planung",
+          "description": "Unsere Ingenieure entwerfen ein System, das auf Dachausrichtung, Verschattung und Ihren Stromverbrauch optimiert ist."
+        },
+        {
+          "step": "3",
+          "title": "Professionelle Installation",
+          "description": "Unsere zertifizierten Installateure montieren Ihr System in ein bis zwei Tagen mit minimaler Beeinträchtigung."
+        },
+        {
+          "step": "4",
+          "title": "Strom erzeugen",
+          "description": "Ihr System ist angeschlossen und erzeugt saubere Energie. Überwachen Sie die Leistung von Ihrem Smartphone."
+        }
+      ]
+    },
+    "benefits": {
+      "title": "Warum Solar?",
+      "subtitle": "Solar und Batteriespeicher geben Ihnen die Kontrolle über Ihre Energiekosten und Ihren CO2-Fußabdruck.",
+      "items": [
+        {
+          "title": "Niedrigere Stromrechnungen",
+          "description": "Erzeugen Sie tagsüber Ihren eigenen Strom und reduzieren Sie, was Sie aus dem Stromnetz beziehen."
+        },
+        {
+          "title": "Einspeisevergütung erhalten",
+          "description": "Speisen Sie überschüssige Solarenergie ins Stromnetz ein und erhalten Sie eine Gutschrift auf Ihrer Stromrechnung."
+        },
+        {
+          "title": "CO2-Fußabdruck reduzieren",
+          "description": "Eine typische Solaranlage für Privathaushalte spart jährlich mehrere Tonnen CO2-Emissionen ein."
+        },
+        {
+          "title": "Energieunabhängigkeit",
+          "description": "Mit einem Batteriespeicher sind Sie weniger abhängig vom Stromnetz und vor Preiserhöhungen geschützt."
+        },
+        {
+          "title": "Immobilienwert steigern",
+          "description": "Häuser mit Solaranlagen erzielen durchweg höhere Verkaufspreise als vergleichbare Immobilien ohne."
+        },
+        {
+          "title": "Staatliche Förderungen",
+          "description": "Nutzen Sie Zuschüsse, Steuervergünstigungen und Erneuerbare-Energien-Zertifikate, um die Anfangskosten zu senken."
+        }
+      ]
+    },
+    "feedIn": {
+      "title": "Einspeisevergütung",
+      "subtitle": "Wenn Ihre Solarmodule mehr Strom erzeugen, als Ihr Haushalt verbraucht, wird der Überschuss ins Stromnetz eingespeist. Sie erhalten eine Vergütung für jede eingespeiste Kilowattstunde.",
+      "rate": "Einspeisevergütung ab",
+      "rateValue": "5-12 ct/kWh",
+      "rateNote": "Vergütungen variieren je nach Standort und Tarif",
+      "features": [
+        "Automatische Einspeisung, wenn Ihre Erzeugung den Verbrauch übersteigt",
+        "Gutschriften werden direkt auf Ihre Stromrechnung angerechnet",
+        "Verfolgen Sie Ihre Einspeisung in Echtzeit über unsere App",
+        "Kompatibel mit allen unseren Stromtarifen"
+      ]
+    },
+    "testimonials": {
+      "title": "Was unsere Solarkunden sagen",
+      "subtitle": "Erfahren Sie von Haushalten, die bereits mit Solar und Speicher sparen.",
+      "items": [
+        {
+          "name": "Stefan L.",
+          "location": "Stuttgart",
+          "quote": "Unsere Stromrechnungen sind seit der Installation der Module um etwa 40 % gesunken. Mit dem Batteriespeicher nutzen wir im Sommer kaum noch Strom aus dem Netz."
+        },
+        {
+          "name": "Maria S.",
+          "location": "Köln",
+          "quote": "Das Installationsteam war fantastisch. Alles wurde an einem Tag erledigt und die Überwachungs-App ist wirklich intuitiv."
+        },
+        {
+          "name": "Rajesh P.",
+          "location": "Frankfurt",
+          "quote": "Mit dem Batteriespeicher haben wir auch bei Stromausfällen Strom. Es hat unsere Sicht auf Energie komplett verändert."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Bereit für Solar?",
+      "subtitle": "Holen Sie sich ein kostenloses, unverbindliches Angebot und erfahren Sie, wie viel Sie mit Solar und Speicher sparen können.",
+      "button": "Angebot anfordern"
+    }
+  },
+  "electricVehicles": {
+    "cdp": {
+      "pageEventName": "Electric Vehicles Page"
+    },
+    "meta": {
+      "title": "Elektrofahrzeuge - UniPower",
+      "description": "Ladetarife und Lösungen für Besitzer von Elektrofahrzeugen."
+    },
+    "hero": {
+      "title": "Elektrofahrzeuge",
+      "subtitle": "Laden Sie Ihr Elektrofahrzeug mit unseren speziellen E-Auto-Ladetarifen und intelligenten Heimladelösungen.",
+      "cta": "E-Auto-Tarife ansehen"
+    },
+    "stats": {
+      "items": [
+        { "value": "70 %", "label": "Günstiger als Benzin pro km" },
+        { "value": "3-8 Std.", "label": "Ladezeit zu Hause" },
+        { "value": "50 %", "label": "Schwachlast-Ersparnis" },
+        { "value": "0 g", "label": "Auspuff-Emissionen" }
+      ]
+    },
+    "plans": {
+      "title": "E-Auto-Ladetarife",
+      "subtitle": "Spezielle Tarife für Elektrofahrzeugbesitzer mit günstigen Schwachlastpreisen, um die Ladekosten niedrig zu halten.",
+      "cards": [
+        {
+          "title": "EV Saver",
+          "description": "Unser günstigster E-Auto-Tarif mit ultraniedrigen Nachttarifen für geplantes Laden.",
+          "features": [
+            "Günstigster verfügbarer Niedertarif",
+            "Ideal für nächtliches Laden zu Hause",
+            "Keine Vertragsbindung"
+          ],
+          "highlight": "Beliebtester Tarif"
+        },
+        {
+          "title": "EV Flex",
+          "description": "Ein flexibler Tarif für E-Auto-Besitzer, die auch wettbewerbsfähige Haushaltstarife wünschen.",
+          "features": [
+            "Günstige E-Auto-Ladepreise",
+            "Wettbewerbsfähige Haushaltstarife",
+            "Intelligente Zeitplanung über unsere App"
+          ],
+          "highlight": ""
+        },
+        {
+          "title": "EV + Solar",
+          "description": "Kombinieren Sie Solarstrom mit E-Auto-Laden für maximale Einsparungen und minimale Umweltbelastung.",
+          "features": [
+            "Laden Sie Ihr E-Auto mit Ihren Solarmodulen",
+            "Einspeisevergütung für Überschussproduktion",
+            "Batteriespeicher-kompatibel"
+          ],
+          "highlight": "Bestes Preis-Leistungs-Verhältnis"
+        }
+      ]
+    },
+    "charging": {
+      "title": "Heimladelösungen",
+      "subtitle": "Laden Sie Ihr E-Auto bequem zu Hause mit unserer Auswahl an intelligenten Ladestationen.",
+      "features": [
+        {
+          "title": "Intelligente Wallboxen",
+          "description": "Level-2-Ladestationen, die über Nacht eine volle Ladung liefern. WLAN-fähig für Fernüberwachung und Zeitplanung."
+        },
+        {
+          "title": "Professionelle Installation",
+          "description": "Unsere zugelassenen Elektriker übernehmen die komplette Installation, einschließlich eventuell nötiger Sicherungskasten-Upgrades."
+        },
+        {
+          "title": "Solar-Integration",
+          "description": "Verbinden Sie Ihre Ladestation mit Ihrer Solaranlage, um Ihr E-Auto tagsüber mit sauberem, kostenlosem Strom zu laden."
+        }
+      ]
+    },
+    "howItWorks": {
+      "title": "Der Einstieg ist einfach",
+      "subtitle": "Von der Tarifwahl bis zum Anstecken – wir machen den Umstieg auf elektrisches Fahren einfach.",
+      "steps": [
+        {
+          "step": "1",
+          "title": "Tarif auswählen",
+          "description": "Wählen Sie einen E-Auto-Ladetarif, der zu Ihren Fahrgewohnheiten und Ihrem Haushaltsenergiegebedarf passt."
+        },
+        {
+          "step": "2",
+          "title": "Heimladestation holen",
+          "description": "Bestellen Sie eine intelligente Wallbox und wir organisieren die professionelle Installation bei Ihnen zu Hause."
+        },
+        {
+          "step": "3",
+          "title": "Zeitplan festlegen",
+          "description": "Nutzen Sie unsere App, um das Laden in die Schwachlastzeiten zu legen und so die niedrigsten Kosten zu erzielen."
+        },
+        {
+          "step": "4",
+          "title": "Fahren und sparen",
+          "description": "Genießen Sie die Einsparungen. E-Auto-Fahrer geben in der Regel 70 % weniger für Kraftstoff aus als bei Benzinfahrzeugen."
+        }
+      ]
+    },
+    "benefits": {
+      "title": "Warum elektrisch fahren?",
+      "subtitle": "Elektrofahrzeuge sind sauberer, günstiger im Unterhalt und machen mehr Spaß beim Fahren.",
+      "items": [
+        {
+          "title": "Niedrigere Betriebskosten",
+          "description": "Strom ist deutlich günstiger als Benzin oder Diesel, besonders beim Laden zu Schwachlastzeiten."
+        },
+        {
+          "title": "Null Auspuff-Emissionen",
+          "description": "E-Autos produzieren keine Abgasemissionen, verbessern die Luftqualität und reduzieren Ihren CO2-Fußabdruck."
+        },
+        {
+          "title": "Weniger Wartung",
+          "description": "Weniger bewegliche Teile bedeuten keine Ölwechsel, weniger Bremswechsel und niedrigere Servicekosten."
+        },
+        {
+          "title": "Laden im Schlaf",
+          "description": "Stecken Sie zu Hause über Nacht an und wachen Sie jeden Morgen mit voller Batterie auf."
+        },
+        {
+          "title": "Staatliche Förderungen",
+          "description": "Viele Regionen bieten Steuervergünstigungen, Zuschüsse und Kfz-Steuerbefreiungen für Elektrofahrzeuge."
+        },
+        {
+          "title": "Solarbetriebenes Fahren",
+          "description": "Kombinieren Sie Ihr E-Auto mit einer Dachsolaranlage und laden Sie mit sauberem, kostenlosem Strom vom eigenen Dach."
+        }
+      ]
+    },
+    "comparison": {
+      "title": "E-Auto vs. Benziner: Betriebskosten",
+      "subtitle": "Sehen Sie, wie viel Sie mit dem Umstieg auf ein Elektrofahrzeug sparen könnten.",
+      "ev": {
+        "label": "Elektrofahrzeug",
+        "cost": "ca. 3-5 ct pro km",
+        "annual": "ca. 450 €/Jahr",
+        "annualLabel": "Geschätzte jährliche Kraftstoffkosten"
+      },
+      "petrol": {
+        "label": "Benzinfahrzeug",
+        "cost": "ca. 10-15 ct pro km",
+        "annual": "ca. 1.800 €/Jahr",
+        "annualLabel": "Geschätzte jährliche Kraftstoffkosten"
+      },
+      "note": "Basierend auf 15.000 km/Jahr. Tatsächliche Kosten hängen von Fahrzeug, Strompreisen und Fahrgewohnheiten ab."
+    },
+    "testimonials": {
+      "title": "Was E-Auto-Fahrer sagen",
+      "subtitle": "Erfahren Sie von Kunden, die auf elektrisches Fahren umgestiegen sind.",
+      "items": [
+        {
+          "name": "Markus H.",
+          "location": "Dresden",
+          "quote": "Das nächtliche Laden mit dem E-Auto-Tarif kostet mich einen Bruchteil dessen, was ich früher für Benzin ausgegeben habe. Die Installation der Heimladestation war schnell und unkompliziert."
+        },
+        {
+          "name": "Anna W.",
+          "location": "Düsseldorf",
+          "quote": "Wir haben unser E-Auto mit unserer Solaranlage kombiniert und fahren jetzt größtenteils kostenlos. Die App macht die Zeitplanung wirklich einfach."
+        },
+        {
+          "name": "Li Y.",
+          "location": "Hannover",
+          "quote": "Die Schwachlasttarife sind hervorragend. Ich stelle die Ladestation auf Mitternacht ein und wache jeden Tag mit voller Batterie auf."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Bereit für den Umstieg?",
+      "subtitle": "Entdecken Sie unsere E-Auto-Tarife und erfahren Sie, wie viel Sie bei den Kraftstoffkosten sparen können.",
+      "button": "E-Auto-Tarife ansehen"
+    }
+  },
+  "checkout": {
+    "cdp": {
+      "pageEventName": "Checkout Page"
+    },
+    "meta": {
+      "title": "Bestellung - UniPower",
+      "description": "Schließen Sie Ihre Anmeldung für einen Stromtarif ab."
+    },
+    "hero": {
+      "title": "Anmeldung abschließen",
+      "subtitle": "Sie sind fast fertig. Überprüfen Sie Ihren gewählten Tarif und vervollständigen Sie Ihre Angaben."
+    },
+    "selectedPlan": "Ihr gewählter Tarif",
+    "popular": "Beliebtester Tarif",
+    "planTypes": {
+      "fixed": "Festpreis",
+      "variable": "Variabel",
+      "tou": "Zeitabhängig",
+      "ev": "E-Auto-Laden"
+    },
+    "rate": "Preis",
+    "peakRate": "Hochtarif",
+    "shoulderRate": "Mitteltarif",
+    "offPeakRate": "Niedertarif",
+    "dailySupply": "Tägliche Grundgebühr",
+    "monthContract": "Monatslaufzeit",
+    "noLockIn": "Keine Vertragsbindung",
+    "discount": "Rabatt",
+    "greenEnergy": "grüner Strom",
+    "noPlanSelected": "Kein Tarif ausgewählt. Bitte gehen Sie zurück und wählen Sie einen Tarif.",
+    "supplyAddress": "Lieferadresse",
+    "stepper": {
+      "steps": {
+        "customerType": "Kundentyp",
+        "property": "Immobilie",
+        "personalDetails": "Ihre Angaben",
+        "billingPreferences": "Abrechnung",
+        "review": "Überprüfung"
+      }
+    },
+    "navigation": {
+      "continue": "Weiter",
+      "back": "Zurück",
+      "completeOrder": "Bestellung abschließen"
+    },
+    "stepCustomerType": {
+      "title": "Sind Sie Neu- oder Bestandskunde?",
+      "subtitle": "Teilen Sie uns dies mit, damit wir Ihr Erlebnis personalisieren können.",
+      "new": {
+        "title": "Neukunde",
+        "description": "Ich habe noch kein Konto"
+      },
+      "existing": {
+        "title": "Bestandskunde",
+        "description": "Ich habe bereits ein Konto"
+      },
+      "loggedInAs": "Sie sind angemeldet als",
+      "notYou": "Nicht Sie?"
+    },
+    "stepProperty": {
+      "title": "Sind Sie Eigentümer oder Mieter?",
+      "subtitle": "Das hilft uns, Ihre Situation besser zu verstehen.",
+      "own": {
+        "title": "Ich bin Eigentümer",
+        "description": "Eigentum oder Hypothek"
+      },
+      "rent": {
+        "title": "Ich bin Mieter",
+        "description": "Mietverhältnis oder Pacht"
+      }
+    },
+    "stepPersonalDetails": {
+      "title": "Ihre persönlichen Daten",
+      "subtitle": "Wir verwenden diese zur Einrichtung Ihres Kontos.",
+      "title_field": "Anrede",
+      "firstName": "Vorname",
+      "lastName": "Nachname",
+      "dob": "Geburtsdatum",
+      "email": "E-Mail-Adresse",
+      "mobile": "Mobilnummer",
+      "mailingAddress": {
+        "heading": "Postanschrift",
+        "sameLabel": "Gleich wie Lieferadresse",
+        "differentLabel": "Andere Adresse",
+        "placeholder": "Suchen Sie nach Ihrer Postanschrift..."
+      },
+      "placeholders": {
+        "firstName": "z. B. Anna",
+        "lastName": "z. B. Müller",
+        "email": "z. B. anna@beispiel.de",
+        "mobile": "z. B. +49 170 1234567"
+      },
+      "titles": ["Herr", "Frau", "Dr."]
+    },
+    "stepBillingPreferences": {
+      "title": "Abrechnungspräferenzen",
+      "subtitle": "Wählen Sie, wie Sie Rechnungen und Korrespondenz erhalten möchten.",
+      "billDelivery": {
+        "label": "Rechnungsversand",
+        "email": {
+          "title": "E-Mail",
+          "description": "Rechnungen per E-Mail erhalten (papierlos)"
+        },
+        "post": {
+          "title": "Post",
+          "description": "Rechnungen per Post erhalten"
+        }
+      },
+      "correspondence": {
+        "label": "Korrespondenz",
+        "email": {
+          "title": "E-Mail",
+          "description": "Briefe und Mitteilungen per E-Mail erhalten"
+        },
+        "post": {
+          "title": "Post",
+          "description": "Briefe und Mitteilungen per Post erhalten"
+        }
+      }
+    },
+    "stepReview": {
+      "title": "Bestellung überprüfen",
+      "subtitle": "Bitte prüfen Sie Ihre Angaben, bevor Sie die Anmeldung abschließen.",
+      "sections": {
+        "plan": "Gewählter Tarif",
+        "supplyAddress": "Lieferadresse",
+        "customerType": "Kundentyp",
+        "property": "Immobilientyp",
+        "personalDetails": "Persönliche Daten",
+        "mailingAddress": "Postanschrift",
+        "billing": "Abrechnungspräferenzen"
+      },
+      "values": {
+        "new": "Neukunde",
+        "existing": "Bestandskunde",
+        "own": "Eigentümer",
+        "rent": "Mieter",
+        "sameAsSupply": "Gleich wie Lieferadresse",
+        "email": "E-Mail",
+        "post": "Post"
+      },
+      "billDelivery": "Rechnungsversand",
+      "correspondence": "Korrespondenz"
+    },
+    "success": {
+      "title": "Bestellung abgeschlossen!",
+      "message": "Vielen Dank für Ihre Anmeldung. Wir melden uns innerhalb von 1-2 Werktagen bei Ihnen, um Ihre Anschlussdaten zu bestätigen.",
+      "reference": "Ihre Referenznummer"
+    }
+  },
+  "loginModal": {
+    "description": "Melden Sie sich an, um Ihr Energiekonto zu verwalten",
+    "tabs": {
+      "login": "Anmelden",
+      "register": "Konto erstellen"
+    },
+    "fields": {
+      "email": "E-Mail-Adresse",
+      "password": "Passwort",
+      "firstName": "Vorname",
+      "lastName": "Nachname",
+      "phone": "Telefonnummer",
+      "confirmPassword": "Passwort bestätigen"
+    },
+    "placeholders": {
+      "email": "Ihre E-Mail-Adresse eingeben",
+      "password": "Ihr Passwort eingeben",
+      "firstName": "Anna",
+      "lastName": "Müller",
+      "phone": "+49 170 1234567",
+      "confirmPassword": "Passwort bestätigen"
+    },
+    "buttons": {
+      "signIn": "Anmelden",
+      "signingIn": "Anmeldung läuft...",
+      "createAccount": "Konto erstellen",
+      "creatingAccount": "Konto wird erstellt..."
+    },
+    "links": {
+      "forgotPassword": "Passwort vergessen?"
+    },
+    "errors": {
+      "userNotFound": "Kein Konto mit dieser E-Mail-Adresse gefunden.",
+      "invalidPassword": "Ungültiges Passwort. Bitte versuchen Sie es erneut.",
+      "passwordMismatch": "Die Passwörter stimmen nicht überein.",
+      "genericError": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.",
+      "emailExists": "Ein Konto mit dieser E-Mail-Adresse existiert bereits."
+    }
+  },
+  "footer": {
+    "description": "Ihr vertrauenswürdiger Energiepartner. Wir bieten zuverlässigen, bezahlbaren Strom mit einem Engagement für erneuerbare Energien und erstklassigen Kundenservice.",
+    "phone": "+49 800 ENERGIE",
+    "email": "support@unipower.de",
+    "sections": {
+      "products": {
+        "title": "Unsere Leistungen"
+      },
+      "support": {
+        "title": "Service",
+        "contact": "Kontakt",
+        "help": "Hilfe-Center",
+        "security": "Störungen & Ausfälle",
+        "privacy": "Datenschutzrichtlinie"
+      }
+    },
+    "copyright": "2026 UniPower. Alle Rechte vorbehalten. Beispiel einer Energieversorger-Lizenz."
+  }
+}

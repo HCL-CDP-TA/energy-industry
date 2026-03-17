@@ -4,7 +4,6 @@ import { Suspense, useState, useEffect, useCallback } from "react"
 import { useTranslations } from "next-intl"
 import { useSearchParams } from "next/navigation"
 import { useSiteContext } from "@/lib/SiteContext"
-import plans from "@/data/plans.json"
 import { Plan } from "@/types/plans"
 import { CdpPageEvent, useCdp } from "@hcl-cdp-ta/hclcdp-web-sdk-react"
 import { useCDPTracking } from "@/lib/hooks/useCDPTracking"
@@ -35,6 +34,7 @@ function generateReference(): string {
 
 function CheckoutContent() {
   const t = useTranslations("checkout")
+  const tPlans = useTranslations("plans")
   const tStepper = useTranslations("checkout.stepper.steps")
   const searchParams = useSearchParams()
   const { brand, locale, getFullPath } = useSiteContext()
@@ -43,7 +43,8 @@ function CheckoutContent() {
 
   const planId = searchParams.get("planId")
   const address = searchParams.get("address") || ""
-  const plan = (plans as Plan[]).find(p => p.id === planId)
+  const planData = tPlans.raw("data") as Record<string, Plan>
+  const plan = planId ? planData[planId] ?? null : null
 
   const [currentStep, setCurrentStep] = useState(1)
   const [isComplete, setIsComplete] = useState(false)

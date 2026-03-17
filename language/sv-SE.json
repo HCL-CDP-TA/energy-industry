@@ -1,0 +1,894 @@
+{
+  "navigation": {
+    "login": "Logga in",
+    "logout": "Logga ut",
+    "themeTooltip": "Byt varumärke",
+    "themeHeader": "Välj varumärke",
+    "localeTooltip": "Byt språk",
+    "localeHeader": "Språk",
+    "settings": "Inställningar"
+  },
+  "products": [
+    { "label": "Elavtal", "href": "plans" },
+    { "label": "Sol & Lagring", "href": "solar-storage" },
+    { "label": "Elbilar", "href": "electric-vehicles" }
+  ],
+  "home": {
+    "cdp": {
+      "pageEventName": "Home Page"
+    },
+    "meta": {
+      "title": "UniPower - Din energi, ditt val",
+      "description": "Byt till ett smartare elavtal. Konkurrenskraftiga priser, förnybara alternativ och verktyg för att hantera din elanvändning."
+    },
+    "hero": {
+      "title": "Energi som fungerar för dig",
+      "subtitle": "Jämför våra elavtal och hitta det som passar ditt hem. Enkel prissättning, inga dolda avgifter och möjlighet att välja grönt.",
+      "cta": "Visa elavtal",
+      "secondaryCta": "Få en offert"
+    },
+    "trustNumbers": {
+      "items": [
+        { "value": "1,2M+", "label": "Nöjda kunder" },
+        { "value": "99,9%", "label": "Elnätstillförlitlighet" },
+        { "value": "40%", "label": "Förnybar energi" },
+        { "value": "24/7", "label": "Kundsupport" }
+      ]
+    },
+    "products": {
+      "title": "Utforska våra tjänster",
+      "subtitle": "Från elavtal till sol- och elbilslösningar – allt du behöver för en smartare energiframtid.",
+      "cards": [
+        {
+          "title": "Elavtal",
+          "description": "Välj mellan fasta, rörliga och tidsstyrda avtal anpassade för alla hushåll.",
+          "cta": "Jämför elavtal",
+          "href": "plans",
+          "features": [
+            "Fasta, rörliga och tidsstyrda alternativ",
+            "Inga dolda avgifter eller uppsägningskostnader",
+            "Upp till 100 % grön energi tillgänglig"
+          ]
+        },
+        {
+          "title": "Sol & Lagring",
+          "description": "Utnyttja solens kraft med våra solceller och batterilagringslösningar.",
+          "cta": "Läs mer",
+          "href": "solar-storage",
+          "features": [
+            "Solceller, växelriktare och batteripaket",
+            "Ersättning för överskottsel till elnätet",
+            "Professionell installation ingår"
+          ]
+        },
+        {
+          "title": "Elbilar",
+          "description": "Ladda din elbil med konkurrenskraftiga laddavtal och smarta hemmaladdningslösningar.",
+          "cta": "Utforska elbilsavtal",
+          "href": "electric-vehicles",
+          "features": [
+            "Låga laddpriser på lågbelastningstid",
+            "Installation av hemmaladdare",
+            "Smart schemaläggning via vår app"
+          ]
+        }
+      ]
+    },
+    "howItWorks": {
+      "title": "Att byta är enkelt",
+      "subtitle": "Byt till ett bättre elavtal på bara några steg. Vi sköter det krångliga.",
+      "steps": [
+        {
+          "step": "1",
+          "title": "Jämför elavtal",
+          "description": "Ange din adress och se vilka avtal som finns tillgängliga i ditt område med uppskattade kostnader."
+        },
+        {
+          "step": "2",
+          "title": "Välj ditt avtal",
+          "description": "Välj det avtal som passar ditt hushåll – fast, rörligt, tidsstyrt eller grönt."
+        },
+        {
+          "step": "3",
+          "title": "Registrera dig online",
+          "description": "Fyll i dina uppgifter på några minuter. Inget pappersarbete, inga telefonsamtal."
+        },
+        {
+          "step": "4",
+          "title": "Börja spara",
+          "description": "Vi meddelar din gamla leverantör. Din elförsörjning fortsätter utan avbrott medan vi genomför bytet."
+        }
+      ]
+    },
+    "savingsTips": {
+      "title": "Enkla sätt att sänka din elräkning",
+      "subtitle": "Små förändringar gör stor skillnad. Här är några enkla sätt att minska dina energikostnader.",
+      "tips": [
+        {
+          "title": "Använd el på lågbelastningstid",
+          "description": "Kör diskmaskinen, tvättmaskinen och torktumlaren under lågbelastningstid för att dra nytta av lägre priser."
+        },
+        {
+          "title": "Optimera uppvärmning och kylning",
+          "description": "Ställ termostaten på 18–20°C på vintern och 24–26°C på sommaren. Varje grad sparar upp till 10 % på uppvärmning och kylning."
+        },
+        {
+          "title": "Byt till LED-belysning",
+          "description": "LED-lampor använder upp till 80 % mindre energi än traditionella lampor och håller upp till 25 gånger längre."
+        },
+        {
+          "title": "Följ din förbrukning",
+          "description": "Använd vår app för att spåra din dagliga förbrukning och hitta var du kan dra ner."
+        }
+      ]
+    },
+    "manageEnergy": {
+      "title": "Ta kontroll över din energi",
+      "subtitle": "Våra verktyg gör det enkelt att förstå och hantera din elanvändning.",
+      "features": [
+        {
+          "title": "Realtidsövervakning av förbrukning",
+          "description": "Se din energiförbrukning i realtid, uppdelad efter tid på dygnet."
+        },
+        {
+          "title": "Räkningsprognoser",
+          "description": "Vet vad din nästa räkning blir innan den kommer, utan överraskningar."
+        },
+        {
+          "title": "Solcellsöversikt",
+          "description": "Följ din solproduktion, batterilagring och export till elnätet på ett ställe."
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "Vad våra kunder säger",
+      "subtitle": "Gå med bland tusentals hushåll som gör smartare energival.",
+      "items": [
+        {
+          "name": "Anna L.",
+          "location": "Stockholm",
+          "quote": "Bytet gick otroligt smidigt. Jag sparar runt 15 % jämfört med min gamla leverantör, och jag älskar att mitt avtal är 100 % förnybart."
+        },
+        {
+          "name": "Erik S.",
+          "location": "Göteborg",
+          "quote": "Appen är fantastisk. Jag kan se exakt när jag använder mest energi och flytta saker till lågbelastningstid. Mina räkningar har sjunkit märkbart."
+        },
+        {
+          "name": "Maria K.",
+          "location": "Malmö",
+          "quote": "Solcells- och batteripaketet var precis vad vi behövde. Installationen gick smidigt och vi ser redan besparingar på vår månadsräkning."
+        }
+      ]
+    },
+    "whyChoose": {
+      "title": "Varför välja oss?",
+      "subtitle": "Vi gör energi enkelt, prisvärt och hållbart för alla.",
+      "items": [
+        {
+          "title": "Konkurrenskraftiga priser",
+          "description": "Transparent prissättning utan bindningstid på utvalda avtal. Våra priser jämförs regelbundet mot marknaden."
+        },
+        {
+          "title": "Gröna energialternativ",
+          "description": "Välj avtal med upp till 100 % förnybar energi. Vi investerar i vind-, sol- och vattenkraftprojekt."
+        },
+        {
+          "title": "Prisbelönt service",
+          "description": "Betrodd av över en miljon kunder med branschledande nöjdhetsbetyg och support dygnet runt."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Redo att byta?",
+      "subtitle": "Gå med bland tusentals nöjda kunder som redan har bytt. Det tar bara några minuter.",
+      "button": "Hitta ditt elavtal"
+    }
+  },
+  "plans": {
+    "cdp": {
+      "pageEventName": "Plans Page"
+    },
+    "meta": {
+      "title": "Elavtal - UniPower",
+      "description": "Jämför elavtal och hitta det bästa priset för ditt hem."
+    },
+    "hero": {
+      "title": "Elavtal",
+      "subtitle": "Hitta rätt avtal för ditt hem. Jämför priser, funktioner och gröna energialternativ."
+    },
+    "addressLookup": {
+      "title": "Ange din adress",
+      "subtitle": "Vi använder din adress för att anpassa din upplevelse.",
+      "placeholder": "Börja skriva din adress..."
+    },
+    "grid": {
+      "title": "Jämför våra elavtal",
+      "subtitle": "Välj mellan fasta, rörliga, tidsstyrda och elbilsladdningsavtal som passar dina behov."
+    },
+    "filters": {
+      "all": "Alla avtal",
+      "fixed": "Fast pris",
+      "variable": "Rörligt",
+      "tou": "Tidsstyrt",
+      "ev": "Elbilsladdning"
+    },
+    "card": {
+      "types": {
+        "fixed": "Fast pris",
+        "variable": "Rörligt",
+        "tou": "Tidsstyrt",
+        "ev": "Elbilsladdning"
+      },
+      "popular": "Mest populär",
+      "peak": "Höglast",
+      "shoulder": "Mellanlast",
+      "offPeak": "Låglast",
+      "dailySupply": "Daglig nätavgift",
+      "monthContract": "månaders bindningstid",
+      "noLockIn": "Ingen bindningstid",
+      "discount": "rabatt",
+      "greenEnergy": "grön energi",
+      "selectPlan": "Välj detta avtal",
+      "enterAddress": "Ange en adress"
+    },
+    "help": {
+      "title": "Behöver du hjälp att välja?",
+      "subtitle": "Våra energispecialister kan hjälpa dig hitta rätt avtal för ditt hem och dina förbrukningsmönster.",
+      "cta": "Kontakta oss"
+    },
+    "planOrder": ["fixed-saver", "fixed-green", "flexi-variable", "variable-saver", "smart-tou", "green-tou", "ev-home-charger", "ev-green-drive"],
+    "data": {
+      "fixed-saver": {
+        "id": "fixed-saver",
+        "type": "fixed",
+        "name": "Fast Sparavtal",
+        "rate": 89.0,
+        "unit": "öre/kWh",
+        "dailySupplyCharge": 5.90,
+        "dailySupplyChargeUnit": "kr/dag",
+        "contractTerm": 12,
+        "discountPercent": 0,
+        "greenEnergyPercent": 0,
+        "popular": false,
+        "features": ["Fast pris i 12 månader", "Inga prishöjningar under avtalsperioden", "Enkelt fast pris, lätt att budgetera"]
+      },
+      "fixed-green": {
+        "id": "fixed-green",
+        "type": "fixed",
+        "name": "Fast Grönt",
+        "rate": 105.0,
+        "unit": "öre/kWh",
+        "dailySupplyCharge": 6.20,
+        "dailySupplyChargeUnit": "kr/dag",
+        "contractTerm": 12,
+        "discountPercent": 0,
+        "greenEnergyPercent": 100,
+        "popular": true,
+        "features": ["100 % certifierad grön el", "Fast pris i 12 månader", "Stöd förnybar energiproduktion"]
+      },
+      "flexi-variable": {
+        "id": "flexi-variable",
+        "type": "variable",
+        "name": "Flexi Rörligt",
+        "rate": 82.0,
+        "unit": "öre/kWh",
+        "dailySupplyCharge": 5.50,
+        "dailySupplyChargeUnit": "kr/dag",
+        "contractTerm": 0,
+        "discountPercent": 5,
+        "greenEnergyPercent": 0,
+        "popular": false,
+        "features": ["Ingen bindningstid", "5 % rabatt vid betalning i tid", "Priset följer marknaden"]
+      },
+      "variable-saver": {
+        "id": "variable-saver",
+        "type": "variable",
+        "name": "Rörligt Sparavtal",
+        "rate": 76.0,
+        "unit": "öre/kWh",
+        "dailySupplyCharge": 5.20,
+        "dailySupplyChargeUnit": "kr/dag",
+        "contractTerm": 0,
+        "discountPercent": 12,
+        "greenEnergyPercent": 0,
+        "popular": true,
+        "features": ["Vårt lägsta rörliga pris", "12 % garanterad rabatt", "Inga uppsägningsavgifter, avsluta när som helst"]
+      },
+      "smart-tou": {
+        "id": "smart-tou",
+        "type": "tou",
+        "name": "Smart Tidsstyrt",
+        "peakRate": 155.0,
+        "shoulderRate": 98.0,
+        "offPeakRate": 55.0,
+        "unit": "öre/kWh",
+        "dailySupplyCharge": 5.80,
+        "dailySupplyChargeUnit": "kr/dag",
+        "contractTerm": 12,
+        "discountPercent": 0,
+        "greenEnergyPercent": 0,
+        "popular": false,
+        "features": ["Spara genom att flytta förbrukningen till låglast", "Kräver smart elmätare", "Perfekt för hushåll med solceller"]
+      },
+      "green-tou": {
+        "id": "green-tou",
+        "type": "tou",
+        "name": "Grönt Tidsstyrt",
+        "peakRate": 168.0,
+        "shoulderRate": 108.0,
+        "offPeakRate": 62.0,
+        "unit": "öre/kWh",
+        "dailySupplyCharge": 6.40,
+        "dailySupplyChargeUnit": "kr/dag",
+        "contractTerm": 12,
+        "discountPercent": 0,
+        "greenEnergyPercent": 100,
+        "popular": false,
+        "features": ["100 % certifierad grön el", "Lägre pris vid låglast", "Stöd förnybar energi"]
+      },
+      "ev-home-charger": {
+        "id": "ev-home-charger",
+        "type": "ev",
+        "name": "Elbil Hemmaladdare",
+        "peakRate": 135.0,
+        "offPeakRate": 38.0,
+        "unit": "öre/kWh",
+        "dailySupplyCharge": 6.80,
+        "dailySupplyChargeUnit": "kr/dag",
+        "contractTerm": 24,
+        "discountPercent": 0,
+        "greenEnergyPercent": 0,
+        "popular": true,
+        "features": ["Ultralågt nattligt laddpris för elbil", "Smart laddschemaläggning ingår", "Separat mätning för elbilsladdning"]
+      },
+      "ev-green-drive": {
+        "id": "ev-green-drive",
+        "type": "ev",
+        "name": "Elbil Grönt Körande",
+        "peakRate": 148.0,
+        "offPeakRate": 45.0,
+        "unit": "öre/kWh",
+        "dailySupplyCharge": 7.50,
+        "dailySupplyChargeUnit": "kr/dag",
+        "contractTerm": 24,
+        "discountPercent": 0,
+        "greenEnergyPercent": 100,
+        "popular": false,
+        "features": ["100 % förnybar elbilsladdning", "Lågt låglastpris för nattladdning", "Klimatneutral körning"]
+      }
+    }
+  },
+  "solarStorage": {
+    "cdp": {
+      "pageEventName": "Solar & Storage Page"
+    },
+    "meta": {
+      "title": "Sol & Lagring - UniPower",
+      "description": "Utforska solcells- och batterilagringslösningar för ditt hem."
+    },
+    "hero": {
+      "title": "Sol & Lagring",
+      "subtitle": "Ta tillvara på solenergin och lagra den till när du behöver den som mest. Sänk dina räkningar och din miljöpåverkan.",
+      "cta": "Få en kostnadsfri offert"
+    },
+    "stats": {
+      "items": [
+        { "value": "30%", "label": "Genomsnittlig räkningssänkning" },
+        { "value": "25 år", "label": "Panelgaranti" },
+        { "value": "8–12 år", "label": "Typisk återbetalningstid" },
+        { "value": "5 000+", "label": "Installerade system" }
+      ]
+    },
+    "solutions": {
+      "title": "Våra sol- och lagringslösningar",
+      "subtitle": "Från takpaneler till hela hemmets batterisystem – vi har en lösning för varje hushåll.",
+      "cards": [
+        {
+          "title": "Solceller",
+          "description": "Högeffektiva solceller för tak som omvandlar solljus till ren el för ditt hem.",
+          "features": [
+            "Förstklassiga paneler från ledande tillverkare",
+            "Produktionsövervakning via vår app",
+            "25 års prestandagaranti"
+          ]
+        },
+        {
+          "title": "Batterilagring",
+          "description": "Lagra överskottsenergi från solen under dagen och använd den på natten eller under höglasttid.",
+          "features": [
+            "Litiumjonbatterisystem från 5 kWh till 15 kWh",
+            "Reservkraft vid strömavbrott",
+            "Smart laddnings- och urladdningsschemaläggning"
+          ]
+        },
+        {
+          "title": "Sol + Batteripaket",
+          "description": "Få bästa värde med våra kombinerade sol- och lagringspaket, utformade för att maximera dina besparingar.",
+          "features": [
+            "Paneler och batteri dimensionerade efter din förbrukning",
+            "En installation, en garanti",
+            "Berättigad till statliga bidrag"
+          ]
+        }
+      ]
+    },
+    "howItWorks": {
+      "title": "Så fungerar det",
+      "subtitle": "Att skaffa solceller är enklare än du tror. Så här gör vi det möjligt.",
+      "steps": [
+        {
+          "step": "1",
+          "title": "Kostnadsfri rådgivning",
+          "description": "Vi bedömer ditt tak, din energiförbrukning och dina mål för att utforma rätt system för ditt hem."
+        },
+        {
+          "step": "2",
+          "title": "Skräddarsydd design",
+          "description": "Våra ingenjörer designar ett system optimerat för ditt taks orientering, skuggning och elförbrukning."
+        },
+        {
+          "step": "3",
+          "title": "Professionell installation",
+          "description": "Våra ackrediterade installatörer monterar ditt system på en till två dagar med minimalt avbrott."
+        },
+        {
+          "step": "4",
+          "title": "Börja producera",
+          "description": "Ditt system är anslutet och producerar ren energi. Övervaka prestandan från din telefon."
+        }
+      ]
+    },
+    "benefits": {
+      "title": "Varför välja solenergi?",
+      "subtitle": "Solceller och batterilagring ger dig kontroll över dina energikostnader och ditt koldioxidavtryck.",
+      "items": [
+        {
+          "title": "Lägre elräkningar",
+          "description": "Producera din egen el under dagen och minska vad du tar från elnätet."
+        },
+        {
+          "title": "Tjäna på överskottsel",
+          "description": "Exportera överskottsel till elnätet och få en ersättning på din elräkning."
+        },
+        {
+          "title": "Minska ditt koldioxidavtryck",
+          "description": "Ett typiskt solcellssystem för villor kompenserar flera ton CO2-utsläpp varje år."
+        },
+        {
+          "title": "Energioberoende",
+          "description": "Med batterilagring är du mindre beroende av elnätet och skyddad mot prishöjningar."
+        },
+        {
+          "title": "Ökat fastighetsvärde",
+          "description": "Bostäder med solcellssystem säljs konsekvent för mer än jämförbara bostäder utan."
+        },
+        {
+          "title": "Statliga incitament",
+          "description": "Dra nytta av bidrag, skatteavdrag och elcertifikat för att sänka den initiala kostnaden."
+        }
+      ]
+    },
+    "feedIn": {
+      "title": "Ersättning för överskottsel",
+      "subtitle": "När dina solceller producerar mer el än ditt hem förbrukar exporteras överskottet till elnätet. Du får en ersättning för varje kilowattimme som exporteras.",
+      "rate": "Ersättning från",
+      "rateValue": "5–12 öre/kWh",
+      "rateNote": "Priserna varierar beroende på plats och avtal",
+      "features": [
+        "Automatisk export när din produktion överstiger förbrukningen",
+        "Ersättning dras direkt från din elräkning",
+        "Följ din export i realtid via vår app",
+        "Kompatibel med alla våra elavtal"
+      ]
+    },
+    "testimonials": {
+      "title": "Vad våra solkunder säger",
+      "subtitle": "Hör från hushåll som redan sparar med sol och lagring.",
+      "items": [
+        {
+          "name": "Per J.",
+          "location": "Uppsala",
+          "quote": "Våra elräkningar har sjunkit med ungefär 40 % sedan panelerna installerades. Batteriet gör att vi knappt använder elnätet på sommaren."
+        },
+        {
+          "name": "Karin A.",
+          "location": "Linköping",
+          "quote": "Installationsteamet var fantastiskt. Allt var klart på en dag och övervakningsappen är verkligen intuitiv."
+        },
+        {
+          "name": "Lars B.",
+          "location": "Örebro",
+          "quote": "Med batteriet har vi ström även vid strömavbrott. Det har helt förändrat hur vi tänker kring vår energi."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Redo att skaffa solceller?",
+      "subtitle": "Få en kostnadsfri offert utan förpliktelser och ta reda på hur mycket du kan spara med sol och lagring.",
+      "button": "Begär en offert"
+    }
+  },
+  "electricVehicles": {
+    "cdp": {
+      "pageEventName": "Electric Vehicles Page"
+    },
+    "meta": {
+      "title": "Elbilar - UniPower",
+      "description": "Elbilsladdningsavtal och lösningar för elbilsägare."
+    },
+    "hero": {
+      "title": "Elbilar",
+      "subtitle": "Ladda din elbil med våra dedikerade elbilsladdningsavtal och smarta hemmaladdningslösningar.",
+      "cta": "Visa elbilsavtal"
+    },
+    "stats": {
+      "items": [
+        { "value": "70%", "label": "Billigare än bensin per km" },
+        { "value": "3–8 tim", "label": "Hemmaladdningstid" },
+        { "value": "50%", "label": "Besparingar på låglast" },
+        { "value": "0 g", "label": "Avgasutsläpp" }
+      ]
+    },
+    "plans": {
+      "title": "Elbilsladdningsavtal",
+      "subtitle": "Dedikerade avtal designade för elbilsägare, med låga låglastavgifter för att hålla laddkostnaderna nere.",
+      "cards": [
+        {
+          "title": "EV Spararen",
+          "description": "Vårt mest prisvärda elbilsavtal med ultralåga nattpriser för schemalagd laddning.",
+          "features": [
+            "Lägsta tillgängliga låglastpris",
+            "Perfekt för nattladdning hemma",
+            "Ingen bindningstid"
+          ],
+          "highlight": "Mest populär"
+        },
+        {
+          "title": "EV Flex",
+          "description": "Ett flexibelt avtal för elbilsägare som också vill ha konkurrenskraftiga priser för hushållets förbrukning.",
+          "features": [
+            "Låga elbilsladdningspriser",
+            "Konkurrenskraftiga hushållspriser",
+            "Smart schemaläggning via vår app"
+          ],
+          "highlight": ""
+        },
+        {
+          "title": "EV + Sol",
+          "description": "Kombinera solproduktion med elbilsladdning för maximala besparingar och minimal miljöpåverkan.",
+          "features": [
+            "Ladda din elbil från dina solceller",
+            "Ersättning för överskottsproduktion",
+            "Kompatibel med batterilagring"
+          ],
+          "highlight": "Bästa värde"
+        }
+      ]
+    },
+    "charging": {
+      "title": "Hemmaladdningslösningar",
+      "subtitle": "Ladda din elbil smidigt hemma med vårt utbud av smarta laddare.",
+      "features": [
+        {
+          "title": "Smarta väggladdare",
+          "description": "Nivå 2-laddare som ger en full laddning över natten. Wi-Fi-anslutna för fjärrövervakning och schemaläggning."
+        },
+        {
+          "title": "Professionell installation",
+          "description": "Våra auktoriserade elektriker sköter hela installationen, inklusive eventuella uppgraderingar av elcentralen."
+        },
+        {
+          "title": "Solcellsintegrering",
+          "description": "Koppla din laddare till ditt solcellssystem och ladda din elbil med ren, gratis solenergi under dagen."
+        }
+      ]
+    },
+    "howItWorks": {
+      "title": "Det är lätt att komma igång",
+      "subtitle": "Från val av avtal till att plugga in – vi gör bytet till elfordon enkelt.",
+      "steps": [
+        {
+          "step": "1",
+          "title": "Välj ditt avtal",
+          "description": "Välj ett elbilsladdningsavtal som passar dina körvanor och hushållets energibehov."
+        },
+        {
+          "step": "2",
+          "title": "Skaffa en hemmaladdare",
+          "description": "Beställ en smart väggladdare så ordnar vi professionell installation hemma hos dig."
+        },
+        {
+          "step": "3",
+          "title": "Ställ in ditt schema",
+          "description": "Använd vår app för att schemalägga laddning under lågbelastningstid för lägsta möjliga kostnad."
+        },
+        {
+          "step": "4",
+          "title": "Kör och spara",
+          "description": "Njut av besparingarna. Elbilsförare spenderar vanligtvis 70 % mindre på bränsle jämfört med bensinbilar."
+        }
+      ]
+    },
+    "benefits": {
+      "title": "Varför köra elbil?",
+      "subtitle": "Elbilar är renare, billigare att köra och roligare att köra.",
+      "items": [
+        {
+          "title": "Lägre driftskostnader",
+          "description": "El är betydligt billigare än bensin eller diesel, särskilt vid laddning på lågbelastningstid."
+        },
+        {
+          "title": "Noll avgasutsläpp",
+          "description": "Elbilar producerar inga avgaser, vilket förbättrar luftkvaliteten och minskar ditt koldioxidavtryck."
+        },
+        {
+          "title": "Mindre underhåll",
+          "description": "Färre rörliga delar innebär inga oljebyten, färre bromsbyten och lägre servicekostnader."
+        },
+        {
+          "title": "Ladda medan du sover",
+          "description": "Koppla in hemma över natten och vakna med fulladdat batteri varje morgon."
+        },
+        {
+          "title": "Statliga incitament",
+          "description": "Många regioner erbjuder skatteavdrag, bidrag och förmåner vid köp av elbil."
+        },
+        {
+          "title": "Soldrivet körande",
+          "description": "Kombinera din elbil med solceller på taket och ladda med ren, gratis energi från ditt eget tak."
+        }
+      ]
+    },
+    "comparison": {
+      "title": "Elbil vs bensinbil: driftskostnader",
+      "subtitle": "Se hur mycket du kan spara genom att byta till elbil.",
+      "ev": {
+        "label": "Elbil",
+        "cost": "~20–30 öre per km",
+        "annual": "~4 500 kr/år",
+        "annualLabel": "Uppskattad årlig bränslekostnad"
+      },
+      "petrol": {
+        "label": "Bensinbil",
+        "cost": "~80–120 öre per km",
+        "annual": "~18 000 kr/år",
+        "annualLabel": "Uppskattad årlig bränslekostnad"
+      },
+      "note": "Baserat på 15 000 km/år. Faktiska kostnader beror på fordon, elpriser och körvanor."
+    },
+    "testimonials": {
+      "title": "Vad elbilsförare säger",
+      "subtitle": "Hör från kunder som har gjort bytet till eldrivet.",
+      "items": [
+        {
+          "name": "Johan F.",
+          "location": "Stockholm",
+          "quote": "Att ladda över natten med elbilsavtalet kostar mig en bråkdel av vad jag brukade spendera på bensin. Hemmaladdaren installerades snabbt och enkelt."
+        },
+        {
+          "name": "Sofia N.",
+          "location": "Göteborg",
+          "quote": "Vi kombinerade vår elbil med solcellerna och nu är det mesta av vårt körande i princip gratis. Appen gör schemaläggningen riktigt enkel."
+        },
+        {
+          "name": "Anders M.",
+          "location": "Malmö",
+          "quote": "Låglastpriserna är utmärkta. Jag ställer in laddaren att starta vid midnatt och vaknar med fullt batteri varje dag."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Redo att köra eldrivet?",
+      "subtitle": "Utforska våra elbilsavtal och ta reda på hur mycket du kan spara på bränslekostnader.",
+      "button": "Visa elbilsavtal"
+    }
+  },
+  "checkout": {
+    "cdp": {
+      "pageEventName": "Checkout Page"
+    },
+    "meta": {
+      "title": "Kassa - UniPower",
+      "description": "Slutför din registrering av elavtal."
+    },
+    "hero": {
+      "title": "Slutför din registrering",
+      "subtitle": "Du är nästan klar. Granska ditt valda avtal och fyll i dina uppgifter."
+    },
+    "selectedPlan": "Ditt valda avtal",
+    "popular": "Mest populär",
+    "planTypes": {
+      "fixed": "Fast pris",
+      "variable": "Rörligt",
+      "tou": "Tidsstyrt",
+      "ev": "Elbilsladdning"
+    },
+    "rate": "Pris",
+    "peakRate": "Höglastpris",
+    "shoulderRate": "Mellanlastpris",
+    "offPeakRate": "Låglastpris",
+    "dailySupply": "Daglig nätavgift",
+    "monthContract": "månaders bindningstid",
+    "noLockIn": "Ingen bindningstid",
+    "discount": "rabatt",
+    "greenEnergy": "grön energi",
+    "noPlanSelected": "Inget avtal valt. Gå tillbaka och välj ett avtal.",
+    "supplyAddress": "Leveransadress",
+    "stepper": {
+      "steps": {
+        "customerType": "Kundtyp",
+        "property": "Bostad",
+        "personalDetails": "Dina uppgifter",
+        "billingPreferences": "Fakturering",
+        "review": "Granska"
+      }
+    },
+    "navigation": {
+      "continue": "Fortsätt",
+      "back": "Tillbaka",
+      "completeOrder": "Slutför beställning"
+    },
+    "stepCustomerType": {
+      "title": "Är du ny eller befintlig kund?",
+      "subtitle": "Berätta så att vi kan anpassa din upplevelse.",
+      "new": {
+        "title": "Ny kund",
+        "description": "Jag har inget konto ännu"
+      },
+      "existing": {
+        "title": "Befintlig kund",
+        "description": "Jag har redan ett konto"
+      },
+      "loggedInAs": "Du är inloggad som",
+      "notYou": "Inte du?"
+    },
+    "stepProperty": {
+      "title": "Äger du eller hyr du din bostad?",
+      "subtitle": "Det hjälper oss att förstå din situation.",
+      "own": {
+        "title": "Jag äger min bostad",
+        "description": "Äganderätt eller bostadsrätt"
+      },
+      "rent": {
+        "title": "Jag hyr min bostad",
+        "description": "Hyresrätt"
+      }
+    },
+    "stepPersonalDetails": {
+      "title": "Dina personuppgifter",
+      "subtitle": "Vi använder dessa för att skapa ditt konto.",
+      "title_field": "Titel",
+      "firstName": "Förnamn",
+      "lastName": "Efternamn",
+      "dob": "Födelsedatum",
+      "email": "E-postadress",
+      "mobile": "Mobilnummer",
+      "mailingAddress": {
+        "heading": "Postadress",
+        "sameLabel": "Samma som leveransadress",
+        "differentLabel": "Annan adress",
+        "placeholder": "Sök efter din postadress..."
+      },
+      "placeholders": {
+        "firstName": "t.ex. Anna",
+        "lastName": "t.ex. Andersson",
+        "email": "t.ex. anna@example.com",
+        "mobile": "t.ex. +46 70 123 45 67"
+      },
+      "titles": ["Herr", "Fru", "Fröken", "Dr"]
+    },
+    "stepBillingPreferences": {
+      "title": "Faktureringsinställningar",
+      "subtitle": "Välj hur du vill ta emot fakturor och korrespondens.",
+      "billDelivery": {
+        "label": "Fakturaleverans",
+        "email": {
+          "title": "E-post",
+          "description": "Ta emot fakturor via e-post (papperslöst)"
+        },
+        "post": {
+          "title": "Post",
+          "description": "Ta emot fakturor per post"
+        }
+      },
+      "correspondence": {
+        "label": "Korrespondens",
+        "email": {
+          "title": "E-post",
+          "description": "Ta emot brev och meddelanden via e-post"
+        },
+        "post": {
+          "title": "Post",
+          "description": "Ta emot brev och meddelanden per post"
+        }
+      }
+    },
+    "stepReview": {
+      "title": "Granska din beställning",
+      "subtitle": "Kontrollera dina uppgifter innan du slutför din registrering.",
+      "sections": {
+        "plan": "Valt avtal",
+        "supplyAddress": "Leveransadress",
+        "customerType": "Kundtyp",
+        "property": "Bostadstyp",
+        "personalDetails": "Personuppgifter",
+        "mailingAddress": "Postadress",
+        "billing": "Faktureringsinställningar"
+      },
+      "values": {
+        "new": "Ny kund",
+        "existing": "Befintlig kund",
+        "own": "Ägare",
+        "rent": "Hyresgäst",
+        "sameAsSupply": "Samma som leveransadress",
+        "email": "E-post",
+        "post": "Post"
+      },
+      "billDelivery": "Fakturaleverans",
+      "correspondence": "Korrespondens"
+    },
+    "success": {
+      "title": "Beställningen är klar!",
+      "message": "Tack för din registrering. Vi hör av oss inom 1–2 arbetsdagar för att bekräfta dina anslutningsuppgifter.",
+      "reference": "Ditt referensnummer"
+    }
+  },
+  "loginModal": {
+    "description": "Logga in för att hantera ditt energikonto",
+    "tabs": {
+      "login": "Logga in",
+      "register": "Skapa konto"
+    },
+    "fields": {
+      "email": "E-postadress",
+      "password": "Lösenord",
+      "firstName": "Förnamn",
+      "lastName": "Efternamn",
+      "phone": "Telefonnummer",
+      "confirmPassword": "Bekräfta lösenord"
+    },
+    "placeholders": {
+      "email": "Ange din e-post",
+      "password": "Ange ditt lösenord",
+      "firstName": "Anna",
+      "lastName": "Andersson",
+      "phone": "+46 70 123 45 67",
+      "confirmPassword": "Bekräfta ditt lösenord"
+    },
+    "buttons": {
+      "signIn": "Logga in",
+      "signingIn": "Loggar in...",
+      "createAccount": "Skapa konto",
+      "creatingAccount": "Skapar konto..."
+    },
+    "links": {
+      "forgotPassword": "Glömt ditt lösenord?"
+    },
+    "errors": {
+      "userNotFound": "Inget konto hittades med den e-postadressen.",
+      "invalidPassword": "Ogiltigt lösenord. Försök igen.",
+      "passwordMismatch": "Lösenorden matchar inte.",
+      "genericError": "Något gick fel. Försök igen.",
+      "emailExists": "Ett konto med den här e-postadressen finns redan."
+    }
+  },
+  "footer": {
+    "description": "Din pålitliga energipartner. Vi erbjuder tillförlitlig, prisvärd el med ett engagemang för förnybar energi och enastående kundservice.",
+    "phone": "+46 10 123 45 67",
+    "email": "support@unipower.com",
+    "sections": {
+      "products": {
+        "title": "Våra tjänster"
+      },
+      "support": {
+        "title": "Support",
+        "contact": "Kontakta oss",
+        "help": "Hjälpcenter",
+        "security": "Driftstörningar och fel",
+        "privacy": "Integritetspolicy"
+      }
+    },
+    "copyright": "2026 UniPower. Alla rättigheter förbehållna. Exempel på elhandlarlicens."
+  }
+}

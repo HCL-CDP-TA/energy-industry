@@ -1,0 +1,894 @@
+{
+  "navigation": {
+    "login": "Iniciar sesión",
+    "logout": "Cerrar sesión",
+    "themeTooltip": "Cambiar marca",
+    "themeHeader": "Seleccionar marca",
+    "localeTooltip": "Cambiar idioma",
+    "localeHeader": "Idioma",
+    "settings": "Ajustes"
+  },
+  "products": [
+    { "label": "Planes", "href": "plans" },
+    { "label": "Solar y almacenamiento", "href": "solar-storage" },
+    { "label": "Vehículos eléctricos", "href": "electric-vehicles" }
+  ],
+  "home": {
+    "cdp": {
+      "pageEventName": "Home Page"
+    },
+    "meta": {
+      "title": "UniPower - Su energía, a su manera",
+      "description": "Cámbiese a un plan de energía más inteligente. Tarifas competitivas, opciones renovables y herramientas para gestionar su consumo eléctrico."
+    },
+    "hero": {
+      "title": "Energía que trabaja para usted",
+      "subtitle": "Compare nuestros planes de electricidad y encuentre el más adecuado para su hogar. Precios claros, sin cargos ocultos y opciones para pasarse a la energía verde.",
+      "cta": "Ver planes",
+      "secondaryCta": "Solicitar presupuesto"
+    },
+    "trustNumbers": {
+      "items": [
+        { "value": "1,2M+", "label": "Clientes atendidos" },
+        { "value": "99,9%", "label": "Fiabilidad de la red" },
+        { "value": "40%", "label": "Energía renovable" },
+        { "value": "24/7", "label": "Atención al cliente" }
+      ]
+    },
+    "products": {
+      "title": "Explore nuestros servicios",
+      "subtitle": "Desde planes de electricidad hasta soluciones solares y para vehículos eléctricos, tenemos todo lo que necesita para un futuro energético más inteligente.",
+      "cards": [
+        {
+          "title": "Planes de electricidad",
+          "description": "Elija entre planes fijos, variables y por franjas horarias, diseñados para adaptarse a cada hogar.",
+          "cta": "Comparar planes",
+          "href": "plans",
+          "features": [
+            "Opciones fijas, variables y por franjas horarias",
+            "Sin cargos ocultos ni penalizaciones por cancelación",
+            "Hasta un 100% de energía verde disponible"
+          ]
+        },
+        {
+          "title": "Solar y almacenamiento",
+          "description": "Aproveche la energía del sol con nuestras soluciones de paneles solares y baterías de almacenamiento.",
+          "cta": "Más información",
+          "href": "solar-storage",
+          "features": [
+            "Paneles, inversores y packs de baterías",
+            "Compensación por excedentes de energía vertidos a la red",
+            "Instalación profesional incluida"
+          ]
+        },
+        {
+          "title": "Vehículos eléctricos",
+          "description": "Alimente su vehículo eléctrico con planes de carga competitivos y soluciones de carga inteligente en el hogar.",
+          "cta": "Explorar planes VE",
+          "href": "electric-vehicles",
+          "features": [
+            "Tarifas bajas en horas valle",
+            "Instalación de cargador doméstico",
+            "Programación inteligente desde nuestra app"
+          ]
+        }
+      ]
+    },
+    "howItWorks": {
+      "title": "Cambiarse es muy sencillo",
+      "subtitle": "Pásese a una mejor tarifa energética en solo unos pasos. Nosotros nos encargamos de lo difícil.",
+      "steps": [
+        {
+          "step": "1",
+          "title": "Compare planes",
+          "description": "Introduzca su dirección y vea los planes disponibles en su zona con costes estimados."
+        },
+        {
+          "step": "2",
+          "title": "Elija su plan",
+          "description": "Seleccione el plan que mejor se adapte a su hogar: fijo, variable, por franjas horarias o verde."
+        },
+        {
+          "step": "3",
+          "title": "Regístrese en línea",
+          "description": "Complete sus datos en minutos. Sin papeleo ni llamadas telefónicas."
+        },
+        {
+          "step": "4",
+          "title": "Empiece a ahorrar",
+          "description": "Nosotros notificamos a su proveedor anterior. Su suministro continúa sin interrupciones mientras realizamos el cambio."
+        }
+      ]
+    },
+    "savingsTips": {
+      "title": "Formas sencillas de reducir su factura",
+      "subtitle": "Los pequeños cambios suman. Aquí tiene algunas formas fáciles de reducir sus costes energéticos.",
+      "tips": [
+        {
+          "title": "Consuma en horas valle",
+          "description": "Ponga el lavavajillas, la lavadora y la secadora en horas valle para aprovechar las tarifas más bajas."
+        },
+        {
+          "title": "Optimice la calefacción y el aire acondicionado",
+          "description": "Ajuste el termostato a 18-20°C en invierno y 24-26°C en verano. Cada grado supone hasta un 10% de ahorro en climatización."
+        },
+        {
+          "title": "Cámbiese a iluminación LED",
+          "description": "Las bombillas LED consumen hasta un 80% menos de energía que las bombillas tradicionales y duran hasta 25 veces más."
+        },
+        {
+          "title": "Controle su consumo",
+          "description": "Use nuestra app para hacer un seguimiento de su consumo diario e identificar dónde puede reducir."
+        }
+      ]
+    },
+    "manageEnergy": {
+      "title": "Tome el control de su energía",
+      "subtitle": "Nuestras herramientas facilitan la comprensión y gestión de su consumo eléctrico.",
+      "features": [
+        {
+          "title": "Seguimiento del consumo en tiempo real",
+          "description": "Vea su consumo de energía a medida que sucede, desglosado por franja horaria."
+        },
+        {
+          "title": "Previsiones de factura",
+          "description": "Sepa cuánto será su próxima factura antes de recibirla, sin sorpresas."
+        },
+        {
+          "title": "Panel solar",
+          "description": "Controle su generación solar, almacenamiento en batería y vertido a la red eléctrica en un solo lugar."
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "Lo que dicen nuestros clientes",
+      "subtitle": "Únase a los miles de hogares que ya toman decisiones energéticas más inteligentes.",
+      "items": [
+        {
+          "name": "Carmen G.",
+          "location": "Madrid, España",
+          "quote": "El cambio fue increíblemente fácil. Estoy ahorrando alrededor de un 15% en comparación con mi proveedor anterior, y me encanta que mi plan sea 100% renovable."
+        },
+        {
+          "name": "Alejandro R.",
+          "location": "Barcelona, España",
+          "quote": "La app es genial. Puedo ver exactamente cuándo consumo más energía y programar las tareas en horas valle. Mis facturas han bajado considerablemente."
+        },
+        {
+          "name": "Lucía M.",
+          "location": "Valencia, España",
+          "quote": "El pack de solar y almacenamiento era justo lo que necesitábamos. La instalación fue perfecta y ya estamos viendo ahorros en nuestra factura mensual."
+        }
+      ]
+    },
+    "whyChoose": {
+      "title": "¿Por qué elegirnos?",
+      "subtitle": "Hacemos que la energía sea sencilla, asequible y sostenible para todos.",
+      "items": [
+        {
+          "title": "Tarifas competitivas",
+          "description": "Precios transparentes sin permanencia en planes seleccionados. Nuestras tarifas se comparan regularmente con el mercado."
+        },
+        {
+          "title": "Opciones de energía verde",
+          "description": "Elija planes con hasta un 100% de fuentes de energía renovable. Invertimos en proyectos eólicos, solares e hidroeléctricos."
+        },
+        {
+          "title": "Servicio galardonado",
+          "description": "Más de un millón de clientes confían en nosotros, con índices de satisfacción líderes en el sector y atención 24/7."
+        }
+      ]
+    },
+    "cta": {
+      "title": "¿Listo para cambiarse?",
+      "subtitle": "Únase a miles de clientes satisfechos que ya han dado el paso. Solo lleva unos minutos.",
+      "button": "Encuentre su plan"
+    }
+  },
+  "plans": {
+    "cdp": {
+      "pageEventName": "Plans Page"
+    },
+    "meta": {
+      "title": "Planes de electricidad - UniPower",
+      "description": "Compare planes de electricidad y encuentre la mejor tarifa para su hogar."
+    },
+    "hero": {
+      "title": "Planes de electricidad",
+      "subtitle": "Encuentre el plan adecuado para su hogar. Compare tarifas, características y opciones de energía verde."
+    },
+    "addressLookup": {
+      "title": "Introduzca su dirección",
+      "subtitle": "Utilizaremos su dirección para personalizar su experiencia.",
+      "placeholder": "Empiece a escribir su dirección..."
+    },
+    "grid": {
+      "title": "Compare nuestros planes",
+      "subtitle": "Elija entre planes de tarifa fija, variable, por franjas horarias y de carga para vehículos eléctricos según sus necesidades."
+    },
+    "filters": {
+      "all": "Todos los planes",
+      "fixed": "Tarifa fija",
+      "variable": "Variable",
+      "tou": "Por franjas horarias",
+      "ev": "Carga VE"
+    },
+    "card": {
+      "types": {
+        "fixed": "Tarifa fija",
+        "variable": "Variable",
+        "tou": "Por franjas horarias",
+        "ev": "Carga VE"
+      },
+      "popular": "Más popular",
+      "peak": "Punta",
+      "shoulder": "Llano",
+      "offPeak": "Valle",
+      "dailySupply": "Cargo diario de suministro",
+      "monthContract": "meses de contrato",
+      "noLockIn": "Sin permanencia",
+      "discount": "descuento",
+      "greenEnergy": "energía verde",
+      "selectPlan": "Seleccionar este plan",
+      "enterAddress": "Introduzca una dirección"
+    },
+    "help": {
+      "title": "¿Necesita ayuda para elegir?",
+      "subtitle": "Nuestros especialistas en energía pueden ayudarle a encontrar el plan adecuado para su hogar y sus hábitos de consumo.",
+      "cta": "Contáctenos"
+    },
+    "planOrder": ["fixed-saver", "fixed-green", "flexi-variable", "variable-saver", "smart-tou", "green-tou", "ev-home-charger", "ev-green-drive"],
+    "data": {
+      "fixed-saver": {
+        "id": "fixed-saver",
+        "type": "fixed",
+        "name": "Ahorro Fijo",
+        "rate": 22.5,
+        "unit": "c€/kWh",
+        "dailySupplyCharge": 35.0,
+        "dailySupplyChargeUnit": "c€/día",
+        "contractTerm": 12,
+        "discountPercent": 0,
+        "greenEnergyPercent": 0,
+        "popular": false,
+        "features": ["Tarifa fija garantizada durante 12 meses", "Sin subidas de precio durante su contrato", "Tarifa plana sencilla, fácil de presupuestar"]
+      },
+      "fixed-green": {
+        "id": "fixed-green",
+        "type": "fixed",
+        "name": "Verde Fijo",
+        "rate": 27.2,
+        "unit": "c€/kWh",
+        "dailySupplyCharge": 36.0,
+        "dailySupplyChargeUnit": "c€/día",
+        "contractTerm": 12,
+        "discountPercent": 0,
+        "greenEnergyPercent": 100,
+        "popular": true,
+        "features": ["100% energía verde certificada", "Tarifa fija durante 12 meses", "Apoye proyectos de energía renovable"]
+      },
+      "flexi-variable": {
+        "id": "flexi-variable",
+        "type": "variable",
+        "name": "Flexi Variable",
+        "rate": 21.8,
+        "unit": "c€/kWh",
+        "dailySupplyCharge": 32.0,
+        "dailySupplyChargeUnit": "c€/día",
+        "contractTerm": 0,
+        "discountPercent": 5,
+        "greenEnergyPercent": 0,
+        "popular": false,
+        "features": ["Sin permanencia", "5% de descuento por pago puntual", "Las tarifas se ajustan con el mercado"]
+      },
+      "variable-saver": {
+        "id": "variable-saver",
+        "type": "variable",
+        "name": "Ahorro Variable",
+        "rate": 20.5,
+        "unit": "c€/kWh",
+        "dailySupplyCharge": 30.0,
+        "dailySupplyChargeUnit": "c€/día",
+        "contractTerm": 0,
+        "discountPercent": 12,
+        "greenEnergyPercent": 0,
+        "popular": true,
+        "features": ["Nuestra tarifa variable más baja", "12% de descuento garantizado", "Sin penalización por cancelación"]
+      },
+      "smart-tou": {
+        "id": "smart-tou",
+        "type": "tou",
+        "name": "Franjas Horarias Inteligente",
+        "peakRate": 35.5,
+        "shoulderRate": 23.0,
+        "offPeakRate": 14.0,
+        "unit": "c€/kWh",
+        "dailySupplyCharge": 33.0,
+        "dailySupplyChargeUnit": "c€/día",
+        "contractTerm": 12,
+        "discountPercent": 0,
+        "greenEnergyPercent": 0,
+        "popular": false,
+        "features": ["Ahorre trasladando el consumo a horas valle", "Requiere contador inteligente", "Ideal para hogares con instalación solar"]
+      },
+      "green-tou": {
+        "id": "green-tou",
+        "type": "tou",
+        "name": "Franjas Horarias Verde",
+        "peakRate": 37.5,
+        "shoulderRate": 25.0,
+        "offPeakRate": 15.5,
+        "unit": "c€/kWh",
+        "dailySupplyCharge": 36.0,
+        "dailySupplyChargeUnit": "c€/día",
+        "contractTerm": 12,
+        "discountPercent": 0,
+        "greenEnergyPercent": 100,
+        "popular": false,
+        "features": ["100% energía verde certificada", "Tarifas valle más bajas", "Apoye la energía renovable"]
+      },
+      "ev-home-charger": {
+        "id": "ev-home-charger",
+        "type": "ev",
+        "name": "Cargador VE Hogar",
+        "peakRate": 32.0,
+        "offPeakRate": 10.5,
+        "unit": "c€/kWh",
+        "dailySupplyCharge": 38.0,
+        "dailySupplyChargeUnit": "c€/día",
+        "contractTerm": 24,
+        "discountPercent": 0,
+        "greenEnergyPercent": 0,
+        "popular": true,
+        "features": ["Tarifa nocturna ultrarreducida para carga de VE", "Programación de carga inteligente incluida", "Contador independiente para el VE"]
+      },
+      "ev-green-drive": {
+        "id": "ev-green-drive",
+        "type": "ev",
+        "name": "VE Conducción Verde",
+        "peakRate": 34.0,
+        "offPeakRate": 11.5,
+        "unit": "c€/kWh",
+        "dailySupplyCharge": 40.0,
+        "dailySupplyChargeUnit": "c€/día",
+        "contractTerm": 24,
+        "discountPercent": 0,
+        "greenEnergyPercent": 100,
+        "popular": false,
+        "features": ["Carga de VE 100% renovable", "Tarifa valle reducida para carga nocturna", "Conducción neutra en carbono"]
+      }
+    }
+  },
+  "solarStorage": {
+    "cdp": {
+      "pageEventName": "Solar & Storage Page"
+    },
+    "meta": {
+      "title": "Solar y almacenamiento - UniPower",
+      "description": "Descubra soluciones de paneles solares y almacenamiento con baterías para su hogar."
+    },
+    "hero": {
+      "title": "Solar y almacenamiento",
+      "subtitle": "Aproveche la energía solar y almacénela para cuando más la necesite. Reduzca sus facturas y su impacto medioambiental.",
+      "cta": "Solicitar presupuesto gratuito"
+    },
+    "stats": {
+      "items": [
+        { "value": "30%", "label": "Reducción media de factura" },
+        { "value": "25 años", "label": "Garantía de paneles" },
+        { "value": "8-12 años", "label": "Periodo de amortización típico" },
+        { "value": "5.000+", "label": "Sistemas instalados" }
+      ]
+    },
+    "solutions": {
+      "title": "Nuestras soluciones solares y de almacenamiento",
+      "subtitle": "Desde paneles en tejado hasta sistemas de baterías para todo el hogar, tenemos una solución para cada vivienda.",
+      "cards": [
+        {
+          "title": "Paneles solares",
+          "description": "Paneles solares de alta eficiencia para tejado que convierten la luz solar en electricidad limpia para su hogar.",
+          "features": [
+            "Paneles de nivel 1 de fabricantes líderes",
+            "Monitorización de producción desde nuestra app",
+            "Garantía de rendimiento de 25 años"
+          ]
+        },
+        {
+          "title": "Almacenamiento con baterías",
+          "description": "Almacene el excedente de energía solar durante el día y utilícelo por la noche o en horas punta.",
+          "features": [
+            "Sistemas de baterías de ion-litio de 5kWh a 15kWh",
+            "Energía de respaldo durante cortes de suministro",
+            "Programación inteligente de carga y descarga"
+          ]
+        },
+        {
+          "title": "Packs solar + batería",
+          "description": "Obtenga la mejor relación calidad-precio con nuestros paquetes combinados de solar y almacenamiento, diseñados para maximizar su ahorro.",
+          "features": [
+            "Paneles y batería dimensionados según su consumo",
+            "Una sola instalación, una sola garantía",
+            "Elegible para subvenciones oficiales"
+          ]
+        }
+      ]
+    },
+    "howItWorks": {
+      "title": "Cómo funciona",
+      "subtitle": "Pasarse a la energía solar es más sencillo de lo que piensa. Así es como lo hacemos posible.",
+      "steps": [
+        {
+          "step": "1",
+          "title": "Consulta gratuita",
+          "description": "Evaluamos su tejado, su consumo energético y sus objetivos para diseñar el sistema adecuado para su hogar."
+        },
+        {
+          "step": "2",
+          "title": "Diseño personalizado",
+          "description": "Nuestros ingenieros diseñan un sistema optimizado según la orientación de su tejado, las sombras y su consumo eléctrico."
+        },
+        {
+          "step": "3",
+          "title": "Instalación profesional",
+          "description": "Nuestros instaladores acreditados montan su sistema en uno o dos días con las mínimas molestias."
+        },
+        {
+          "step": "4",
+          "title": "Empiece a generar",
+          "description": "Su sistema queda conectado y generando energía limpia. Controle el rendimiento desde su teléfono."
+        }
+      ]
+    },
+    "benefits": {
+      "title": "¿Por qué pasarse a la energía solar?",
+      "subtitle": "La energía solar y el almacenamiento con baterías le dan el control de sus costes energéticos y su huella de carbono.",
+      "items": [
+        {
+          "title": "Facturas de electricidad más bajas",
+          "description": "Genere su propia energía durante el día y reduzca lo que consume de la red eléctrica."
+        },
+        {
+          "title": "Obtenga compensación por excedentes",
+          "description": "Vierta el excedente de energía solar a la red eléctrica y reciba una compensación en su factura."
+        },
+        {
+          "title": "Reduzca su huella de carbono",
+          "description": "Un sistema solar residencial típico compensa varias toneladas de emisiones de CO2 cada año."
+        },
+        {
+          "title": "Independencia energética",
+          "description": "Con almacenamiento en batería, depende menos de la red eléctrica y está protegido frente a subidas de precios."
+        },
+        {
+          "title": "Aumente el valor de su propiedad",
+          "description": "Las viviendas con sistemas solares se venden consistentemente por más que propiedades comparables sin ellos."
+        },
+        {
+          "title": "Incentivos públicos",
+          "description": "Aproveche subvenciones, deducciones fiscales y certificados de energía renovable para reducir los costes iniciales."
+        }
+      ]
+    },
+    "feedIn": {
+      "title": "Compensación por excedentes",
+      "subtitle": "Cuando sus paneles solares generan más electricidad de la que consume su hogar, el excedente se vierte a la red eléctrica. Usted recibe una compensación por cada kilovatio-hora exportado.",
+      "rate": "Tarifa de compensación desde",
+      "rateValue": "5-12 céntimos/kWh",
+      "rateNote": "Las tarifas varían según la ubicación y el plan",
+      "features": [
+        "Vertido automático cuando su generación supera el consumo",
+        "Compensaciones aplicadas directamente a su factura de electricidad",
+        "Controle sus excedentes en tiempo real desde nuestra app",
+        "Compatible con todos nuestros planes de electricidad"
+      ]
+    },
+    "testimonials": {
+      "title": "Lo que dicen nuestros clientes solares",
+      "subtitle": "Descubra las experiencias de hogares que ya ahorran con solar y almacenamiento.",
+      "items": [
+        {
+          "name": "Fernando L.",
+          "location": "Sevilla, España",
+          "quote": "Nuestras facturas de electricidad han bajado alrededor de un 40% desde que instalamos los paneles. Con la batería, apenas usamos energía de la red en verano."
+        },
+        {
+          "name": "Isabel S.",
+          "location": "Málaga, España",
+          "quote": "El equipo de instalación fue fantástico. Todo se completó en un día y la app de monitorización es realmente intuitiva."
+        },
+        {
+          "name": "Pablo T.",
+          "location": "Bilbao, España",
+          "quote": "Con la batería, tenemos energía incluso durante los cortes de suministro. Ha cambiado completamente nuestra forma de pensar sobre la energía."
+        }
+      ]
+    },
+    "cta": {
+      "title": "¿Listo para pasarse a la energía solar?",
+      "subtitle": "Obtenga un presupuesto gratuito y sin compromiso, y descubra cuánto podría ahorrar con solar y almacenamiento.",
+      "button": "Solicitar presupuesto"
+    }
+  },
+  "electricVehicles": {
+    "cdp": {
+      "pageEventName": "Electric Vehicles Page"
+    },
+    "meta": {
+      "title": "Vehículos eléctricos - UniPower",
+      "description": "Planes de carga y soluciones para propietarios de vehículos eléctricos."
+    },
+    "hero": {
+      "title": "Vehículos eléctricos",
+      "subtitle": "Alimente su vehículo eléctrico con nuestros planes de carga dedicados y soluciones de carga inteligente en el hogar.",
+      "cta": "Ver planes VE"
+    },
+    "stats": {
+      "items": [
+        { "value": "70%", "label": "Más barato que la gasolina por km" },
+        { "value": "3-8h", "label": "Tiempo de carga en el hogar" },
+        { "value": "50%", "label": "Ahorro en horas valle" },
+        { "value": "0g", "label": "Emisiones del tubo de escape" }
+      ]
+    },
+    "plans": {
+      "title": "Planes de carga para VE",
+      "subtitle": "Planes dedicados diseñados para propietarios de vehículos eléctricos, con tarifas valle reducidas para mantener bajos los costes de carga.",
+      "cards": [
+        {
+          "title": "VE Ahorro",
+          "description": "Nuestro plan de VE más económico con tarifas nocturnas ultrarreducidas para carga programada.",
+          "features": [
+            "La tarifa valle más baja disponible",
+            "Ideal para carga nocturna en el hogar",
+            "Sin permanencia"
+          ],
+          "highlight": "Más popular"
+        },
+        {
+          "title": "VE Flex",
+          "description": "Un plan flexible para propietarios de VE que también desean tarifas competitivas para el consumo del hogar.",
+          "features": [
+            "Tarifas de carga VE reducidas",
+            "Tarifas competitivas para el hogar",
+            "Programación inteligente desde nuestra app"
+          ],
+          "highlight": ""
+        },
+        {
+          "title": "VE + Solar",
+          "description": "Combine la generación solar con la carga de su VE para un ahorro máximo y un impacto medioambiental mínimo.",
+          "features": [
+            "Cargue su VE con sus paneles solares",
+            "Compensación por excedentes de generación",
+            "Compatible con almacenamiento en batería"
+          ],
+          "highlight": "Mejor valor"
+        }
+      ]
+    },
+    "charging": {
+      "title": "Soluciones de carga en el hogar",
+      "subtitle": "Cargue su VE cómodamente en casa con nuestra gama de cargadores inteligentes.",
+      "features": [
+        {
+          "title": "Cargadores de pared inteligentes",
+          "description": "Cargadores de nivel 2 que proporcionan una carga completa durante la noche. Con Wi-Fi para monitorización y programación remota."
+        },
+        {
+          "title": "Instalación profesional",
+          "description": "Nuestros electricistas autorizados se encargan de toda la instalación, incluidas las posibles actualizaciones del cuadro eléctrico."
+        },
+        {
+          "title": "Integración solar",
+          "description": "Conecte su cargador a su sistema solar para cargar su VE con energía limpia y gratuita durante el día."
+        }
+      ]
+    },
+    "howItWorks": {
+      "title": "Empezar es muy fácil",
+      "subtitle": "Desde elegir un plan hasta enchufar su vehículo, hacemos que el cambio a la conducción eléctrica sea sencillo.",
+      "steps": [
+        {
+          "step": "1",
+          "title": "Elija su plan",
+          "description": "Seleccione un plan de carga para VE que se adapte a sus hábitos de conducción y las necesidades energéticas de su hogar."
+        },
+        {
+          "step": "2",
+          "title": "Obtenga un cargador doméstico",
+          "description": "Solicite un cargador de pared inteligente y organizaremos la instalación profesional en su hogar."
+        },
+        {
+          "step": "3",
+          "title": "Programe su carga",
+          "description": "Use nuestra app para programar la carga en horas valle y obtener el menor coste posible."
+        },
+        {
+          "step": "4",
+          "title": "Conduzca y ahorre",
+          "description": "Disfrute del ahorro. Los conductores de VE gastan habitualmente un 70% menos en combustible en comparación con vehículos de gasolina."
+        }
+      ]
+    },
+    "benefits": {
+      "title": "¿Por qué conducir un eléctrico?",
+      "subtitle": "Los vehículos eléctricos son más limpios, más baratos de mantener y más divertidos de conducir.",
+      "items": [
+        {
+          "title": "Menores costes de uso",
+          "description": "La electricidad es significativamente más barata que la gasolina o el diésel, especialmente cargando en horas valle."
+        },
+        {
+          "title": "Cero emisiones directas",
+          "description": "Los VE no producen emisiones por el tubo de escape, mejorando la calidad del aire y reduciendo su huella de carbono."
+        },
+        {
+          "title": "Menos mantenimiento",
+          "description": "Menos piezas móviles significa que no hay cambios de aceite, menos sustituciones de frenos y menores costes de taller."
+        },
+        {
+          "title": "Cargue mientras duerme",
+          "description": "Enchúfelo en casa por la noche y amanezca con la batería completa cada mañana."
+        },
+        {
+          "title": "Incentivos públicos",
+          "description": "Muchas regiones ofrecen deducciones fiscales, subvenciones y descuentos en el impuesto de matriculación para la compra de vehículos eléctricos."
+        },
+        {
+          "title": "Conducción con energía solar",
+          "description": "Combine su VE con paneles solares en el tejado para cargar con energía limpia y gratuita de su propia vivienda."
+        }
+      ]
+    },
+    "comparison": {
+      "title": "VE frente a gasolina: costes de uso",
+      "subtitle": "Vea cuánto podría ahorrar cambiándose a un vehículo eléctrico.",
+      "ev": {
+        "label": "Vehículo eléctrico",
+        "cost": "~3-5 céntimos por km",
+        "annual": "~€500/año",
+        "annualLabel": "Coste anual estimado de combustible"
+      },
+      "petrol": {
+        "label": "Vehículo de gasolina",
+        "cost": "~12-18 céntimos por km",
+        "annual": "~€2.000/año",
+        "annualLabel": "Coste anual estimado de combustible"
+      },
+      "note": "Basado en 15.000 km/año. Los costes reales dependen del vehículo, las tarifas eléctricas y los hábitos de conducción."
+    },
+    "testimonials": {
+      "title": "Lo que dicen los conductores de VE",
+      "subtitle": "Descubra las experiencias de clientes que ya se han pasado a la conducción eléctrica.",
+      "items": [
+        {
+          "name": "Miguel H.",
+          "location": "Madrid, España",
+          "quote": "Cargar por la noche con el plan VE me cuesta una fracción de lo que gastaba en gasolina. La instalación del cargador doméstico fue rápida y sencilla."
+        },
+        {
+          "name": "Ana P.",
+          "location": "Barcelona, España",
+          "quote": "Combinamos nuestro VE con nuestros paneles solares y ahora la mayor parte de nuestra conducción es prácticamente gratis. La app hace que la programación sea muy sencilla."
+        },
+        {
+          "name": "Javier D.",
+          "location": "Valencia, España",
+          "quote": "Las tarifas en horas valle son excelentes. Programo el cargador para que empiece a medianoche y amanezco con la batería completa cada día."
+        }
+      ]
+    },
+    "cta": {
+      "title": "¿Listo para pasarse al eléctrico?",
+      "subtitle": "Explore nuestros planes VE y descubra cuánto podría ahorrar en costes de combustible.",
+      "button": "Ver planes VE"
+    }
+  },
+  "checkout": {
+    "cdp": {
+      "pageEventName": "Checkout Page"
+    },
+    "meta": {
+      "title": "Finalizar compra - UniPower",
+      "description": "Complete su alta en el plan de energía."
+    },
+    "hero": {
+      "title": "Complete su alta",
+      "subtitle": "Ya casi está. Revise el plan seleccionado y complete sus datos."
+    },
+    "selectedPlan": "Su plan seleccionado",
+    "popular": "Más popular",
+    "planTypes": {
+      "fixed": "Tarifa fija",
+      "variable": "Variable",
+      "tou": "Por franjas horarias",
+      "ev": "Carga VE"
+    },
+    "rate": "Tarifa",
+    "peakRate": "Tarifa punta",
+    "shoulderRate": "Tarifa llano",
+    "offPeakRate": "Tarifa valle",
+    "dailySupply": "Suministro diario",
+    "monthContract": "meses de contrato",
+    "noLockIn": "Sin permanencia",
+    "discount": "descuento",
+    "greenEnergy": "energía verde",
+    "noPlanSelected": "No se ha seleccionado ningún plan. Por favor, vuelva atrás y elija un plan.",
+    "supplyAddress": "Dirección de suministro",
+    "stepper": {
+      "steps": {
+        "customerType": "Tipo de cliente",
+        "property": "Propiedad",
+        "personalDetails": "Sus datos",
+        "billingPreferences": "Facturación",
+        "review": "Revisión"
+      }
+    },
+    "navigation": {
+      "continue": "Continuar",
+      "back": "Volver",
+      "completeOrder": "Completar pedido"
+    },
+    "stepCustomerType": {
+      "title": "¿Es usted un cliente nuevo o existente?",
+      "subtitle": "Indíquenoslo para personalizar su experiencia.",
+      "new": {
+        "title": "Cliente nuevo",
+        "description": "Todavía no tengo cuenta"
+      },
+      "existing": {
+        "title": "Cliente existente",
+        "description": "Ya tengo una cuenta"
+      },
+      "loggedInAs": "Ha iniciado sesión como",
+      "notYou": "¿No es usted?"
+    },
+    "stepProperty": {
+      "title": "¿Es usted propietario o inquilino?",
+      "subtitle": "Esto nos ayuda a entender su situación.",
+      "own": {
+        "title": "Soy propietario",
+        "description": "Propiedad en pleno dominio o con hipoteca"
+      },
+      "rent": {
+        "title": "Soy inquilino",
+        "description": "Inquilino o arrendatario"
+      }
+    },
+    "stepPersonalDetails": {
+      "title": "Sus datos personales",
+      "subtitle": "Los utilizaremos para crear su cuenta.",
+      "title_field": "Tratamiento",
+      "firstName": "Nombre",
+      "lastName": "Apellidos",
+      "dob": "Fecha de nacimiento",
+      "email": "Correo electrónico",
+      "mobile": "Teléfono móvil",
+      "mailingAddress": {
+        "heading": "Dirección postal",
+        "sameLabel": "Igual que la dirección de suministro",
+        "differentLabel": "Dirección diferente",
+        "placeholder": "Busque su dirección postal..."
+      },
+      "placeholders": {
+        "firstName": "p. ej. María",
+        "lastName": "p. ej. García",
+        "email": "p. ej. maria@ejemplo.com",
+        "mobile": "p. ej. +34 600 000 000"
+      },
+      "titles": ["Sr.", "Sra.", "Srta.", "Dr.", "Mx."]
+    },
+    "stepBillingPreferences": {
+      "title": "Preferencias de facturación",
+      "subtitle": "Elija cómo desea recibir sus facturas y correspondencia.",
+      "billDelivery": {
+        "label": "Envío de facturas",
+        "email": {
+          "title": "Correo electrónico",
+          "description": "Recibir facturas por correo electrónico (sin papel)"
+        },
+        "post": {
+          "title": "Correo postal",
+          "description": "Recibir facturas por correo postal"
+        }
+      },
+      "correspondence": {
+        "label": "Correspondencia",
+        "email": {
+          "title": "Correo electrónico",
+          "description": "Recibir cartas y avisos por correo electrónico"
+        },
+        "post": {
+          "title": "Correo postal",
+          "description": "Recibir cartas y avisos por correo postal"
+        }
+      }
+    },
+    "stepReview": {
+      "title": "Revise su pedido",
+      "subtitle": "Por favor, compruebe sus datos antes de completar su alta.",
+      "sections": {
+        "plan": "Plan seleccionado",
+        "supplyAddress": "Dirección de suministro",
+        "customerType": "Tipo de cliente",
+        "property": "Tipo de propiedad",
+        "personalDetails": "Datos personales",
+        "mailingAddress": "Dirección postal",
+        "billing": "Preferencias de facturación"
+      },
+      "values": {
+        "new": "Cliente nuevo",
+        "existing": "Cliente existente",
+        "own": "Propietario",
+        "rent": "Inquilino",
+        "sameAsSupply": "Igual que la dirección de suministro",
+        "email": "Correo electrónico",
+        "post": "Correo postal"
+      },
+      "billDelivery": "Envío de facturas",
+      "correspondence": "Correspondencia"
+    },
+    "success": {
+      "title": "¡Pedido completado!",
+      "message": "Gracias por darse de alta. Nos pondremos en contacto en un plazo de 1 a 2 días laborables para confirmar los datos de su conexión.",
+      "reference": "Su número de referencia"
+    }
+  },
+  "loginModal": {
+    "description": "Inicie sesión para gestionar su cuenta de energía",
+    "tabs": {
+      "login": "Iniciar sesión",
+      "register": "Crear cuenta"
+    },
+    "fields": {
+      "email": "Correo electrónico",
+      "password": "Contraseña",
+      "firstName": "Nombre",
+      "lastName": "Apellidos",
+      "phone": "Número de teléfono",
+      "confirmPassword": "Confirmar contraseña"
+    },
+    "placeholders": {
+      "email": "Introduzca su correo electrónico",
+      "password": "Introduzca su contraseña",
+      "firstName": "María",
+      "lastName": "García",
+      "phone": "+34 612 345 678",
+      "confirmPassword": "Confirme su contraseña"
+    },
+    "buttons": {
+      "signIn": "Iniciar sesión",
+      "signingIn": "Iniciando sesión...",
+      "createAccount": "Crear cuenta",
+      "creatingAccount": "Creando cuenta..."
+    },
+    "links": {
+      "forgotPassword": "¿Ha olvidado su contraseña?"
+    },
+    "errors": {
+      "userNotFound": "No se ha encontrado ninguna cuenta con esa dirección de correo electrónico.",
+      "invalidPassword": "Contraseña incorrecta. Por favor, inténtelo de nuevo.",
+      "passwordMismatch": "Las contraseñas no coinciden.",
+      "genericError": "Ha ocurrido un error. Por favor, inténtelo de nuevo.",
+      "emailExists": "Ya existe una cuenta con este correo electrónico."
+    }
+  },
+  "footer": {
+    "description": "Su socio energético de confianza. Proporcionamos electricidad fiable y asequible con un compromiso con la energía renovable y un servicio de atención al cliente excepcional.",
+    "phone": "900 123 456",
+    "email": "soporte@unipower.com",
+    "sections": {
+      "products": {
+        "title": "Nuestros servicios"
+      },
+      "support": {
+        "title": "Soporte",
+        "contact": "Contacto",
+        "help": "Centro de ayuda",
+        "security": "Averías e incidencias",
+        "privacy": "Política de privacidad"
+      }
+    },
+    "copyright": "2026 UniPower. Todos los derechos reservados. Ejemplo de licencia de comercializadora de energía."
+  }
+}

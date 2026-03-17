@@ -2,7 +2,7 @@ export interface Plan {
   id: string
   type: "fixed" | "variable" | "tou" | "ev"
   name: string
-  rate: number | null
+  rate?: number | null
   peakRate?: number
   shoulderRate?: number
   offPeakRate?: number

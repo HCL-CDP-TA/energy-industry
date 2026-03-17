@@ -1,0 +1,276 @@
+{
+  "home": {
+    "savingsTips": {
+      "tips": [
+        {
+          "title": "Shift to off-peak",
+          "description": "Run your dishwasher, washing machine, and dryer during off-peak hours. Most networks charge less between 10pm and 7am."
+        },
+        {
+          "title": "Optimise your air con",
+          "description": "Set your air conditioner to 24-26°C in summer. Each degree cooler adds about 10% to your cooling costs."
+        },
+        {
+          "title": "Switch to LED lighting",
+          "description": "LED bulbs use up to 80% less energy than halogen downlights and last up to 25 times longer."
+        },
+        {
+          "title": "Monitor your usage",
+          "description": "Use our app to track your daily consumption and identify where you can cut back."
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "What our customers say",
+      "subtitle": "Join the thousands of households making smarter energy choices.",
+      "items": [
+        {
+          "name": "Sarah M.",
+          "location": "Sydney, NSW",
+          "quote": "Switching was incredibly easy. I'm saving around 15% compared to my old provider, and I love that my plan is 100% renewable."
+        },
+        {
+          "name": "James R.",
+          "location": "Melbourne, VIC",
+          "quote": "The app is brilliant. I can see exactly when I'm using the most energy and shift things to off-peak. My bills have dropped noticeably."
+        },
+        {
+          "name": "Lisa T.",
+          "location": "Brisbane, QLD",
+          "quote": "The solar and battery bundle was exactly what we needed. Installation was smooth and we're already seeing savings on our quarterly bill."
+        }
+      ]
+    }
+  },
+  "solarStorage": {
+    "feedIn": {
+      "rateValue": "5-12c/kWh",
+      "rateNote": "Rates vary by state and distributor"
+    },
+    "testimonials": {
+      "items": [
+        {
+          "name": "David L.",
+          "location": "Perth, WA",
+          "quote": "Our electricity bills have dropped by about 40% since the panels went in. The battery means we barely use grid power in summer."
+        },
+        {
+          "name": "Maria S.",
+          "location": "Adelaide, SA",
+          "quote": "The installation team was fantastic. Everything was done in a day and the monitoring app is really intuitive."
+        },
+        {
+          "name": "Raj P.",
+          "location": "Hobart, TAS",
+          "quote": "Even in Tassie the panels generate plenty. With the battery, we're covered through the evening and barely touch the grid."
+        }
+      ]
+    }
+  },
+  "electricVehicles": {
+    "comparison": {
+      "ev": {
+        "cost": "~3-5c per km",
+        "annual": "~$800/year"
+      },
+      "petrol": {
+        "cost": "~14-20c per km",
+        "annual": "~$3,000/year"
+      },
+      "note": "Based on 15,000 km/year. Actual costs depend on vehicle, electricity rates, and driving habits."
+    },
+    "testimonials": {
+      "items": [
+        {
+          "name": "Tom H.",
+          "location": "Gold Coast, QLD",
+          "quote": "Charging overnight on the EV plan costs me a fraction of what I used to spend on petrol. The home charger installation was quick and easy."
+        },
+        {
+          "name": "Anna W.",
+          "location": "Canberra, ACT",
+          "quote": "We paired our EV with our solar panels and now most of our driving is essentially free. The app makes scheduling really simple."
+        },
+        {
+          "name": "Chen Y.",
+          "location": "Sydney, NSW",
+          "quote": "The off-peak rates are excellent. I set the charger to start at midnight and wake up with a full battery every day."
+        }
+      ]
+    }
+  },
+  "checkout": {
+    "stepPersonalDetails": {
+      "placeholders": {
+        "firstName": "e.g. Jane",
+        "lastName": "e.g. Smith",
+        "email": "e.g. jane@example.com.au",
+        "mobile": "e.g. +61 400 000 000"
+      }
+    }
+  },
+  "loginModal": {
+    "placeholders": {
+      "phone": "+61 4XX XXX XXX"
+    }
+  },
+  "footer": {
+    "phone": "1300 000 000",
+    "copyright": "2026 UniPower. All rights reserved. Energy retailer licence example."
+  },
+  "plans": {
+    "planOrder": ["fixed-saver", "fixed-green", "flexi-variable", "variable-saver", "smart-tou", "green-tou", "ev-home-charger", "ev-green-drive"],
+    "data": {
+      "fixed-saver": {
+        "id": "fixed-saver",
+        "type": "fixed",
+        "name": "Fixed Saver",
+        "rate": 24.5,
+        "unit": "c/kWh",
+        "dailySupplyCharge": 99.0,
+        "dailySupplyChargeUnit": "c/day",
+        "contractTerm": 12,
+        "discountPercent": 0,
+        "greenEnergyPercent": 0,
+        "popular": false,
+        "features": [
+          "Locked-in rate for 12 months",
+          "No price rises during your contract",
+          "Simple flat rate, easy to budget"
+        ]
+      },
+      "fixed-green": {
+        "id": "fixed-green",
+        "type": "fixed",
+        "name": "Fixed Green",
+        "rate": 27.8,
+        "unit": "c/kWh",
+        "dailySupplyCharge": 99.0,
+        "dailySupplyChargeUnit": "c/day",
+        "contractTerm": 12,
+        "discountPercent": 0,
+        "greenEnergyPercent": 100,
+        "popular": true,
+        "features": [
+          "100% GreenPower accredited",
+          "Fixed rate for 12 months",
+          "Support renewable energy projects"
+        ]
+      },
+      "flexi-variable": {
+        "id": "flexi-variable",
+        "type": "variable",
+        "name": "Flexi Variable",
+        "rate": 23.1,
+        "unit": "c/kWh",
+        "dailySupplyCharge": 95.0,
+        "dailySupplyChargeUnit": "c/day",
+        "contractTerm": 0,
+        "discountPercent": 5,
+        "greenEnergyPercent": 0,
+        "popular": false,
+        "features": [
+          "No lock-in contract",
+          "5% pay on time discount",
+          "Rates move with the market"
+        ]
+      },
+      "variable-saver": {
+        "id": "variable-saver",
+        "type": "variable",
+        "name": "Variable Saver",
+        "rate": 22.0,
+        "unit": "c/kWh",
+        "dailySupplyCharge": 89.0,
+        "dailySupplyChargeUnit": "c/day",
+        "contractTerm": 0,
+        "discountPercent": 12,
+        "greenEnergyPercent": 0,
+        "popular": true,
+        "features": [
+          "Our lowest variable rate",
+          "12% guaranteed discount",
+          "No exit fees, cancel anytime"
+        ]
+      },
+      "smart-tou": {
+        "id": "smart-tou",
+        "type": "tou",
+        "name": "Smart Time of Use",
+        "peakRate": 38.5,
+        "shoulderRate": 24.0,
+        "offPeakRate": 14.5,
+        "unit": "c/kWh",
+        "dailySupplyCharge": 95.0,
+        "dailySupplyChargeUnit": "c/day",
+        "contractTerm": 12,
+        "discountPercent": 0,
+        "greenEnergyPercent": 0,
+        "popular": false,
+        "features": [
+          "Save by shifting usage to off-peak",
+          "Smart meter required",
+          "Ideal for solar households"
+        ]
+      },
+      "green-tou": {
+        "id": "green-tou",
+        "type": "tou",
+        "name": "Green Time of Use",
+        "peakRate": 41.0,
+        "shoulderRate": 26.5,
+        "offPeakRate": 16.0,
+        "unit": "c/kWh",
+        "dailySupplyCharge": 99.0,
+        "dailySupplyChargeUnit": "c/day",
+        "contractTerm": 12,
+        "discountPercent": 0,
+        "greenEnergyPercent": 100,
+        "popular": false,
+        "features": [
+          "100% GreenPower accredited",
+          "Lower off-peak rates",
+          "Support renewable energy"
+        ]
+      },
+      "ev-home-charger": {
+        "id": "ev-home-charger",
+        "type": "ev",
+        "name": "EV Home Charger",
+        "peakRate": 35.0,
+        "offPeakRate": 8.5,
+        "unit": "c/kWh",
+        "dailySupplyCharge": 99.0,
+        "dailySupplyChargeUnit": "c/day",
+        "contractTerm": 24,
+        "discountPercent": 0,
+        "greenEnergyPercent": 0,
+        "popular": true,
+        "features": [
+          "Ultra-low overnight EV charging rate",
+          "Smart charger scheduling included",
+          "Separate metering for EV"
+        ]
+      },
+      "ev-green-drive": {
+        "id": "ev-green-drive",
+        "type": "ev",
+        "name": "EV Green Drive",
+        "peakRate": 38.0,
+        "offPeakRate": 10.0,
+        "unit": "c/kWh",
+        "dailySupplyCharge": 105.0,
+        "dailySupplyChargeUnit": "c/day",
+        "contractTerm": 24,
+        "discountPercent": 0,
+        "greenEnergyPercent": 100,
+        "popular": false,
+        "features": [
+          "100% renewable EV charging",
+          "Low off-peak rate for overnight charging",
+          "Carbon-neutral driving"
+        ]
+      }
+    }
+  }
+}

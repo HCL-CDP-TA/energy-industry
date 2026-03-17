@@ -1,0 +1,469 @@
+{
+  "home": {
+    "testimonials": {
+      "items": [
+        {
+          "name": "Marie-Eve T.",
+          "location": "Montr\u00e9al, Qu\u00e9bec",
+          "quote": "Le changement a \u00e9t\u00e9 super simple. J'\u00e9conomise environ 15 % compar\u00e9 \u00e0 mon ancien fournisseur d'hydro, pis j'adore que mon offre soit 100 % renouvelable."
+        },
+        {
+          "name": "Jean-Fran\u00e7ois R.",
+          "location": "Qu\u00e9bec, Qu\u00e9bec",
+          "quote": "L'appli est vraiment g\u00e9niale. Je vois exactement quand je consomme le plus d'hydro et je d\u00e9cale mes usages en heures creuses. Mes factures ont pas mal baiss\u00e9."
+        },
+        {
+          "name": "Isabelle G.",
+          "location": "Gatineau, Qu\u00e9bec",
+          "quote": "Le pack solaire et stockage \u00e9tait exactement ce qu'il nous fallait. L'installation s'est bien pass\u00e9e et on voit d\u00e9j\u00e0 des \u00e9conomies sur notre facture d'hydro."
+        }
+      ]
+    },
+    "products": {
+      "cards": [
+        {
+          "title": "Offres d'\u00e9lectricit\u00e9",
+          "description": "Choisissez parmi nos offres \u00e0 tarif fixe, variable et heures creuses, con\u00e7ues pour tous les foyers.",
+          "cta": "Comparer les offres",
+          "href": "plans",
+          "features": [
+            "Options fixe, variable et heures creuses",
+            "Aucuns frais cach\u00e9s ni p\u00e9nalit\u00e9s de r\u00e9siliation",
+            "Jusqu'\u00e0 100 % d'hydro\u00e9lectricit\u00e9 verte disponible"
+          ]
+        },
+        {
+          "title": "Solaire & Stockage",
+          "description": "Exploitez la puissance du soleil avec nos solutions de panneaux solaires et de stockage par batterie.",
+          "cta": "En savoir plus",
+          "href": "solar-storage",
+          "features": [
+            "Panneaux, onduleurs et batteries en pack",
+            "Mesurage net pour la production exc\u00e9dentaire",
+            "Installation professionnelle incluse"
+          ]
+        },
+        {
+          "title": "V\u00e9hicules \u00c9lectriques",
+          "description": "Alimentez votre VE avec nos offres de recharge comp\u00e9titives et nos solutions de recharge \u00e0 domicile.",
+          "cta": "D\u00e9couvrir les offres VE",
+          "href": "electric-vehicles",
+          "features": [
+            "Tarifs de recharge heures creuses avantageux",
+            "Installation de borne \u00e0 domicile",
+            "Programmation intelligente via notre appli"
+          ]
+        }
+      ]
+    },
+    "whyChoose": {
+      "items": [
+        {
+          "title": "Tarifs comp\u00e9titifs",
+          "description": "Des prix transparents sans engagement sur certaines offres. Nos tarifs sont r\u00e9guli\u00e8rement compar\u00e9s au march\u00e9."
+        },
+        {
+          "title": "Options d'\u00e9nergie verte",
+          "description": "Choisissez des offres aliment\u00e9es jusqu'\u00e0 100 % par des sources d'\u00e9nergie renouvelable. Nous investissons dans l'\u00e9olien, le solaire et l'hydro\u00e9lectricit\u00e9."
+        },
+        {
+          "title": "Service prim\u00e9",
+          "description": "Plus d'un million de clients nous font confiance, avec des taux de satisfaction parmi les meilleurs du secteur et un service 24 h/24."
+        }
+      ]
+    }
+  },
+  "solarStorage": {
+    "solutions": {
+      "cards": [
+        {
+          "title": "Panneaux solaires",
+          "description": "Des panneaux solaires de toit \u00e0 haut rendement qui convertissent la lumi\u00e8re du soleil en \u00e9lectricit\u00e9 propre pour votre domicile.",
+          "features": [
+            "Panneaux Tier 1 des principaux fabricants",
+            "Suivi de la production via notre appli",
+            "Garantie de performance de 25 ans"
+          ]
+        },
+        {
+          "title": "Stockage par batterie",
+          "description": "Stockez l'\u00e9nergie solaire exc\u00e9dentaire le jour et utilisez-la le soir ou pendant les p\u00e9riodes de tarif heures pleines.",
+          "features": [
+            "Batteries lithium-ion de 5 kWh \u00e0 15 kWh",
+            "Alimentation de secours en cas de panne",
+            "Programmation intelligente de charge et d\u00e9charge"
+          ]
+        },
+        {
+          "title": "Packs Solaire + Batterie",
+          "description": "Profitez du meilleur rapport qualit\u00e9-prix avec nos packs combin\u00e9s solaire et stockage, con\u00e7us pour maximiser vos \u00e9conomies.",
+          "features": [
+            "Panneaux et batterie dimensionn\u00e9s selon votre consommation",
+            "Une seule installation, une seule garantie",
+            "\u00c9ligible aux incitatifs provinciaux"
+          ]
+        }
+      ]
+    },
+    "benefits": {
+      "items": [
+        {
+          "title": "Factures d'hydro r\u00e9duites",
+          "description": "Produisez votre propre \u00e9lectricit\u00e9 la journ\u00e9e et r\u00e9duisez ce que vous soutirez du r\u00e9seau."
+        },
+        {
+          "title": "Cr\u00e9dits de mesurage net",
+          "description": "Injectez l'exc\u00e9dent d'\u00e9nergie solaire sur le r\u00e9seau et recevez un cr\u00e9dit sur votre facture d'hydro."
+        },
+        {
+          "title": "R\u00e9duisez votre empreinte carbone",
+          "description": "Une installation solaire r\u00e9sidentielle typique compense plusieurs tonnes d'\u00e9missions de CO2 chaque ann\u00e9e."
+        },
+        {
+          "title": "Ind\u00e9pendance \u00e9nerg\u00e9tique",
+          "description": "Avec le stockage par batterie, vous d\u00e9pendez moins du r\u00e9seau et \u00eates prot\u00e9g\u00e9 contre les hausses de tarifs."
+        },
+        {
+          "title": "Valorisez votre propri\u00e9t\u00e9",
+          "description": "Les maisons \u00e9quip\u00e9es de panneaux solaires se vendent syst\u00e9matiquement plus cher que les propri\u00e9t\u00e9s comparables sans installation."
+        },
+        {
+          "title": "Incitatifs provinciaux",
+          "description": "Profitez des subventions provinciales, cr\u00e9dits d'imp\u00f4t et programmes d'efficacit\u00e9 \u00e9nerg\u00e9tique pour r\u00e9duire les co\u00fbts initiaux."
+        }
+      ]
+    },
+    "feedIn": {
+      "title": "Mesurage net",
+      "subtitle": "Quand vos panneaux solaires produisent plus d'\u00e9lectricit\u00e9 que votre domicile n'en consomme, l'exc\u00e9dent est inject\u00e9 sur le r\u00e9seau. Vous recevez un cr\u00e9dit pour chaque kilowattheure inject\u00e9.",
+      "rate": "Cr\u00e9dit de mesurage net \u00e0 partir de",
+      "rateValue": "5-12 \u00a2/kWh",
+      "rateNote": "Les tarifs varient selon la province et l'offre",
+      "features": [
+        "Injection automatique quand votre production d\u00e9passe votre consommation",
+        "Cr\u00e9dits appliqu\u00e9s directement sur votre facture d'hydro",
+        "Suivez vos injections en temps r\u00e9el via notre appli",
+        "Compatible avec toutes nos offres d'\u00e9lectricit\u00e9"
+      ]
+    },
+    "testimonials": {
+      "items": [
+        {
+          "name": "Martin L.",
+          "location": "Sherbrooke, Qu\u00e9bec",
+          "quote": "Nos factures d'hydro ont baiss\u00e9 d'environ 40 % depuis l'installation des panneaux. Avec la batterie, on utilise \u00e0 peine le r\u00e9seau en \u00e9t\u00e9."
+        },
+        {
+          "name": "V\u00e9ronique P.",
+          "location": "Trois-Rivi\u00e8res, Qu\u00e9bec",
+          "quote": "L'\u00e9quipe d'installation a \u00e9t\u00e9 formidable. Tout a \u00e9t\u00e9 fait en une journ\u00e9e et l'appli de suivi est vraiment intuitive."
+        },
+        {
+          "name": "Youssef B.",
+          "location": "Laval, Qu\u00e9bec",
+          "quote": "Avec la batterie, on a de l'hydro m\u00eame pendant les pannes. \u00c7a a compl\u00e8tement chang\u00e9 notre rapport \u00e0 l'\u00e9nergie."
+        }
+      ]
+    }
+  },
+  "electricVehicles": {
+    "stats": {
+      "items": [
+        { "value": "70 %", "label": "Moins cher que l'essence au km" },
+        { "value": "3-8 h", "label": "Temps de recharge \u00e0 domicile" },
+        { "value": "50 %", "label": "\u00c9conomies en heures creuses" },
+        { "value": "0 g", "label": "\u00c9missions au tuyau d'\u00e9chappement" }
+      ]
+    },
+    "benefits": {
+      "items": [
+        {
+          "title": "Co\u00fbts d'utilisation r\u00e9duits",
+          "description": "L'hydro co\u00fbte nettement moins cher que l'essence ou le diesel, surtout en rechargeant en heures creuses."
+        },
+        {
+          "title": "Z\u00e9ro \u00e9mission au tuyau d'\u00e9chappement",
+          "description": "Les VE ne produisent aucune \u00e9mission d'\u00e9chappement, am\u00e9liorant la qualit\u00e9 de l'air et r\u00e9duisant votre empreinte carbone."
+        },
+        {
+          "title": "Moins d'entretien",
+          "description": "Moins de pi\u00e8ces mobiles signifie pas de vidange d'huile, moins de remplacement de freins et des co\u00fbts d'entretien r\u00e9duits."
+        },
+        {
+          "title": "Rechargez pendant votre sommeil",
+          "description": "Branchez votre v\u00e9hicule \u00e0 domicile le soir et r\u00e9veillez-vous chaque matin avec une batterie pleine."
+        },
+        {
+          "title": "Incitatifs provinciaux",
+          "description": "Plusieurs provinces offrent des rabais, cr\u00e9dits d'imp\u00f4t et r\u00e9ductions sur l'immatriculation pour l'achat de v\u00e9hicules \u00e9lectriques."
+        },
+        {
+          "title": "Conduite \u00e0 l'\u00e9nergie solaire",
+          "description": "Associez votre VE \u00e0 des panneaux solaires pour recharger avec de l'\u00e9nergie propre et gratuite produite sur votre propre toit."
+        }
+      ]
+    },
+    "comparison": {
+      "ev": {
+        "label": "V\u00e9hicule \u00e9lectrique",
+        "cost": "~2-4 \u00a2 par km",
+        "annual": "~600 $CA/an",
+        "annualLabel": "Co\u00fbt annuel de carburant estim\u00e9"
+      },
+      "petrol": {
+        "label": "V\u00e9hicule \u00e0 essence",
+        "cost": "~10-16 \u00a2 par km",
+        "annual": "~2 200 $CA/an",
+        "annualLabel": "Co\u00fbt annuel de carburant estim\u00e9"
+      },
+      "note": "Bas\u00e9 sur 15 000 km/an. Les co\u00fbts r\u00e9els d\u00e9pendent du v\u00e9hicule, des tarifs d'hydro et des habitudes de conduite."
+    },
+    "testimonials": {
+      "items": [
+        {
+          "name": "S\u00e9bastien H.",
+          "location": "Montr\u00e9al, Qu\u00e9bec",
+          "quote": "Recharger la nuit avec l'offre VE me co\u00fbte une fraction de ce que je d\u00e9pensais en essence pour mon char. L'installation de la borne a \u00e9t\u00e9 rapide et facile."
+        },
+        {
+          "name": "Genevi\u00e8ve D.",
+          "location": "Qu\u00e9bec, Qu\u00e9bec",
+          "quote": "On a associ\u00e9 notre VE \u00e0 nos panneaux solaires et maintenant la plupart de nos trajets sont quasiment gratuits. L'appli rend la programmation vraiment simple."
+        },
+        {
+          "name": "Patrick M.",
+          "location": "Saguenay, Qu\u00e9bec",
+          "quote": "Les tarifs heures creuses sont excellents. Je programme la borne pour d\u00e9marrer \u00e0 minuit et je me r\u00e9veille chaque jour avec une batterie pleine."
+        }
+      ]
+    }
+  },
+  "plans": {
+    "planOrder": ["fixed-saver", "fixed-green", "flexi-variable", "variable-saver", "smart-tou", "green-tou", "ev-home-charger", "ev-green-drive"],
+    "data": {
+      "fixed-saver": {
+        "id": "fixed-saver",
+        "type": "fixed",
+        "name": "Fixe Économique",
+        "rate": 9.5,
+        "unit": "¢/kWh",
+        "dailySupplyCharge": 42.0,
+        "dailySupplyChargeUnit": "¢/jour",
+        "contractTerm": 12,
+        "discountPercent": 0,
+        "greenEnergyPercent": 0,
+        "popular": false,
+        "features": [
+          "Tarif garanti pour 12 mois",
+          "Aucune hausse de prix pendant votre contrat",
+          "Tarif fixe simple, facile à budgéter"
+        ]
+      },
+      "fixed-green": {
+        "id": "fixed-green",
+        "type": "fixed",
+        "name": "Fixe Vert",
+        "rate": 11.2,
+        "unit": "¢/kWh",
+        "dailySupplyCharge": 42.0,
+        "dailySupplyChargeUnit": "¢/jour",
+        "contractTerm": 12,
+        "discountPercent": 0,
+        "greenEnergyPercent": 100,
+        "popular": true,
+        "features": [
+          "100 % hydroélectricité et énergie renouvelable certifiée",
+          "Tarif fixe pour 12 mois",
+          "Soutenez les projets d'énergie renouvelable"
+        ]
+      },
+      "flexi-variable": {
+        "id": "flexi-variable",
+        "type": "variable",
+        "name": "Variable Flexible",
+        "rate": 8.9,
+        "unit": "¢/kWh",
+        "dailySupplyCharge": 40.0,
+        "dailySupplyChargeUnit": "¢/jour",
+        "contractTerm": 0,
+        "discountPercent": 5,
+        "greenEnergyPercent": 0,
+        "popular": false,
+        "features": [
+          "Aucun contrat à durée déterminée",
+          "5 % de rabais pour paiement à temps",
+          "Les tarifs suivent le marché"
+        ]
+      },
+      "variable-saver": {
+        "id": "variable-saver",
+        "type": "variable",
+        "name": "Variable Économique",
+        "rate": 7.8,
+        "unit": "¢/kWh",
+        "dailySupplyCharge": 38.0,
+        "dailySupplyChargeUnit": "¢/jour",
+        "contractTerm": 0,
+        "discountPercent": 12,
+        "greenEnergyPercent": 0,
+        "popular": true,
+        "features": [
+          "Notre tarif variable le plus bas",
+          "12 % de rabais garanti",
+          "Aucuns frais de résiliation, annulez n'importe quand"
+        ]
+      },
+      "smart-tou": {
+        "id": "smart-tou",
+        "type": "tou",
+        "name": "Heures Creuses Intelligent",
+        "peakRate": 15.5,
+        "shoulderRate": 10.2,
+        "offPeakRate": 5.8,
+        "unit": "¢/kWh",
+        "dailySupplyCharge": 40.0,
+        "dailySupplyChargeUnit": "¢/jour",
+        "contractTerm": 12,
+        "discountPercent": 0,
+        "greenEnergyPercent": 0,
+        "popular": false,
+        "features": [
+          "Économisez en déplaçant votre consommation en heures creuses",
+          "Compteur intelligent requis",
+          "Idéal pour les foyers avec panneaux solaires"
+        ]
+      },
+      "green-tou": {
+        "id": "green-tou",
+        "type": "tou",
+        "name": "Heures Creuses Vert",
+        "peakRate": 17.5,
+        "shoulderRate": 11.8,
+        "offPeakRate": 6.5,
+        "unit": "¢/kWh",
+        "dailySupplyCharge": 42.0,
+        "dailySupplyChargeUnit": "¢/jour",
+        "contractTerm": 12,
+        "discountPercent": 0,
+        "greenEnergyPercent": 100,
+        "popular": false,
+        "features": [
+          "100 % hydroélectricité et énergie renouvelable certifiée",
+          "Tarifs heures creuses avantageux",
+          "Soutenez l'énergie renouvelable"
+        ]
+      },
+      "ev-home-charger": {
+        "id": "ev-home-charger",
+        "type": "ev",
+        "name": "Borne VE Résidentielle",
+        "peakRate": 14.0,
+        "offPeakRate": 4.5,
+        "unit": "¢/kWh",
+        "dailySupplyCharge": 45.0,
+        "dailySupplyChargeUnit": "¢/jour",
+        "contractTerm": 24,
+        "discountPercent": 0,
+        "greenEnergyPercent": 0,
+        "popular": true,
+        "features": [
+          "Tarif de nuit ultra bas pour la recharge de votre VE",
+          "Programmation intelligente de la borne incluse",
+          "Compteur séparé pour le VE"
+        ]
+      },
+      "ev-green-drive": {
+        "id": "ev-green-drive",
+        "type": "ev",
+        "name": "VE Conduite Verte",
+        "peakRate": 15.5,
+        "offPeakRate": 5.2,
+        "unit": "¢/kWh",
+        "dailySupplyCharge": 48.0,
+        "dailySupplyChargeUnit": "¢/jour",
+        "contractTerm": 24,
+        "discountPercent": 0,
+        "greenEnergyPercent": 100,
+        "popular": false,
+        "features": [
+          "Recharge VE 100 % renouvelable",
+          "Tarif heures creuses avantageux pour la recharge de nuit",
+          "Conduite carboneutre"
+        ]
+      }
+    }
+  },
+  "checkout": {
+    "stepPersonalDetails": {
+      "email": "Adresse courriel",
+      "mobile": "Num\u00e9ro de cellulaire",
+      "placeholders": {
+        "firstName": "ex. Marie",
+        "lastName": "ex. Tremblay",
+        "email": "ex. marie@exemple.ca",
+        "mobile": "ex. +1 514 000 0000"
+      }
+    },
+    "stepProperty": {
+      "own": {
+        "description": "Propri\u00e9t\u00e9 pleine ou avec hypoth\u00e8que"
+      }
+    },
+    "stepBillingPreferences": {
+      "billDelivery": {
+        "email": {
+          "title": "Courriel",
+          "description": "Recevoir les factures par courriel (sans papier)"
+        },
+        "post": {
+          "title": "Poste",
+          "description": "Recevoir les factures par la poste"
+        }
+      },
+      "correspondence": {
+        "email": {
+          "title": "Courriel",
+          "description": "Recevoir les avis et correspondances par courriel"
+        },
+        "post": {
+          "title": "Poste",
+          "description": "Recevoir les avis et correspondances par la poste"
+        }
+      }
+    },
+    "stepReview": {
+      "values": {
+        "email": "Courriel",
+        "post": "Poste"
+      }
+    }
+  },
+  "loginModal": {
+    "description": "Connectez-vous pour g\u00e9rer votre compte d'hydro",
+    "fields": {
+      "email": "Adresse courriel",
+      "phone": "Num\u00e9ro de cellulaire"
+    },
+    "placeholders": {
+      "email": "Saisissez votre courriel",
+      "firstName": "Marie",
+      "lastName": "Tremblay",
+      "phone": "+1 514 000 0000"
+    },
+    "errors": {
+      "userNotFound": "Aucun compte trouv\u00e9 avec cette adresse courriel.",
+      "emailExists": "Un compte avec cette adresse courriel existe d\u00e9j\u00e0."
+    }
+  },
+  "footer": {
+    "phone": "1-800-\u00c9NERGIE",
+    "email": "contact@unipower.ca",
+    "sections": {
+      "support": {
+        "contact": "Nous joindre",
+        "help": "Centre d'aide",
+        "security": "Pannes & Urgences"
+      }
+    }
+  }
+}

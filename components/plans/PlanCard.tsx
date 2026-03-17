@@ -41,7 +41,7 @@ export function PlanCard({ plan, address }: { plan: Plan; address: string }) {
 
       <CardContent className="flex flex-col flex-1">
         <div className="mb-4">
-          {plan.rate !== null ? (
+          {plan.rate !== undefined && plan.rate !== null ? (
             <div className="flex items-baseline gap-1">
               <span className="text-4xl font-bold text-slate-900">{plan.rate}</span>
               <span className="text-slate-500">{plan.unit}</span>
@@ -111,7 +111,7 @@ export function PlanCard({ plan, address }: { plan: Plan; address: string }) {
                     plan_type: plan.type,
                     daily_supply_charge: plan.dailySupplyCharge,
                   }
-                  if (plan.rate !== null) {
+                  if (plan.rate !== undefined && plan.rate !== null) {
                     properties.rate = plan.rate
                   } else {
                     properties.peak_rate = plan.peakRate

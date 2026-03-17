@@ -229,5 +229,160 @@
       }
     },
     "copyright": "2026 UniPower. All rights reserved. Energy supplier licence example."
+  },
+  "plans": {
+    "planOrder": ["fixed-saver", "fixed-green", "flexi-variable", "variable-saver", "smart-tou", "green-tou", "ev-home-charger", "ev-green-drive"],
+    "data": {
+      "fixed-saver": {
+        "id": "fixed-saver",
+        "type": "fixed",
+        "name": "Fixed Saver",
+        "rate": 28.5,
+        "unit": "p/kWh",
+        "dailySupplyCharge": 45.0,
+        "dailySupplyChargeUnit": "p/day",
+        "contractTerm": 12,
+        "discountPercent": 0,
+        "greenEnergyPercent": 0,
+        "popular": false,
+        "features": [
+          "Locked-in rate for 12 months",
+          "No price rises during your contract",
+          "Simple flat rate, easy to budget"
+        ]
+      },
+      "fixed-green": {
+        "id": "fixed-green",
+        "type": "fixed",
+        "name": "Fixed Green",
+        "rate": 32.5,
+        "unit": "p/kWh",
+        "dailySupplyCharge": 45.0,
+        "dailySupplyChargeUnit": "p/day",
+        "contractTerm": 12,
+        "discountPercent": 0,
+        "greenEnergyPercent": 100,
+        "popular": true,
+        "features": [
+          "100% certified renewable electricity",
+          "Fixed rate for 12 months",
+          "Support renewable energy projects"
+        ]
+      },
+      "flexi-variable": {
+        "id": "flexi-variable",
+        "type": "variable",
+        "name": "Flexi Variable",
+        "rate": 27.0,
+        "unit": "p/kWh",
+        "dailySupplyCharge": 42.0,
+        "dailySupplyChargeUnit": "p/day",
+        "contractTerm": 0,
+        "discountPercent": 5,
+        "greenEnergyPercent": 0,
+        "popular": false,
+        "features": [
+          "No lock-in contract",
+          "5% direct debit discount",
+          "Rates move with the market"
+        ]
+      },
+      "variable-saver": {
+        "id": "variable-saver",
+        "type": "variable",
+        "name": "Variable Saver",
+        "rate": 25.5,
+        "unit": "p/kWh",
+        "dailySupplyCharge": 38.0,
+        "dailySupplyChargeUnit": "p/day",
+        "contractTerm": 0,
+        "discountPercent": 12,
+        "greenEnergyPercent": 0,
+        "popular": true,
+        "features": [
+          "Our lowest variable rate",
+          "12% guaranteed discount",
+          "No exit fees, cancel anytime"
+        ]
+      },
+      "smart-tou": {
+        "id": "smart-tou",
+        "type": "tou",
+        "name": "Smart Time of Use",
+        "peakRate": 42.0,
+        "shoulderRate": 28.0,
+        "offPeakRate": 15.0,
+        "unit": "p/kWh",
+        "dailySupplyCharge": 42.0,
+        "dailySupplyChargeUnit": "p/day",
+        "contractTerm": 12,
+        "discountPercent": 0,
+        "greenEnergyPercent": 0,
+        "popular": false,
+        "features": [
+          "Save by shifting usage to off-peak",
+          "Smart meter required",
+          "Ideal for solar households"
+        ]
+      },
+      "green-tou": {
+        "id": "green-tou",
+        "type": "tou",
+        "name": "Green Time of Use",
+        "peakRate": 46.0,
+        "shoulderRate": 30.5,
+        "offPeakRate": 17.0,
+        "unit": "p/kWh",
+        "dailySupplyCharge": 45.0,
+        "dailySupplyChargeUnit": "p/day",
+        "contractTerm": 12,
+        "discountPercent": 0,
+        "greenEnergyPercent": 100,
+        "popular": false,
+        "features": [
+          "100% certified renewable electricity",
+          "Lower off-peak rates",
+          "Support renewable energy"
+        ]
+      },
+      "ev-home-charger": {
+        "id": "ev-home-charger",
+        "type": "ev",
+        "name": "EV Home Charger",
+        "peakRate": 38.0,
+        "offPeakRate": 7.5,
+        "unit": "p/kWh",
+        "dailySupplyCharge": 45.0,
+        "dailySupplyChargeUnit": "p/day",
+        "contractTerm": 24,
+        "discountPercent": 0,
+        "greenEnergyPercent": 0,
+        "popular": true,
+        "features": [
+          "Ultra-low overnight EV charging rate",
+          "Smart charger scheduling included",
+          "Separate metering for EV"
+        ]
+      },
+      "ev-green-drive": {
+        "id": "ev-green-drive",
+        "type": "ev",
+        "name": "EV Green Drive",
+        "peakRate": 42.0,
+        "offPeakRate": 9.0,
+        "unit": "p/kWh",
+        "dailySupplyCharge": 48.0,
+        "dailySupplyChargeUnit": "p/day",
+        "contractTerm": 24,
+        "discountPercent": 0,
+        "greenEnergyPercent": 100,
+        "popular": false,
+        "features": [
+          "100% renewable EV charging",
+          "Low off-peak rate for overnight charging",
+          "Carbon-neutral driving"
+        ]
+      }
+    }
   }
 }

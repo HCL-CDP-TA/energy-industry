@@ -1,8 +1,5 @@
 {
   "home": {
-    "hero": {
-      "subtitle": "Compare our electricity plans and find the right fit for your home. Simple pricing, no hidden fees, and options to go green."
-    },
     "savingsTips": {
       "tips": [
         {
@@ -11,7 +8,7 @@
         },
         {
           "title": "Optimize heating & cooling",
-          "description": "Set your thermostat to 65-68°F in winter and 75-78°F in summer. Each degree saves up to 10% on heating and cooling."
+          "description": "Set your thermostat to 18-20°C in winter and 24-26°C in summer. Each degree saves up to 10% on heating and cooling."
         },
         {
           "title": "Switch to LED lighting",
@@ -28,26 +25,21 @@
       "subtitle": "Join the thousands of households making smarter energy choices.",
       "items": [
         {
-          "name": "Jennifer L.",
-          "location": "Austin, TX",
+          "name": "Sarah M.",
+          "location": "Toronto, ON",
           "quote": "Switching was incredibly easy. I'm saving around 15% compared to my old provider, and I love that my plan is 100% renewable."
         },
         {
-          "name": "Mike D.",
-          "location": "Portland, OR",
-          "quote": "The app is great. I can see exactly when I'm using the most energy and shift things to off-peak. My bills have dropped noticeably."
+          "name": "James R.",
+          "location": "Vancouver, BC",
+          "quote": "The app is brilliant. I can see exactly when I'm using the most energy and shift things to off-peak. My bills have dropped noticeably."
         },
         {
-          "name": "Rachel S.",
-          "location": "Denver, CO",
+          "name": "Priya K.",
+          "location": "Calgary, AB",
           "quote": "The solar and storage bundle was exactly what we needed. Installation was smooth and we're already seeing savings on our monthly bill."
         }
       ]
-    }
-  },
-  "plans": {
-    "addressLookup": {
-      "placeholder": "Start typing your address..."
     }
   },
   "solarStorage": {
@@ -77,7 +69,7 @@
           "features": [
             "Panels and battery sized to your usage",
             "Single installation, one warranty",
-            "Eligible for federal tax credits"
+            "Eligible for provincial rebates and incentives"
           ]
         }
       ]
@@ -113,12 +105,12 @@
           "description": "Generate your own power during the day and reduce what you draw from the grid."
         },
         {
-          "title": "Earn feed-in credits",
-          "description": "Export excess solar energy to the grid and receive a credit on your electricity bill."
+          "title": "Net metering credits",
+          "description": "Export excess solar energy to the grid and receive a credit on your electricity bill through net metering."
         },
         {
           "title": "Reduce your carbon footprint",
-          "description": "A typical residential solar system offsets several tons of CO2 emissions each year."
+          "description": "A typical residential solar system offsets several tonnes of CO2 emissions each year."
         },
         {
           "title": "Energy independence",
@@ -129,36 +121,34 @@
           "description": "Homes with solar systems consistently sell for more than comparable properties without them."
         },
         {
-          "title": "Federal tax credits",
-          "description": "Take advantage of the federal Investment Tax Credit (ITC) and state rebates to reduce upfront costs."
+          "title": "Provincial incentives",
+          "description": "Take advantage of provincial rebates, grants, and net metering programs to reduce upfront costs."
         }
       ]
     },
     "feedIn": {
       "title": "Net metering",
-      "subtitle": "When your solar panels generate more electricity than your home uses, the excess is exported to the grid. You receive a credit for every kilowatt-hour exported.",
+      "subtitle": "When your solar panels generate more electricity than your home uses, the excess is exported to the grid. You receive a credit for every kilowatt-hour exported through your provincial net metering program.",
       "rate": "Net metering credit from",
-      "rateValue": "5-12¢/kWh",
-      "rateNote": "Rates vary by state and utility"
+      "rateValue": "8-16¢/kWh",
+      "rateNote": "Rates vary by province and utility"
     },
     "testimonials": {
-      "title": "What solar customers say",
-      "subtitle": "Hear from households already saving with solar and storage.",
       "items": [
         {
-          "name": "Brian T.",
-          "location": "Phoenix, AZ",
+          "name": "David L.",
+          "location": "Ottawa, ON",
           "quote": "Our electricity bills have dropped by about 40% since the panels went in. The battery means we barely use grid power in summer."
         },
         {
-          "name": "Karen M.",
-          "location": "San Diego, CA",
+          "name": "Maria S.",
+          "location": "Vancouver, BC",
           "quote": "The installation team was fantastic. Everything was done in a day and the monitoring app is really intuitive."
         },
         {
-          "name": "Derek J.",
-          "location": "Charlotte, NC",
-          "quote": "With the federal tax credit, the payback period was shorter than we expected. We're generating more than we use most months."
+          "name": "Jean-Pierre D.",
+          "location": "Montreal, QC",
+          "quote": "With the battery, we have backup power during ice storms. It has completely changed how we think about our energy."
         }
       ]
     }
@@ -166,26 +156,10 @@
   "electricVehicles": {
     "stats": {
       "items": [
-        { "value": "70%", "label": "Cheaper than gas per mile" },
+        { "value": "70%", "label": "Cheaper than gas per km" },
         { "value": "3-8hrs", "label": "Home charging time" },
         { "value": "50%", "label": "Off-peak savings" },
         { "value": "0g", "label": "Tailpipe emissions" }
-      ]
-    },
-    "charging": {
-      "features": [
-        {
-          "title": "Smart wall chargers",
-          "description": "Level 2 chargers that deliver a full charge overnight. Wi-Fi enabled for remote monitoring and scheduling."
-        },
-        {
-          "title": "Professional installation",
-          "description": "Our licensed electricians handle the full installation, including any electrical panel upgrades needed."
-        },
-        {
-          "title": "Solar integration",
-          "description": "Connect your charger to your solar system to charge your EV with clean, free energy during the day."
-        }
       ]
     },
     "howItWorks": {
@@ -231,8 +205,8 @@
           "description": "Plug in at home overnight and wake up to a full battery every morning."
         },
         {
-          "title": "Federal & state incentives",
-          "description": "Take advantage of federal tax credits up to $7,500 and state-level rebates for electric vehicle purchases."
+          "title": "Federal & provincial incentives",
+          "description": "Take advantage of the federal iZEV rebate up to $5,000 and provincial incentives for electric vehicle purchases."
         },
         {
           "title": "Solar powered driving",
@@ -245,59 +219,45 @@
       "subtitle": "See how much you could save by switching to an electric vehicle.",
       "ev": {
         "label": "Electric Vehicle",
-        "cost": "~2-4¢ per mile",
-        "annual": "~$500/year",
+        "cost": "~2-4¢ per km",
+        "annual": "~$600/year",
         "annualLabel": "Estimated annual fuel cost"
       },
       "petrol": {
         "label": "Gas Vehicle",
-        "cost": "~10-16¢ per mile",
-        "annual": "~$2,000/year",
+        "cost": "~12-18¢ per km",
+        "annual": "~$2,400/year",
         "annualLabel": "Estimated annual fuel cost"
       },
-      "note": "Based on 12,000 miles/year. Actual costs depend on vehicle, electricity rates, and driving habits."
+      "note": "Based on 15,000 km/year. Actual costs depend on vehicle, electricity rates, and driving habits."
     },
     "testimonials": {
-      "title": "What EV drivers say",
-      "subtitle": "Hear from customers who have made the switch to electric driving.",
       "items": [
         {
-          "name": "Steve R.",
-          "location": "Seattle, WA",
+          "name": "Tom H.",
+          "location": "Toronto, ON",
           "quote": "Charging overnight on the EV plan costs me a fraction of what I used to spend on gas. The home charger installation was quick and easy."
         },
         {
-          "name": "Lisa K.",
-          "location": "Boulder, CO",
+          "name": "Anna W.",
+          "location": "Victoria, BC",
           "quote": "We paired our EV with our solar panels and now most of our driving is essentially free. The app makes scheduling really simple."
         },
         {
-          "name": "Marcus W.",
-          "location": "Atlanta, GA",
+          "name": "Chris M.",
+          "location": "Halifax, NS",
           "quote": "The off-peak rates are excellent. I set the charger to start at midnight and wake up with a full battery every day."
         }
       ]
-    },
-    "cta": {
-      "title": "Ready to go electric?",
-      "subtitle": "Explore our EV plans and find out how much you could save on fuel costs.",
-      "button": "View EV plans"
     }
   },
   "checkout": {
     "stepPersonalDetails": {
-      "mobile": "Cell phone number",
-      "mailingAddress": {
-        "heading": "Mailing address",
-        "sameLabel": "Same as service address",
-        "differentLabel": "Different address",
-        "placeholder": "Search for your mailing address..."
-      },
       "placeholders": {
         "firstName": "e.g. Jane",
         "lastName": "e.g. Smith",
-        "email": "e.g. jane@example.com",
-        "mobile": "e.g. +1 555 000 0000"
+        "email": "e.g. jane@example.ca",
+        "mobile": "e.g. +1 613 000 0000"
       }
     },
     "stepBillingPreferences": {
@@ -318,31 +278,21 @@
       "values": {
         "post": "Mail"
       }
-    },
-    "supplyAddress": "Service address",
-    "stepProperty": {
-      "title": "Do you own or rent your property?",
-      "subtitle": "This helps us understand your setup.",
-      "own": {
-        "description": "Homeowner or mortgage"
-      }
     }
   },
   "loginModal": {
     "placeholders": {
-      "phone": "+1 555 000 0000"
+      "phone": "+1 613 000 0000"
     }
   },
   "footer": {
-    "description": "Your trusted energy partner. We provide reliable, affordable electricity with a commitment to renewable energy and exceptional customer service.",
     "phone": "1-800-ENERGY",
     "sections": {
       "support": {
-        "help": "Help Center",
-        "security": "Outages & Faults"
+        "help": "Help Centre"
       }
     },
-    "copyright": "2026 UniPower. All rights reserved. Energy retailer license example."
+    "copyright": "2026 UniPower. All rights reserved. Energy retailer licence example."
   },
   "plans": {
     "planOrder": ["fixed-saver", "fixed-green", "flexi-variable", "variable-saver", "smart-tou", "green-tou", "ev-home-charger", "ev-green-drive"],
@@ -351,9 +301,9 @@
         "id": "fixed-saver",
         "type": "fixed",
         "name": "Fixed Saver",
-        "rate": 12.5,
+        "rate": 10.5,
         "unit": "¢/kWh",
-        "dailySupplyCharge": 35.0,
+        "dailySupplyCharge": 45.0,
         "dailySupplyChargeUnit": "¢/day",
         "contractTerm": 12,
         "discountPercent": 0,
@@ -369,9 +319,9 @@
         "id": "fixed-green",
         "type": "fixed",
         "name": "Fixed Green",
-        "rate": 14.8,
+        "rate": 12.8,
         "unit": "¢/kWh",
-        "dailySupplyCharge": 35.0,
+        "dailySupplyCharge": 45.0,
         "dailySupplyChargeUnit": "¢/day",
         "contractTerm": 12,
         "discountPercent": 0,
@@ -387,9 +337,9 @@
         "id": "flexi-variable",
         "type": "variable",
         "name": "Flexi Variable",
-        "rate": 11.2,
+        "rate": 9.5,
         "unit": "¢/kWh",
-        "dailySupplyCharge": 32.0,
+        "dailySupplyCharge": 42.0,
         "dailySupplyChargeUnit": "¢/day",
         "contractTerm": 0,
         "discountPercent": 5,
@@ -397,7 +347,7 @@
         "popular": false,
         "features": [
           "No lock-in contract",
-          "5% autopay discount",
+          "5% pay on time discount",
           "Rates move with the market"
         ]
       },
@@ -405,9 +355,9 @@
         "id": "variable-saver",
         "type": "variable",
         "name": "Variable Saver",
-        "rate": 10.5,
+        "rate": 8.8,
         "unit": "¢/kWh",
-        "dailySupplyCharge": 29.0,
+        "dailySupplyCharge": 38.0,
         "dailySupplyChargeUnit": "¢/day",
         "contractTerm": 0,
         "discountPercent": 12,
@@ -416,18 +366,18 @@
         "features": [
           "Our lowest variable rate",
           "12% guaranteed discount",
-          "No cancellation fees"
+          "No exit fees, cancel anytime"
         ]
       },
       "smart-tou": {
         "id": "smart-tou",
         "type": "tou",
         "name": "Smart Time of Use",
-        "peakRate": 18.5,
-        "shoulderRate": 12.0,
-        "offPeakRate": 6.5,
+        "peakRate": 16.5,
+        "shoulderRate": 10.5,
+        "offPeakRate": 5.8,
         "unit": "¢/kWh",
-        "dailySupplyCharge": 32.0,
+        "dailySupplyCharge": 42.0,
         "dailySupplyChargeUnit": "¢/day",
         "contractTerm": 12,
         "discountPercent": 0,
@@ -443,11 +393,11 @@
         "id": "green-tou",
         "type": "tou",
         "name": "Green Time of Use",
-        "peakRate": 20.5,
-        "shoulderRate": 13.5,
-        "offPeakRate": 7.5,
+        "peakRate": 18.0,
+        "shoulderRate": 11.5,
+        "offPeakRate": 6.5,
         "unit": "¢/kWh",
-        "dailySupplyCharge": 35.0,
+        "dailySupplyCharge": 45.0,
         "dailySupplyChargeUnit": "¢/day",
         "contractTerm": 12,
         "discountPercent": 0,
@@ -463,10 +413,10 @@
         "id": "ev-home-charger",
         "type": "ev",
         "name": "EV Home Charger",
-        "peakRate": 16.0,
-        "offPeakRate": 4.5,
+        "peakRate": 14.5,
+        "offPeakRate": 4.2,
         "unit": "¢/kWh",
-        "dailySupplyCharge": 35.0,
+        "dailySupplyCharge": 45.0,
         "dailySupplyChargeUnit": "¢/day",
         "contractTerm": 24,
         "discountPercent": 0,
@@ -482,10 +432,10 @@
         "id": "ev-green-drive",
         "type": "ev",
         "name": "EV Green Drive",
-        "peakRate": 18.0,
-        "offPeakRate": 5.5,
+        "peakRate": 16.0,
+        "offPeakRate": 5.0,
         "unit": "¢/kWh",
-        "dailySupplyCharge": 38.0,
+        "dailySupplyCharge": 48.0,
         "dailySupplyChargeUnit": "¢/day",
         "contractTerm": 24,
         "discountPercent": 0,
