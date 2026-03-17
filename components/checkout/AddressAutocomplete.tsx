@@ -2,6 +2,7 @@
 
 import { useRef, useEffect, useLayoutEffect, useCallback } from "react"
 import { MapPin } from "lucide-react"
+import { useSiteContext } from "@/lib/SiteContext"
 
 interface AddressAutocompleteProps {
   onAddressChange: (address: string) => void
@@ -9,10 +10,23 @@ interface AddressAutocompleteProps {
   initialValue?: string
 }
 
+const localeCountryMap: Record<string, string> = {
+  "en-US": "us",
+  "en-GB": "gb",
+  "en-AU": "au",
+  "en-CA": "ca",
+  "en-IN": "in",
+  "fr-CA": "ca",
+  "de": "de",
+  "it-IT": "it",
+  "sv-SE": "se",
+}
+
 export function AddressAutocomplete({ onAddressChange, placeholder, initialValue }: AddressAutocompleteProps) {
   const inputRef = useRef<HTMLInputElement>(null)
   const autocompleteRef = useRef<google.maps.places.Autocomplete | null>(null)
   const apiKey = process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY
+  const { locale } = useSiteContext()
 
   const handleSelect = useCallback((place: google.maps.places.PlaceResult) => {
     const formatted = place.formatted_address ?? ""
@@ -28,11 +42,15 @@ export function AddressAutocomplete({ onAddressChange, placeholder, initialValue
 
     const scriptId = "google-maps-script"
 
+    autocompleteRef.current = null
+
     function initAutocomplete() {
       if (!inputRef.current || autocompleteRef.current) return
+      const countryCode = localeCountryMap[locale.code]
       autocompleteRef.current = new google.maps.places.Autocomplete(inputRef.current, {
         types: ["address"],
         fields: ["formatted_address", "address_components"],
+        ...(countryCode ? { componentRestrictions: { country: countryCode } } : {}),
       })
       autocompleteRef.current.addListener("place_changed", () => {
         const place = autocompleteRef.current!.getPlace()
@@ -59,7 +77,7 @@ export function AddressAutocomplete({ onAddressChange, placeholder, initialValue
         initAutocomplete()
       }
     }
-  }, [apiKey])
+  }, [apiKey, locale.code])
 
   return (
     <div className="relative">
