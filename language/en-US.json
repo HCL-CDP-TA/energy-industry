@@ -1,0 +1,347 @@
+{
+  "home": {
+    "hero": {
+      "subtitle": "Compare our electricity plans and find the right fit for your home. Simple pricing, no hidden fees, and options to go green."
+    },
+    "savingsTips": {
+      "tips": [
+        {
+          "title": "Shift to off-peak",
+          "description": "Run your dishwasher, washing machine, and dryer during off-peak hours to take advantage of lower rates."
+        },
+        {
+          "title": "Optimize heating & cooling",
+          "description": "Set your thermostat to 65-68°F in winter and 75-78°F in summer. Each degree saves up to 10% on heating and cooling."
+        },
+        {
+          "title": "Switch to LED lighting",
+          "description": "LED bulbs use up to 80% less energy than traditional bulbs and last up to 25 times longer."
+        },
+        {
+          "title": "Monitor your usage",
+          "description": "Use our app to track your daily consumption and identify where you can cut back."
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "What our customers say",
+      "subtitle": "Join the thousands of households making smarter energy choices.",
+      "items": [
+        {
+          "name": "Jennifer L.",
+          "location": "Austin, TX",
+          "quote": "Switching was incredibly easy. I'm saving around 15% compared to my old provider, and I love that my plan is 100% renewable."
+        },
+        {
+          "name": "Mike D.",
+          "location": "Portland, OR",
+          "quote": "The app is great. I can see exactly when I'm using the most energy and shift things to off-peak. My bills have dropped noticeably."
+        },
+        {
+          "name": "Rachel S.",
+          "location": "Denver, CO",
+          "quote": "The solar and storage bundle was exactly what we needed. Installation was smooth and we're already seeing savings on our monthly bill."
+        }
+      ]
+    }
+  },
+  "plans": {
+    "addressLookup": {
+      "placeholder": "Start typing your address..."
+    }
+  },
+  "solarStorage": {
+    "solutions": {
+      "cards": [
+        {
+          "title": "Solar Panels",
+          "description": "High-efficiency rooftop solar panels that convert sunlight into clean electricity for your home.",
+          "features": [
+            "Tier 1 panels from leading manufacturers",
+            "Output monitoring via our app",
+            "25-year performance warranty"
+          ]
+        },
+        {
+          "title": "Battery Storage",
+          "description": "Store excess solar energy during the day and use it at night or during peak rate periods.",
+          "features": [
+            "Lithium-ion battery systems from 5kWh to 15kWh",
+            "Backup power during outages",
+            "Smart charge and discharge scheduling"
+          ]
+        },
+        {
+          "title": "Solar + Battery Bundles",
+          "description": "Get the best value with our combined solar and storage packages, designed to maximize your savings.",
+          "features": [
+            "Panels and battery sized to your usage",
+            "Single installation, one warranty",
+            "Eligible for federal tax credits"
+          ]
+        }
+      ]
+    },
+    "howItWorks": {
+      "steps": [
+        {
+          "step": "1",
+          "title": "Free consultation",
+          "description": "We assess your roof, energy usage, and goals to design the right system for your home."
+        },
+        {
+          "step": "2",
+          "title": "Custom design",
+          "description": "Our engineers design a system optimized for your roof orientation, shading, and electricity consumption."
+        },
+        {
+          "step": "3",
+          "title": "Professional installation",
+          "description": "Our accredited installers fit your system in one to two days with minimal disruption."
+        },
+        {
+          "step": "4",
+          "title": "Start generating",
+          "description": "Your system is connected and generating clean energy. Monitor performance from your phone."
+        }
+      ]
+    },
+    "benefits": {
+      "items": [
+        {
+          "title": "Lower electricity bills",
+          "description": "Generate your own power during the day and reduce what you draw from the grid."
+        },
+        {
+          "title": "Earn feed-in credits",
+          "description": "Export excess solar energy to the grid and receive a credit on your electricity bill."
+        },
+        {
+          "title": "Reduce your carbon footprint",
+          "description": "A typical residential solar system offsets several tons of CO2 emissions each year."
+        },
+        {
+          "title": "Energy independence",
+          "description": "With battery storage, you're less reliant on the grid and protected from price rises."
+        },
+        {
+          "title": "Increase property value",
+          "description": "Homes with solar systems consistently sell for more than comparable properties without them."
+        },
+        {
+          "title": "Federal tax credits",
+          "description": "Take advantage of the federal Investment Tax Credit (ITC) and state rebates to reduce upfront costs."
+        }
+      ]
+    },
+    "feedIn": {
+      "title": "Net metering",
+      "subtitle": "When your solar panels generate more electricity than your home uses, the excess is exported to the grid. You receive a credit for every kilowatt-hour exported.",
+      "rate": "Net metering credit from",
+      "rateValue": "5-12¢/kWh",
+      "rateNote": "Rates vary by state and utility"
+    },
+    "testimonials": {
+      "title": "What solar customers say",
+      "subtitle": "Hear from households already saving with solar and storage.",
+      "items": [
+        {
+          "name": "Brian T.",
+          "location": "Phoenix, AZ",
+          "quote": "Our electricity bills have dropped by about 40% since the panels went in. The battery means we barely use grid power in summer."
+        },
+        {
+          "name": "Karen M.",
+          "location": "San Diego, CA",
+          "quote": "The installation team was fantastic. Everything was done in a day and the monitoring app is really intuitive."
+        },
+        {
+          "name": "Derek J.",
+          "location": "Charlotte, NC",
+          "quote": "With the federal tax credit, the payback period was shorter than we expected. We're generating more than we use most months."
+        }
+      ]
+    }
+  },
+  "electricVehicles": {
+    "stats": {
+      "items": [
+        { "value": "70%", "label": "Cheaper than gas per mile" },
+        { "value": "3-8hrs", "label": "Home charging time" },
+        { "value": "50%", "label": "Off-peak savings" },
+        { "value": "0g", "label": "Tailpipe emissions" }
+      ]
+    },
+    "charging": {
+      "features": [
+        {
+          "title": "Smart wall chargers",
+          "description": "Level 2 chargers that deliver a full charge overnight. Wi-Fi enabled for remote monitoring and scheduling."
+        },
+        {
+          "title": "Professional installation",
+          "description": "Our licensed electricians handle the full installation, including any electrical panel upgrades needed."
+        },
+        {
+          "title": "Solar integration",
+          "description": "Connect your charger to your solar system to charge your EV with clean, free energy during the day."
+        }
+      ]
+    },
+    "howItWorks": {
+      "steps": [
+        {
+          "step": "1",
+          "title": "Choose your plan",
+          "description": "Select an EV charging plan that suits your driving habits and household energy needs."
+        },
+        {
+          "step": "2",
+          "title": "Get a home charger",
+          "description": "Order a smart wall charger and we'll arrange professional installation at your home."
+        },
+        {
+          "step": "3",
+          "title": "Set your schedule",
+          "description": "Use our app to schedule charging during off-peak hours for the lowest possible cost."
+        },
+        {
+          "step": "4",
+          "title": "Drive and save",
+          "description": "Enjoy the savings. EV drivers typically spend 70% less on fuel compared to gas vehicles."
+        }
+      ]
+    },
+    "benefits": {
+      "items": [
+        {
+          "title": "Lower running costs",
+          "description": "Electricity is significantly cheaper than gasoline, especially when charging off-peak."
+        },
+        {
+          "title": "Zero tailpipe emissions",
+          "description": "EVs produce no exhaust emissions, improving air quality and reducing your carbon footprint."
+        },
+        {
+          "title": "Less maintenance",
+          "description": "Fewer moving parts means no oil changes, fewer brake replacements, and lower servicing costs."
+        },
+        {
+          "title": "Charge while you sleep",
+          "description": "Plug in at home overnight and wake up to a full battery every morning."
+        },
+        {
+          "title": "Federal & state incentives",
+          "description": "Take advantage of federal tax credits up to $7,500 and state-level rebates for electric vehicle purchases."
+        },
+        {
+          "title": "Solar powered driving",
+          "description": "Pair your EV with rooftop solar to charge with clean, free energy from your own roof."
+        }
+      ]
+    },
+    "comparison": {
+      "title": "EV vs gas: running costs",
+      "subtitle": "See how much you could save by switching to an electric vehicle.",
+      "ev": {
+        "label": "Electric Vehicle",
+        "cost": "~2-4¢ per mile",
+        "annual": "~$500/year",
+        "annualLabel": "Estimated annual fuel cost"
+      },
+      "petrol": {
+        "label": "Gas Vehicle",
+        "cost": "~10-16¢ per mile",
+        "annual": "~$2,000/year",
+        "annualLabel": "Estimated annual fuel cost"
+      },
+      "note": "Based on 12,000 miles/year. Actual costs depend on vehicle, electricity rates, and driving habits."
+    },
+    "testimonials": {
+      "title": "What EV drivers say",
+      "subtitle": "Hear from customers who have made the switch to electric driving.",
+      "items": [
+        {
+          "name": "Steve R.",
+          "location": "Seattle, WA",
+          "quote": "Charging overnight on the EV plan costs me a fraction of what I used to spend on gas. The home charger installation was quick and easy."
+        },
+        {
+          "name": "Lisa K.",
+          "location": "Boulder, CO",
+          "quote": "We paired our EV with our solar panels and now most of our driving is essentially free. The app makes scheduling really simple."
+        },
+        {
+          "name": "Marcus W.",
+          "location": "Atlanta, GA",
+          "quote": "The off-peak rates are excellent. I set the charger to start at midnight and wake up with a full battery every day."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ready to go electric?",
+      "subtitle": "Explore our EV plans and find out how much you could save on fuel costs.",
+      "button": "View EV plans"
+    }
+  },
+  "checkout": {
+    "stepPersonalDetails": {
+      "mobile": "Cell phone number",
+      "mailingAddress": {
+        "heading": "Mailing address",
+        "sameLabel": "Same as service address",
+        "differentLabel": "Different address",
+        "placeholder": "Search for your mailing address..."
+      },
+      "placeholders": {
+        "firstName": "e.g. Jane",
+        "lastName": "e.g. Smith",
+        "email": "e.g. jane@example.com",
+        "mobile": "e.g. +1 555 000 0000"
+      }
+    },
+    "stepBillingPreferences": {
+      "billDelivery": {
+        "post": {
+          "title": "Mail",
+          "description": "Receive bills by mail"
+        }
+      },
+      "correspondence": {
+        "post": {
+          "title": "Mail",
+          "description": "Receive letters and notices by mail"
+        }
+      }
+    },
+    "stepReview": {
+      "values": {
+        "post": "Mail"
+      }
+    },
+    "supplyAddress": "Service address",
+    "stepProperty": {
+      "title": "Do you own or rent your property?",
+      "subtitle": "This helps us understand your setup.",
+      "own": {
+        "description": "Homeowner or mortgage"
+      }
+    }
+  },
+  "loginModal": {
+    "placeholders": {
+      "phone": "+1 555 000 0000"
+    }
+  },
+  "footer": {
+    "description": "Your trusted energy partner. We provide reliable, affordable electricity with a commitment to renewable energy and exceptional customer service.",
+    "phone": "1-800-ENERGY",
+    "sections": {
+      "support": {
+        "help": "Help Center",
+        "security": "Outages & Faults"
+      }
+    },
+    "copyright": "2026 UniPower. All rights reserved. Energy retailer license example."
+  }
+}
