@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/HCL-CDP-TA/energy-industry/compare/v1.2.1...v1.3.0) (2026-03-17)
+
+
+### Features
+
+* added checkout (draft) ([18d4c2f](https://github.com/HCL-CDP-TA/energy-industry/commit/18d4c2f261bccb59690f82b0d94a6fd349daaa7b))
+
 ## [1.2.1](https://github.com/HCL-CDP-TA/energy-industry/compare/v1.2.0...v1.2.1) (2026-03-16)
 
 
