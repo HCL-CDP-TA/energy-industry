@@ -21,15 +21,16 @@ export default function CdpProvider({ children }: { children: React.ReactNode })
   }
 
   const gaMeasurementId = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID || ""
+  const hasValidGaId = gaMeasurementId.startsWith("G-")
 
   const cdpConfig: HclCdpConfig = {
     writeKey,
     inactivityTimeout: 120, // in minutes
-    enableDeviceSessionLogging: false,
+    enableDeviceSessionLogging: true,
     enableUserSessionLogging: true,
     enableUserLogoutLogging: true,
     cdpEndpoint: process.env.NEXT_PUBLIC_CDP_ENDPOINT || "",
-    destinations: gaMeasurementId
+    destinations: hasValidGaId
       ? [
           {
             id: "GA4",

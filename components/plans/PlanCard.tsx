@@ -8,10 +8,15 @@ import { CheckCircle, Leaf, ArrowRight } from "lucide-react"
 import Link from "next/link"
 import { useSiteContext } from "@/lib/SiteContext"
 import { useTranslations } from "next-intl"
+import { useCdp } from "@hcl-cdp-ta/hclcdp-web-sdk-react"
+import { useCDPTracking } from "@/lib/hooks/useCDPTracking"
 
-export function PlanCard({ plan }: { plan: Plan }) {
+export function PlanCard({ plan, address }: { plan: Plan; address: string }) {
   const { getFullPath } = useSiteContext()
   const t = useTranslations("plans.card")
+  const { track } = useCdp()
+  const { isCDPTrackingEnabled } = useCDPTracking()
+  const addressEntered = !!address
 
   const typeLabels: Record<string, string> = {
     fixed: t("types.fixed"),
@@ -94,12 +99,38 @@ export function PlanCard({ plan }: { plan: Plan }) {
           ))}
         </ul>
 
-        <Link href={getFullPath(`checkout?planId=${plan.id}`)}>
-          <Button className="cursor-pointer w-full">
-            {t("selectPlan")}
-            <ArrowRight className="ml-2 h-4 w-4" />
+        {addressEntered ? (
+          <Link href={getFullPath(`checkout?planId=${plan.id}&address=${encodeURIComponent(address)}`)}>
+            <Button
+              className="cursor-pointer w-full"
+              onClick={() => {
+                if (isCDPTrackingEnabled) {
+                  const properties: Record<string, unknown> = {
+                    plan_id: plan.id,
+                    plan_name: plan.name,
+                    plan_type: plan.type,
+                    daily_supply_charge: plan.dailySupplyCharge,
+                  }
+                  if (plan.rate !== null) {
+                    properties.rate = plan.rate
+                  } else {
+                    properties.peak_rate = plan.peakRate
+                    properties.off_peak_rate = plan.offPeakRate
+                    if (plan.shoulderRate !== undefined) properties.shoulder_rate = plan.shoulderRate
+                  }
+                  track({ identifier: "plan_intent", properties })
+                }
+              }}
+            >
+              {t("selectPlan")}
+              <ArrowRight className="ml-2 h-4 w-4" />
+            </Button>
+          </Link>
+        ) : (
+          <Button className="w-full" disabled>
+            {t("enterAddress")}
           </Button>
-        </Link>
+        )}
       </CardContent>
     </Card>
   )

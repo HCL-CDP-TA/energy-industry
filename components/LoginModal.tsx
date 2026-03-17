@@ -23,16 +23,21 @@ import { useCDPTracking } from "@/lib/hooks/useCDPTracking"
 import { loginWithAlternativeEmail } from "@/lib/utils"
 
 interface LoginModalProps {
-  children: React.ReactNode
+  children?: React.ReactNode
   onLogin?: () => void
+  open?: boolean
+  onOpenChange?: (open: boolean) => void
 }
 
-export default function LoginModal({ children, onLogin }: LoginModalProps) {
+export default function LoginModal({ children, onLogin, open, onOpenChange }: LoginModalProps) {
   const t = useTranslations("loginModal")
   const { brand } = useSiteContext()
   const { isCDPTrackingEnabled } = useCDPTracking()
   const { login: cdpLogin } = useCdp()
-  const [isOpen, setIsOpen] = useState(false)
+  const [internalOpen, setInternalOpen] = useState(false)
+  const isControlled = open !== undefined
+  const isOpen = isControlled ? open : internalOpen
+  const setIsOpen = isControlled ? (onOpenChange ?? (() => {})) : setInternalOpen
   const [isLoading, setIsLoading] = useState(false)
   const [error, setError] = useState("")
 
@@ -176,7 +181,7 @@ export default function LoginModal({ children, onLogin }: LoginModalProps) {
 
   return (
     <Dialog open={isOpen} onOpenChange={setIsOpen}>
-      <DialogTrigger asChild>{children}</DialogTrigger>
+      {children && <DialogTrigger asChild>{children}</DialogTrigger>}
       <DialogContent className="sm:max-w-md">
         <DialogHeader className="text-center">
           <div className="mx-auto mb-4 p-3 bg-slate-100 rounded-full w-fit">

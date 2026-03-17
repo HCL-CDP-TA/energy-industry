@@ -229,7 +229,8 @@
       "noLockIn": "No lock-in contract",
       "discount": "discount",
       "greenEnergy": "green energy",
-      "selectPlan": "Select this plan"
+      "selectPlan": "Select this plan",
+      "enterAddress": "Enter an address"
     },
     "help": {
       "title": "Need help choosing?",
@@ -591,8 +592,126 @@
     "noLockIn": "No lock-in contract",
     "discount": "discount",
     "greenEnergy": "green energy",
-    "comingSoon": "Full checkout flow coming soon.",
-    "noPlanSelected": "No plan selected. Please go back and choose a plan."
+    "noPlanSelected": "No plan selected. Please go back and choose a plan.",
+    "supplyAddress": "Supply address",
+    "stepper": {
+      "steps": {
+        "customerType": "Customer type",
+        "property": "Property",
+        "personalDetails": "Your details",
+        "billingPreferences": "Billing",
+        "review": "Review"
+      }
+    },
+    "navigation": {
+      "continue": "Continue",
+      "back": "Back",
+      "completeOrder": "Complete Order"
+    },
+    "stepCustomerType": {
+      "title": "Are you a new or existing customer?",
+      "subtitle": "Let us know so we can personalise your experience.",
+      "new": {
+        "title": "New customer",
+        "description": "I don't have an account yet"
+      },
+      "existing": {
+        "title": "Existing customer",
+        "description": "I already have an account"
+      },
+      "loggedInAs": "You're signed in as",
+      "notYou": "Not you?"
+    },
+    "stepProperty": {
+      "title": "Do you own or rent your property?",
+      "subtitle": "This helps us understand your setup.",
+      "own": {
+        "title": "I own my property",
+        "description": "Freehold or mortgage"
+      },
+      "rent": {
+        "title": "I rent my property",
+        "description": "Tenant or leasing"
+      }
+    },
+    "stepPersonalDetails": {
+      "title": "Your personal details",
+      "subtitle": "We'll use these to set up your account.",
+      "title_field": "Title",
+      "firstName": "First name",
+      "lastName": "Last name",
+      "dob": "Date of birth",
+      "email": "Email address",
+      "mobile": "Mobile number",
+      "mailingAddress": {
+        "heading": "Mailing address",
+        "sameLabel": "Same as supply address",
+        "differentLabel": "Different address",
+        "placeholder": "Search for your mailing address..."
+      },
+      "placeholders": {
+        "firstName": "e.g. Jane",
+        "lastName": "e.g. Smith",
+        "email": "e.g. jane@example.com",
+        "mobile": "e.g. +61 400 000 000"
+      },
+      "titles": ["Mr", "Mrs", "Ms", "Dr", "Mx"]
+    },
+    "stepBillingPreferences": {
+      "title": "Billing preferences",
+      "subtitle": "Choose how you'd like to receive bills and correspondence.",
+      "billDelivery": {
+        "label": "Bill delivery",
+        "email": {
+          "title": "Email",
+          "description": "Receive bills by email (paperless)"
+        },
+        "post": {
+          "title": "Post",
+          "description": "Receive bills by mail"
+        }
+      },
+      "correspondence": {
+        "label": "Correspondence",
+        "email": {
+          "title": "Email",
+          "description": "Receive letters and notices by email"
+        },
+        "post": {
+          "title": "Post",
+          "description": "Receive letters and notices by mail"
+        }
+      }
+    },
+    "stepReview": {
+      "title": "Review your order",
+      "subtitle": "Please check your details before completing your sign-up.",
+      "sections": {
+        "plan": "Selected plan",
+        "supplyAddress": "Supply address",
+        "customerType": "Customer type",
+        "property": "Property type",
+        "personalDetails": "Personal details",
+        "mailingAddress": "Mailing address",
+        "billing": "Billing preferences"
+      },
+      "values": {
+        "new": "New customer",
+        "existing": "Existing customer",
+        "own": "Owner",
+        "rent": "Renter",
+        "sameAsSupply": "Same as supply address",
+        "email": "Email",
+        "post": "Post"
+      },
+      "billDelivery": "Bill delivery",
+      "correspondence": "Correspondence"
+    },
+    "success": {
+      "title": "Order complete!",
+      "message": "Thanks for signing up. We'll be in touch within 1-2 business days to confirm your connection details.",
+      "reference": "Your reference number"
+    }
   },
   "loginModal": {
     "description": "Sign in to manage your energy account",

@@ -7,7 +7,7 @@ import { Plan } from "@/types/plans"
 import { PlanCard } from "./PlanCard"
 import { PlanFilters } from "./PlanFilters"
 
-export function PlanGrid() {
+export function PlanGrid({ address }: { address: string }) {
   const [activeFilter, setActiveFilter] = useState("all")
   const t = useTranslations("plans.grid")
 
@@ -27,7 +27,7 @@ export function PlanGrid() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {filteredPlans.map(plan => (
-            <PlanCard key={plan.id} plan={plan} />
+            <PlanCard key={plan.id} plan={plan} address={address} />
           ))}
         </div>
       </div>

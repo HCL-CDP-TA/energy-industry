@@ -1,5 +1,6 @@
 "use client"
 
+import { useState, useEffect, useRef } from "react"
 import { useTranslations } from "next-intl"
 import { useSiteContext } from "@/lib/SiteContext"
 import { AddressLookup } from "@/components/plans/AddressLookup"
@@ -7,13 +8,23 @@ import { PlanGrid } from "@/components/plans/PlanGrid"
 import { Phone, ArrowRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
-import { CdpPageEvent } from "@hcl-cdp-ta/hclcdp-web-sdk-react"
+import { CdpPageEvent, useCdp } from "@hcl-cdp-ta/hclcdp-web-sdk-react"
 import { useCDPTracking } from "@/lib/hooks/useCDPTracking"
 
 export default function PlansPage() {
   const t = useTranslations("plans")
   const { brand, locale, getFullPath } = useSiteContext()
   const { isCDPTrackingEnabled, isLoading: isCDPLoading } = useCDPTracking()
+  const { track } = useCdp()
+  const [address, setAddress] = useState("")
+  const hasFiredAcquire = useRef(false)
+
+  useEffect(() => {
+    if (!isCDPLoading && isCDPTrackingEnabled && !hasFiredAcquire.current) {
+      hasFiredAcquire.current = true
+      track({ identifier: "plan_acquire" })
+    }
+  }, [isCDPLoading, isCDPTrackingEnabled, track])
 
   return (
     <main className="min-h-screen">
@@ -28,9 +39,9 @@ export default function PlansPage() {
         </div>
       </section>
 
-      <AddressLookup />
+      <AddressLookup onAddressChange={setAddress} />
 
-      <PlanGrid />
+      <PlanGrid address={address} />
 
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">

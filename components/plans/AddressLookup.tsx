@@ -1,24 +1,59 @@
 "use client"
 
-import { useRef, useEffect, useCallback } from "react"
+import { useRef, useEffect, useCallback, useLayoutEffect } from "react"
 import { useTranslations } from "next-intl"
 import { useSiteContext } from "@/lib/SiteContext"
+import { useCdp } from "@hcl-cdp-ta/hclcdp-web-sdk-react"
+import { useCDPTracking } from "@/lib/hooks/useCDPTracking"
 import { MapPin } from "lucide-react"
 
-export function AddressLookup() {
+interface AddressLookupProps {
+  onAddressChange: (address: string) => void
+}
+
+export function AddressLookup({ onAddressChange }: AddressLookupProps) {
   const inputRef = useRef<HTMLInputElement>(null)
   const autocompleteRef = useRef<google.maps.places.Autocomplete | null>(null)
   const t = useTranslations("plans.addressLookup")
   const { brand } = useSiteContext()
+  const { track } = useCdp()
+  const { isCDPTrackingEnabled } = useCDPTracking()
 
   const apiKey = process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY
 
-  const saveAddress = useCallback((formattedAddress: string) => {
+  const saveAddress = useCallback((place: google.maps.places.PlaceResult) => {
+    const components = place.address_components || []
+    const get = (type: string, nameType: "long_name" | "short_name" = "long_name") =>
+      components.find(c => c.types.includes(type))?.[nameType] ?? ""
+
+    const addressParts = {
+      street_number: get("street_number"),
+      street_name: get("route"),
+      suburb: get("locality") || get("sublocality"),
+      state: get("administrative_area_level_1", "short_name"),
+      postcode: get("postal_code"),
+      country: get("country", "short_name"),
+      formatted_address: place.formatted_address ?? "",
+    }
+
     const storageKey = `${brand.key}_customer_data`
     const existing = JSON.parse(localStorage.getItem(storageKey) || "{}")
-    existing.address = formattedAddress
+    existing.address = addressParts
     localStorage.setItem(storageKey, JSON.stringify(existing))
-  }, [brand.key])
+    onAddressChange(addressParts.formatted_address)
+    if (isCDPTrackingEnabled) {
+      track({ identifier: "plan_interest", properties: addressParts })
+    }
+  }, [brand.key, onAddressChange, isCDPTrackingEnabled, track])
+
+  const saveAddressRef = useRef<typeof saveAddress>(saveAddress)
+  useLayoutEffect(() => { saveAddressRef.current = saveAddress }, [saveAddress])
+
+  const handleFocus = useCallback(() => {
+    if (isCDPTrackingEnabled) {
+      track({ identifier: "plan_consider" })
+    }
+  }, [isCDPTrackingEnabled, track])
 
   useEffect(() => {
     if (!apiKey || !inputRef.current) return
@@ -33,8 +68,8 @@ export function AddressLookup() {
       })
       autocompleteRef.current.addListener("place_changed", () => {
         const place = autocompleteRef.current!.getPlace()
-        if (place.formatted_address) {
-          saveAddress(place.formatted_address)
+        if (place.address_components?.length) {
+          saveAddressRef.current(place)
         }
       })
     }
@@ -70,6 +105,7 @@ export function AddressLookup() {
               ref={inputRef}
               type="text"
               placeholder={t("placeholder")}
+              onFocus={handleFocus}
               className="flex h-12 w-full rounded-md border border-input bg-transparent pl-10 pr-3 py-1 text-base shadow-xs transition-[color,box-shadow] outline-none placeholder:text-muted-foreground focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px]"
             />
           </div>
