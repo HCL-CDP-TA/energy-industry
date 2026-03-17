@@ -1,14 +1,20 @@
 "use client"
 
 import { useState } from "react"
+import { useSearchParams } from "next/navigation"
 import { useTranslations } from "next-intl"
 import plans from "@/data/plans.json"
 import { Plan } from "@/types/plans"
 import { PlanCard } from "./PlanCard"
 import { PlanFilters } from "./PlanFilters"
 
+const VALID_FILTERS = ["all", "fixed", "variable", "tou", "ev"]
+
 export function PlanGrid({ address }: { address: string }) {
-  const [activeFilter, setActiveFilter] = useState("all")
+  const searchParams = useSearchParams()
+  const planParam = searchParams.get("plan") ?? ""
+  const initialFilter = VALID_FILTERS.includes(planParam) ? planParam : "all"
+  const [activeFilter, setActiveFilter] = useState(initialFilter)
   const t = useTranslations("plans.grid")
 
   const filteredPlans = activeFilter === "all"
