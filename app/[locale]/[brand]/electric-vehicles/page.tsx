@@ -8,8 +8,9 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Plan } from "@/types/plans"
 import Link from "next/link"
-import { CdpPageEvent } from "@hcl-cdp-ta/hclcdp-web-sdk-react"
+import { CdpPageEvent, useCdp } from "@hcl-cdp-ta/hclcdp-web-sdk-react"
 import { useCDPTracking } from "@/lib/hooks/useCDPTracking"
+import { useEffect, useRef } from "react"
 
 export default function ElectricVehiclesPage() {
   const t = useTranslations("electricVehicles")
@@ -17,6 +18,15 @@ export default function ElectricVehiclesPage() {
   const tPlan = useTranslations("plans.card")
   const { brand, locale, getFullPath } = useSiteContext()
   const { isCDPTrackingEnabled, isLoading: isCDPLoading } = useCDPTracking()
+  const { track } = useCdp()
+  const hasFiredAcquire = useRef(false)
+
+  useEffect(() => {
+    if (!isCDPLoading && isCDPTrackingEnabled && !hasFiredAcquire.current) {
+      hasFiredAcquire.current = true
+      track({ identifier: "ev_acquire" })
+    }
+  }, [isCDPLoading, isCDPTrackingEnabled, track])
 
   const planOrder = tPlans.raw("planOrder") as string[]
   const planData = tPlans.raw("data") as Record<string, Plan>

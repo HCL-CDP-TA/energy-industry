@@ -54,18 +54,12 @@ export function AddressLookup({ onAddressChange }: AddressLookupProps) {
     localStorage.setItem(storageKey, JSON.stringify(existing))
     onAddressChange(addressParts.formatted_address)
     if (isCDPTrackingEnabled) {
-      track({ identifier: "plan_interest", properties: addressParts })
+      track({ identifier: "plan_consider", properties: addressParts })
     }
   }, [brand.key, onAddressChange, isCDPTrackingEnabled, track])
 
   const saveAddressRef = useRef<typeof saveAddress>(saveAddress)
   useLayoutEffect(() => { saveAddressRef.current = saveAddress }, [saveAddress])
-
-  const handleFocus = useCallback(() => {
-    if (isCDPTrackingEnabled) {
-      track({ identifier: "plan_consider" })
-    }
-  }, [isCDPTrackingEnabled, track])
 
   useEffect(() => {
     if (!apiKey || !inputRef.current) return
@@ -121,7 +115,6 @@ export function AddressLookup({ onAddressChange }: AddressLookupProps) {
               ref={inputRef}
               type="text"
               placeholder={t("placeholder")}
-              onFocus={handleFocus}
               className="flex h-12 w-full rounded-md border border-input bg-transparent pl-10 pr-3 py-1 text-base shadow-xs transition-[color,box-shadow] outline-none placeholder:text-muted-foreground focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px]"
             />
           </div>

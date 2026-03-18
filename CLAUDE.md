@@ -142,4 +142,10 @@ lib/
   hooks/useTrackingType.ts, hooks/useCDPTracking.ts
 prisma/schema.prisma
 middleware.ts
+docs/
+  cdp-events.md                       # CDP event tracking reference (keep in sync with code changes)
 ```
+
+## Maintenance Notes
+
+- **CDP Events Documentation**: When adding, removing, or modifying CDP tracking events, update `docs/cdp-events.md` to reflect the changes.

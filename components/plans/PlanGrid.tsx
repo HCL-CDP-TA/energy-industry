@@ -1,8 +1,10 @@
 "use client"
 
-import { useState } from "react"
+import { useState, useEffect, useRef, useCallback } from "react"
 import { useSearchParams } from "next/navigation"
 import { useTranslations } from "next-intl"
+import { useCdp } from "@hcl-cdp-ta/hclcdp-web-sdk-react"
+import { useCDPTracking } from "@/lib/hooks/useCDPTracking"
 import { Plan } from "@/types/plans"
 import { PlanCard } from "./PlanCard"
 import { PlanFilters } from "./PlanFilters"
@@ -15,6 +17,23 @@ export function PlanGrid({ address }: { address: string }) {
   const initialFilter = VALID_FILTERS.includes(planParam) ? planParam : "all"
   const [activeFilter, setActiveFilter] = useState(initialFilter)
   const t = useTranslations("plans")
+  const { track } = useCdp()
+  const { isCDPTrackingEnabled, isLoading: isCDPLoading } = useCDPTracking()
+  const hasFiredInitial = useRef(false)
+
+  useEffect(() => {
+    if (!isCDPLoading && isCDPTrackingEnabled && !hasFiredInitial.current && initialFilter !== "all") {
+      hasFiredInitial.current = true
+      track({ identifier: "plan_interest", properties: { filter: initialFilter, source: "url" } })
+    }
+  }, [isCDPLoading, isCDPTrackingEnabled, initialFilter, track])
+
+  const handleFilterChange = useCallback((filter: string) => {
+    setActiveFilter(filter)
+    if (isCDPTrackingEnabled) {
+      track({ identifier: "plan_interest", properties: { filter, source: "user" } })
+    }
+  }, [isCDPTrackingEnabled, track])
 
   const planOrder = t.raw("planOrder") as string[]
   const planData = t.raw("data") as Record<string, Plan>
@@ -31,7 +50,7 @@ export function PlanGrid({ address }: { address: string }) {
         <p className="text-lg text-slate-600 text-center mb-8 max-w-2xl mx-auto">{t("grid.subtitle")}</p>
 
         <div className="flex justify-center mb-8">
-          <PlanFilters activeFilter={activeFilter} onFilterChange={setActiveFilter} />
+          <PlanFilters activeFilter={activeFilter} onFilterChange={handleFilterChange} />
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
