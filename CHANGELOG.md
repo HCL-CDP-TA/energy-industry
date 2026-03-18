@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.4.0](https://github.com/HCL-CDP-TA/energy-industry/compare/v1.3.0...v1.4.0) (2026-03-18)
+
+
+### Features
+
+* added additional locales and moved plan data to language files ([1b30adf](https://github.com/HCL-CDP-TA/energy-industry/commit/1b30adf7014e96a6bc6fc6c34a4115365551e0d5))
+* country filtered address lookup ([1937784](https://github.com/HCL-CDP-TA/energy-industry/commit/19377842f64ed7ce49db9118c6839d54223f9806))
+* country filtered address lookup - billing address ([65a3f4a](https://github.com/HCL-CDP-TA/energy-industry/commit/65a3f4ac97c561a7c52b21fcf0cf6ac5ce4f496e))
+* localisation for US/UK language and address differences ([2002a64](https://github.com/HCL-CDP-TA/energy-industry/commit/2002a64ab3da5db4442937e0f5c5f5975f4f1f7f))
+* pre-selected filtering onm plan page ([c133a5f](https://github.com/HCL-CDP-TA/energy-industry/commit/c133a5fb631de7f85f8ee020efb2171107ec7121))
+
 ## [1.3.0](https://github.com/HCL-CDP-TA/energy-industry/compare/v1.2.1...v1.3.0) (2026-03-17)
 
 
