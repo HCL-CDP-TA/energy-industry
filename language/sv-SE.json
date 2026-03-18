@@ -9,9 +9,18 @@
     "settings": "Inställningar"
   },
   "products": [
-    { "label": "Elavtal", "href": "plans" },
-    { "label": "Sol & Lagring", "href": "solar-storage" },
-    { "label": "Elbilar", "href": "electric-vehicles" }
+    {
+      "label": "Elavtal",
+      "href": "plans"
+    },
+    {
+      "label": "Sol & Lagring",
+      "href": "solar-storage"
+    },
+    {
+      "label": "Elbilar",
+      "href": "electric-vehicles"
+    }
   ],
   "home": {
     "cdp": {
@@ -29,10 +38,22 @@
     },
     "trustNumbers": {
       "items": [
-        { "value": "1,2M+", "label": "Nöjda kunder" },
-        { "value": "99,9%", "label": "Elnätstillförlitlighet" },
-        { "value": "40%", "label": "Förnybar energi" },
-        { "value": "24/7", "label": "Kundsupport" }
+        {
+          "value": "1,2M+",
+          "label": "Nöjda kunder"
+        },
+        {
+          "value": "99,9%",
+          "label": "Elnätstillförlitlighet"
+        },
+        {
+          "value": "40%",
+          "label": "Förnybar energi"
+        },
+        {
+          "value": "24/7",
+          "label": "Kundsupport"
+        }
       ]
     },
     "products": {
@@ -237,7 +258,16 @@
       "subtitle": "Våra energispecialister kan hjälpa dig hitta rätt avtal för ditt hem och dina förbrukningsmönster.",
       "cta": "Kontakta oss"
     },
-    "planOrder": ["fixed-saver", "fixed-green", "flexi-variable", "variable-saver", "smart-tou", "green-tou", "ev-home-charger", "ev-green-drive"],
+    "planOrder": [
+      "fixed-saver",
+      "fixed-green",
+      "flexi-variable",
+      "variable-saver",
+      "smart-tou",
+      "green-tou",
+      "ev-home-charger",
+      "ev-green-drive"
+    ],
     "data": {
       "fixed-saver": {
         "id": "fixed-saver",
@@ -245,13 +275,17 @@
         "name": "Fast Sparavtal",
         "rate": 89.0,
         "unit": "öre/kWh",
-        "dailySupplyCharge": 5.90,
+        "dailySupplyCharge": 5.9,
         "dailySupplyChargeUnit": "kr/dag",
         "contractTerm": 12,
         "discountPercent": 0,
         "greenEnergyPercent": 0,
         "popular": false,
-        "features": ["Fast pris i 12 månader", "Inga prishöjningar under avtalsperioden", "Enkelt fast pris, lätt att budgetera"]
+        "features": [
+          "Fast pris i 12 månader",
+          "Inga prishöjningar under avtalsperioden",
+          "Enkelt fast pris, lätt att budgetera"
+        ]
       },
       "fixed-green": {
         "id": "fixed-green",
@@ -259,13 +293,17 @@
         "name": "Fast Grönt",
         "rate": 105.0,
         "unit": "öre/kWh",
-        "dailySupplyCharge": 6.20,
+        "dailySupplyCharge": 6.2,
         "dailySupplyChargeUnit": "kr/dag",
         "contractTerm": 12,
         "discountPercent": 0,
         "greenEnergyPercent": 100,
         "popular": true,
-        "features": ["100 % certifierad grön el", "Fast pris i 12 månader", "Stöd förnybar energiproduktion"]
+        "features": [
+          "100 % certifierad grön el",
+          "Fast pris i 12 månader",
+          "Stöd förnybar energiproduktion"
+        ]
       },
       "flexi-variable": {
         "id": "flexi-variable",
@@ -273,13 +311,17 @@
         "name": "Flexi Rörligt",
         "rate": 82.0,
         "unit": "öre/kWh",
-        "dailySupplyCharge": 5.50,
+        "dailySupplyCharge": 5.5,
         "dailySupplyChargeUnit": "kr/dag",
         "contractTerm": 0,
         "discountPercent": 5,
         "greenEnergyPercent": 0,
         "popular": false,
-        "features": ["Ingen bindningstid", "5 % rabatt vid betalning i tid", "Priset följer marknaden"]
+        "features": [
+          "Ingen bindningstid",
+          "5 % rabatt vid betalning i tid",
+          "Priset följer marknaden"
+        ]
       },
       "variable-saver": {
         "id": "variable-saver",
@@ -287,13 +329,17 @@
         "name": "Rörligt Sparavtal",
         "rate": 76.0,
         "unit": "öre/kWh",
-        "dailySupplyCharge": 5.20,
+        "dailySupplyCharge": 5.2,
         "dailySupplyChargeUnit": "kr/dag",
         "contractTerm": 0,
         "discountPercent": 12,
         "greenEnergyPercent": 0,
         "popular": true,
-        "features": ["Vårt lägsta rörliga pris", "12 % garanterad rabatt", "Inga uppsägningsavgifter, avsluta när som helst"]
+        "features": [
+          "Vårt lägsta rörliga pris",
+          "12 % garanterad rabatt",
+          "Inga uppsägningsavgifter, avsluta när som helst"
+        ]
       },
       "smart-tou": {
         "id": "smart-tou",
@@ -303,13 +349,17 @@
         "shoulderRate": 98.0,
         "offPeakRate": 55.0,
         "unit": "öre/kWh",
-        "dailySupplyCharge": 5.80,
+        "dailySupplyCharge": 5.8,
         "dailySupplyChargeUnit": "kr/dag",
         "contractTerm": 12,
         "discountPercent": 0,
         "greenEnergyPercent": 0,
         "popular": false,
-        "features": ["Spara genom att flytta förbrukningen till låglast", "Kräver smart elmätare", "Perfekt för hushåll med solceller"]
+        "features": [
+          "Spara genom att flytta förbrukningen till låglast",
+          "Kräver smart elmätare",
+          "Perfekt för hushåll med solceller"
+        ]
       },
       "green-tou": {
         "id": "green-tou",
@@ -319,13 +369,17 @@
         "shoulderRate": 108.0,
         "offPeakRate": 62.0,
         "unit": "öre/kWh",
-        "dailySupplyCharge": 6.40,
+        "dailySupplyCharge": 6.4,
         "dailySupplyChargeUnit": "kr/dag",
         "contractTerm": 12,
         "discountPercent": 0,
         "greenEnergyPercent": 100,
         "popular": false,
-        "features": ["100 % certifierad grön el", "Lägre pris vid låglast", "Stöd förnybar energi"]
+        "features": [
+          "100 % certifierad grön el",
+          "Lägre pris vid låglast",
+          "Stöd förnybar energi"
+        ]
       },
       "ev-home-charger": {
         "id": "ev-home-charger",
@@ -334,13 +388,17 @@
         "peakRate": 135.0,
         "offPeakRate": 38.0,
         "unit": "öre/kWh",
-        "dailySupplyCharge": 6.80,
+        "dailySupplyCharge": 6.8,
         "dailySupplyChargeUnit": "kr/dag",
         "contractTerm": 24,
         "discountPercent": 0,
         "greenEnergyPercent": 0,
         "popular": true,
-        "features": ["Ultralågt nattligt laddpris för elbil", "Smart laddschemaläggning ingår", "Separat mätning för elbilsladdning"]
+        "features": [
+          "Ultralågt nattligt laddpris för elbil",
+          "Smart laddschemaläggning ingår",
+          "Separat mätning för elbilsladdning"
+        ]
       },
       "ev-green-drive": {
         "id": "ev-green-drive",
@@ -349,13 +407,17 @@
         "peakRate": 148.0,
         "offPeakRate": 45.0,
         "unit": "öre/kWh",
-        "dailySupplyCharge": 7.50,
+        "dailySupplyCharge": 7.5,
         "dailySupplyChargeUnit": "kr/dag",
         "contractTerm": 24,
         "discountPercent": 0,
         "greenEnergyPercent": 100,
         "popular": false,
-        "features": ["100 % förnybar elbilsladdning", "Lågt låglastpris för nattladdning", "Klimatneutral körning"]
+        "features": [
+          "100 % förnybar elbilsladdning",
+          "Lågt låglastpris för nattladdning",
+          "Klimatneutral körning"
+        ]
       }
     }
   },
@@ -374,10 +436,22 @@
     },
     "stats": {
       "items": [
-        { "value": "30%", "label": "Genomsnittlig räkningssänkning" },
-        { "value": "25 år", "label": "Panelgaranti" },
-        { "value": "8–12 år", "label": "Typisk återbetalningstid" },
-        { "value": "5 000+", "label": "Installerade system" }
+        {
+          "value": "30%",
+          "label": "Genomsnittlig räkningssänkning"
+        },
+        {
+          "value": "25 år",
+          "label": "Panelgaranti"
+        },
+        {
+          "value": "8–12 år",
+          "label": "Typisk återbetalningstid"
+        },
+        {
+          "value": "5 000+",
+          "label": "Installerade system"
+        }
       ]
     },
     "solutions": {
@@ -524,47 +598,28 @@
     },
     "stats": {
       "items": [
-        { "value": "70%", "label": "Billigare än bensin per km" },
-        { "value": "3–8 tim", "label": "Hemmaladdningstid" },
-        { "value": "50%", "label": "Besparingar på låglast" },
-        { "value": "0 g", "label": "Avgasutsläpp" }
+        {
+          "value": "70%",
+          "label": "Billigare än bensin per km"
+        },
+        {
+          "value": "3–8 tim",
+          "label": "Hemmaladdningstid"
+        },
+        {
+          "value": "50%",
+          "label": "Besparingar på låglast"
+        },
+        {
+          "value": "0 g",
+          "label": "Avgasutsläpp"
+        }
       ]
     },
     "plans": {
       "title": "Elbilsladdningsavtal",
       "subtitle": "Dedikerade avtal designade för elbilsägare, med låga låglastavgifter för att hålla laddkostnaderna nere.",
-      "cards": [
-        {
-          "title": "EV Spararen",
-          "description": "Vårt mest prisvärda elbilsavtal med ultralåga nattpriser för schemalagd laddning.",
-          "features": [
-            "Lägsta tillgängliga låglastpris",
-            "Perfekt för nattladdning hemma",
-            "Ingen bindningstid"
-          ],
-          "highlight": "Mest populär"
-        },
-        {
-          "title": "EV Flex",
-          "description": "Ett flexibelt avtal för elbilsägare som också vill ha konkurrenskraftiga priser för hushållets förbrukning.",
-          "features": [
-            "Låga elbilsladdningspriser",
-            "Konkurrenskraftiga hushållspriser",
-            "Smart schemaläggning via vår app"
-          ],
-          "highlight": ""
-        },
-        {
-          "title": "EV + Sol",
-          "description": "Kombinera solproduktion med elbilsladdning för maximala besparingar och minimal miljöpåverkan.",
-          "features": [
-            "Ladda din elbil från dina solceller",
-            "Ersättning för överskottsproduktion",
-            "Kompatibel med batterilagring"
-          ],
-          "highlight": "Bästa värde"
-        }
-      ]
+      "viewCta": "Visa plandetaljer"
     },
     "charging": {
       "title": "Hemmaladdningslösningar",
@@ -776,7 +831,12 @@
         "email": "t.ex. anna@example.com",
         "mobile": "t.ex. +46 70 123 45 67"
       },
-      "titles": ["Herr", "Fru", "Fröken", "Dr"]
+      "titles": [
+        "Herr",
+        "Fru",
+        "Fröken",
+        "Dr"
+      ]
     },
     "stepBillingPreferences": {
       "title": "Faktureringsinställningar",

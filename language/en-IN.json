@@ -2,10 +2,22 @@
   "home": {
     "trustNumbers": {
       "items": [
-        { "value": "1.2M+", "label": "Customers served" },
-        { "value": "99.9%", "label": "Grid reliability" },
-        { "value": "40%", "label": "Renewable energy" },
-        { "value": "24/7", "label": "Customer support" }
+        {
+          "value": "1.2M+",
+          "label": "Customers served"
+        },
+        {
+          "value": "99.9%",
+          "label": "Grid reliability"
+        },
+        {
+          "value": "40%",
+          "label": "Renewable energy"
+        },
+        {
+          "value": "24/7",
+          "label": "Customer support"
+        }
       ]
     },
     "savingsTips": {
@@ -53,10 +65,22 @@
   "solarStorage": {
     "stats": {
       "items": [
-        { "value": "30%", "label": "Average bill reduction" },
-        { "value": "25yr", "label": "Panel warranty" },
-        { "value": "4-6yr", "label": "Typical payback period" },
-        { "value": "5,000+", "label": "Systems installed" }
+        {
+          "value": "30%",
+          "label": "Average bill reduction"
+        },
+        {
+          "value": "25yr",
+          "label": "Panel warranty"
+        },
+        {
+          "value": "4-6yr",
+          "label": "Typical payback period"
+        },
+        {
+          "value": "5,000+",
+          "label": "Systems installed"
+        }
       ]
     },
     "benefits": {
@@ -117,10 +141,22 @@
   "electricVehicles": {
     "stats": {
       "items": [
-        { "value": "70%", "label": "Cheaper than petrol per km" },
-        { "value": "3-8hrs", "label": "Home charging time" },
-        { "value": "50%", "label": "Off-peak savings" },
-        { "value": "0g", "label": "Tailpipe emissions" }
+        {
+          "value": "70%",
+          "label": "Cheaper than petrol per km"
+        },
+        {
+          "value": "3-8hrs",
+          "label": "Home charging time"
+        },
+        {
+          "value": "50%",
+          "label": "Off-peak savings"
+        },
+        {
+          "value": "0g",
+          "label": "Tailpipe emissions"
+        }
       ]
     },
     "benefits": {
@@ -204,7 +240,16 @@
     "copyright": "2026 UniPower. All rights reserved. Energy retailer licence example."
   },
   "plans": {
-    "planOrder": ["fixed-saver", "fixed-green", "flexi-variable", "variable-saver", "smart-tou", "green-tou", "ev-home-charger", "ev-green-drive"],
+    "planOrder": [
+      "fixed-saver",
+      "fixed-green",
+      "flexi-variable",
+      "variable-saver",
+      "smart-tou",
+      "green-tou",
+      "ev-home-charger",
+      "ev-green-drive"
+    ],
     "data": {
       "fixed-saver": {
         "id": "fixed-saver",

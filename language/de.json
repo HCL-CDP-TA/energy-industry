@@ -9,9 +9,18 @@
     "settings": "Einstellungen"
   },
   "products": [
-    { "label": "Stromtarife", "href": "plans" },
-    { "label": "Solar & Speicher", "href": "solar-storage" },
-    { "label": "Elektrofahrzeuge", "href": "electric-vehicles" }
+    {
+      "label": "Stromtarife",
+      "href": "plans"
+    },
+    {
+      "label": "Solar & Speicher",
+      "href": "solar-storage"
+    },
+    {
+      "label": "Elektrofahrzeuge",
+      "href": "electric-vehicles"
+    }
   ],
   "home": {
     "cdp": {
@@ -29,10 +38,22 @@
     },
     "trustNumbers": {
       "items": [
-        { "value": "1,2 Mio.+", "label": "Versorgte Kunden" },
-        { "value": "99,9 %", "label": "Netzzuverlässigkeit" },
-        { "value": "40 %", "label": "Erneuerbare Energie" },
-        { "value": "24/7", "label": "Kundenservice" }
+        {
+          "value": "1,2 Mio.+",
+          "label": "Versorgte Kunden"
+        },
+        {
+          "value": "99,9 %",
+          "label": "Netzzuverlässigkeit"
+        },
+        {
+          "value": "40 %",
+          "label": "Erneuerbare Energie"
+        },
+        {
+          "value": "24/7",
+          "label": "Kundenservice"
+        }
       ]
     },
     "products": {
@@ -237,7 +258,16 @@
       "subtitle": "Unsere Energieberater helfen Ihnen, den richtigen Tarif für Ihr Zuhause und Ihren Verbrauch zu finden.",
       "cta": "Kontaktieren Sie uns"
     },
-    "planOrder": ["fixed-saver", "fixed-green", "flexi-variable", "variable-saver", "smart-tou", "green-tou", "ev-home-charger", "ev-green-drive"],
+    "planOrder": [
+      "fixed-saver",
+      "fixed-green",
+      "flexi-variable",
+      "variable-saver",
+      "smart-tou",
+      "green-tou",
+      "ev-home-charger",
+      "ev-green-drive"
+    ],
     "data": {
       "fixed-saver": {
         "id": "fixed-saver",
@@ -251,7 +281,11 @@
         "discountPercent": 0,
         "greenEnergyPercent": 0,
         "popular": false,
-        "features": ["Garantierter Preis für 12 Monate", "Keine Preiserhöhungen während der Vertragslaufzeit", "Einfacher Einheitstarif, leicht zu kalkulieren"]
+        "features": [
+          "Garantierter Preis für 12 Monate",
+          "Keine Preiserhöhungen während der Vertragslaufzeit",
+          "Einfacher Einheitstarif, leicht zu kalkulieren"
+        ]
       },
       "fixed-green": {
         "id": "fixed-green",
@@ -265,7 +299,11 @@
         "discountPercent": 0,
         "greenEnergyPercent": 100,
         "popular": true,
-        "features": ["100 % zertifizierter Ökostrom", "Festpreis für 12 Monate", "Unterstützung erneuerbarer Energieprojekte"]
+        "features": [
+          "100 % zertifizierter Ökostrom",
+          "Festpreis für 12 Monate",
+          "Unterstützung erneuerbarer Energieprojekte"
+        ]
       },
       "flexi-variable": {
         "id": "flexi-variable",
@@ -279,7 +317,11 @@
         "discountPercent": 5,
         "greenEnergyPercent": 0,
         "popular": false,
-        "features": ["Keine Vertragsbindung", "5 % Rabatt bei pünktlicher Zahlung", "Preise bewegen sich mit dem Markt"]
+        "features": [
+          "Keine Vertragsbindung",
+          "5 % Rabatt bei pünktlicher Zahlung",
+          "Preise bewegen sich mit dem Markt"
+        ]
       },
       "variable-saver": {
         "id": "variable-saver",
@@ -293,7 +335,11 @@
         "discountPercent": 12,
         "greenEnergyPercent": 0,
         "popular": true,
-        "features": ["Unser günstigster variabler Tarif", "12 % garantierter Rabatt", "Keine Ausstiegsgebühren, jederzeit kündbar"]
+        "features": [
+          "Unser günstigster variabler Tarif",
+          "12 % garantierter Rabatt",
+          "Keine Ausstiegsgebühren, jederzeit kündbar"
+        ]
       },
       "smart-tou": {
         "id": "smart-tou",
@@ -309,7 +355,11 @@
         "discountPercent": 0,
         "greenEnergyPercent": 0,
         "popular": false,
-        "features": ["Sparen durch Verlagerung in die Schwachlastzeit", "Smart Meter erforderlich", "Ideal für Solaranlagen-Haushalte"]
+        "features": [
+          "Sparen durch Verlagerung in die Schwachlastzeit",
+          "Smart Meter erforderlich",
+          "Ideal für Solaranlagen-Haushalte"
+        ]
       },
       "green-tou": {
         "id": "green-tou",
@@ -325,7 +375,11 @@
         "discountPercent": 0,
         "greenEnergyPercent": 100,
         "popular": false,
-        "features": ["100 % zertifizierter Ökostrom", "Günstigere Schwachlasttarife", "Unterstützung erneuerbarer Energien"]
+        "features": [
+          "100 % zertifizierter Ökostrom",
+          "Günstigere Schwachlasttarife",
+          "Unterstützung erneuerbarer Energien"
+        ]
       },
       "ev-home-charger": {
         "id": "ev-home-charger",
@@ -340,7 +394,11 @@
         "discountPercent": 0,
         "greenEnergyPercent": 0,
         "popular": true,
-        "features": ["Ultraniedriger Nachttarif fürs E-Auto-Laden", "Intelligente Ladeplanung inklusive", "Separate Messung für E-Auto"]
+        "features": [
+          "Ultraniedriger Nachttarif fürs E-Auto-Laden",
+          "Intelligente Ladeplanung inklusive",
+          "Separate Messung für E-Auto"
+        ]
       },
       "ev-green-drive": {
         "id": "ev-green-drive",
@@ -355,7 +413,11 @@
         "discountPercent": 0,
         "greenEnergyPercent": 100,
         "popular": false,
-        "features": ["100 % erneuerbares E-Auto-Laden", "Günstiger Schwachlasttarif für nächtliches Laden", "CO2-neutrales Fahren"]
+        "features": [
+          "100 % erneuerbares E-Auto-Laden",
+          "Günstiger Schwachlasttarif für nächtliches Laden",
+          "CO2-neutrales Fahren"
+        ]
       }
     }
   },
@@ -374,10 +436,22 @@
     },
     "stats": {
       "items": [
-        { "value": "30 %", "label": "Durchschnittliche Rechnungsreduzierung" },
-        { "value": "25 J.", "label": "Modulgarantie" },
-        { "value": "8-12 J.", "label": "Typische Amortisationszeit" },
-        { "value": "5.000+", "label": "Installierte Anlagen" }
+        {
+          "value": "30 %",
+          "label": "Durchschnittliche Rechnungsreduzierung"
+        },
+        {
+          "value": "25 J.",
+          "label": "Modulgarantie"
+        },
+        {
+          "value": "8-12 J.",
+          "label": "Typische Amortisationszeit"
+        },
+        {
+          "value": "5.000+",
+          "label": "Installierte Anlagen"
+        }
       ]
     },
     "solutions": {
@@ -524,47 +598,28 @@
     },
     "stats": {
       "items": [
-        { "value": "70 %", "label": "Günstiger als Benzin pro km" },
-        { "value": "3-8 Std.", "label": "Ladezeit zu Hause" },
-        { "value": "50 %", "label": "Schwachlast-Ersparnis" },
-        { "value": "0 g", "label": "Auspuff-Emissionen" }
+        {
+          "value": "70 %",
+          "label": "Günstiger als Benzin pro km"
+        },
+        {
+          "value": "3-8 Std.",
+          "label": "Ladezeit zu Hause"
+        },
+        {
+          "value": "50 %",
+          "label": "Schwachlast-Ersparnis"
+        },
+        {
+          "value": "0 g",
+          "label": "Auspuff-Emissionen"
+        }
       ]
     },
     "plans": {
       "title": "E-Auto-Ladetarife",
       "subtitle": "Spezielle Tarife für Elektrofahrzeugbesitzer mit günstigen Schwachlastpreisen, um die Ladekosten niedrig zu halten.",
-      "cards": [
-        {
-          "title": "EV Saver",
-          "description": "Unser günstigster E-Auto-Tarif mit ultraniedrigen Nachttarifen für geplantes Laden.",
-          "features": [
-            "Günstigster verfügbarer Niedertarif",
-            "Ideal für nächtliches Laden zu Hause",
-            "Keine Vertragsbindung"
-          ],
-          "highlight": "Beliebtester Tarif"
-        },
-        {
-          "title": "EV Flex",
-          "description": "Ein flexibler Tarif für E-Auto-Besitzer, die auch wettbewerbsfähige Haushaltstarife wünschen.",
-          "features": [
-            "Günstige E-Auto-Ladepreise",
-            "Wettbewerbsfähige Haushaltstarife",
-            "Intelligente Zeitplanung über unsere App"
-          ],
-          "highlight": ""
-        },
-        {
-          "title": "EV + Solar",
-          "description": "Kombinieren Sie Solarstrom mit E-Auto-Laden für maximale Einsparungen und minimale Umweltbelastung.",
-          "features": [
-            "Laden Sie Ihr E-Auto mit Ihren Solarmodulen",
-            "Einspeisevergütung für Überschussproduktion",
-            "Batteriespeicher-kompatibel"
-          ],
-          "highlight": "Bestes Preis-Leistungs-Verhältnis"
-        }
-      ]
+      "viewCta": "Tarifdetails anzeigen"
     },
     "charging": {
       "title": "Heimladelösungen",
@@ -776,7 +831,11 @@
         "email": "z. B. anna@beispiel.de",
         "mobile": "z. B. +49 170 1234567"
       },
-      "titles": ["Herr", "Frau", "Dr."]
+      "titles": [
+        "Herr",
+        "Frau",
+        "Dr."
+      ]
     },
     "stepBillingPreferences": {
       "title": "Abrechnungspräferenzen",

@@ -9,9 +9,18 @@
     "settings": "Settings"
   },
   "products": [
-    { "label": "Plans", "href": "plans" },
-    { "label": "Solar & Storage", "href": "solar-storage" },
-    { "label": "Electric Vehicles", "href": "electric-vehicles" }
+    {
+      "label": "Plans",
+      "href": "plans"
+    },
+    {
+      "label": "Solar & Storage",
+      "href": "solar-storage"
+    },
+    {
+      "label": "Electric Vehicles",
+      "href": "electric-vehicles"
+    }
   ],
   "home": {
     "cdp": {
@@ -29,10 +38,22 @@
     },
     "trustNumbers": {
       "items": [
-        { "value": "1.2M+", "label": "Customers served" },
-        { "value": "99.9%", "label": "Grid reliability" },
-        { "value": "40%", "label": "Renewable energy" },
-        { "value": "24/7", "label": "Customer support" }
+        {
+          "value": "1.2M+",
+          "label": "Customers served"
+        },
+        {
+          "value": "99.9%",
+          "label": "Grid reliability"
+        },
+        {
+          "value": "40%",
+          "label": "Renewable energy"
+        },
+        {
+          "value": "24/7",
+          "label": "Customer support"
+        }
       ]
     },
     "products": {
@@ -237,7 +258,16 @@
       "subtitle": "Our energy specialists can help you find the right plan for your home and usage patterns.",
       "cta": "Contact us"
     },
-    "planOrder": ["fixed-saver", "fixed-green", "flexi-variable", "variable-saver", "smart-tou", "green-tou", "ev-home-charger", "ev-green-drive"],
+    "planOrder": [
+      "fixed-saver",
+      "fixed-green",
+      "flexi-variable",
+      "variable-saver",
+      "smart-tou",
+      "green-tou",
+      "ev-home-charger",
+      "ev-green-drive"
+    ],
     "data": {
       "fixed-saver": {
         "id": "fixed-saver",
@@ -406,10 +436,22 @@
     },
     "stats": {
       "items": [
-        { "value": "30%", "label": "Average bill reduction" },
-        { "value": "25yr", "label": "Panel warranty" },
-        { "value": "8-12yr", "label": "Typical payback period" },
-        { "value": "5,000+", "label": "Systems installed" }
+        {
+          "value": "30%",
+          "label": "Average bill reduction"
+        },
+        {
+          "value": "25yr",
+          "label": "Panel warranty"
+        },
+        {
+          "value": "8-12yr",
+          "label": "Typical payback period"
+        },
+        {
+          "value": "5,000+",
+          "label": "Systems installed"
+        }
       ]
     },
     "solutions": {
@@ -556,47 +598,28 @@
     },
     "stats": {
       "items": [
-        { "value": "70%", "label": "Cheaper than petrol per km" },
-        { "value": "3-8hrs", "label": "Home charging time" },
-        { "value": "50%", "label": "Off-peak savings" },
-        { "value": "0g", "label": "Tailpipe emissions" }
+        {
+          "value": "70%",
+          "label": "Cheaper than petrol per km"
+        },
+        {
+          "value": "3-8hrs",
+          "label": "Home charging time"
+        },
+        {
+          "value": "50%",
+          "label": "Off-peak savings"
+        },
+        {
+          "value": "0g",
+          "label": "Tailpipe emissions"
+        }
       ]
     },
     "plans": {
       "title": "EV charging plans",
       "subtitle": "Dedicated plans designed for electric vehicle owners, with low off-peak rates to keep charging costs down.",
-      "cards": [
-        {
-          "title": "EV Saver",
-          "description": "Our most affordable EV plan with ultra-low overnight rates for scheduled charging.",
-          "features": [
-            "Lowest off-peak rate available",
-            "Ideal for overnight home charging",
-            "No lock-in contract"
-          ],
-          "highlight": "Most Popular"
-        },
-        {
-          "title": "EV Flex",
-          "description": "A flexible plan for EV owners who also want competitive rates for their household usage.",
-          "features": [
-            "Low EV charging rates",
-            "Competitive household rates",
-            "Smart scheduling via our app"
-          ],
-          "highlight": ""
-        },
-        {
-          "title": "EV + Solar",
-          "description": "Combine solar generation with EV charging for maximum savings and minimal environmental impact.",
-          "features": [
-            "Charge your EV from your solar panels",
-            "Feed-in credits for excess generation",
-            "Battery storage compatible"
-          ],
-          "highlight": "Best Value"
-        }
-      ]
+      "viewCta": "View plan details"
     },
     "charging": {
       "title": "Home charging solutions",
@@ -808,7 +831,13 @@
         "email": "e.g. jane@example.com",
         "mobile": "e.g. +61 400 000 000"
       },
-      "titles": ["Mr", "Mrs", "Ms", "Dr", "Mx"]
+      "titles": [
+        "Mr",
+        "Mrs",
+        "Ms",
+        "Dr",
+        "Mx"
+      ]
     },
     "stepBillingPreferences": {
       "title": "Billing preferences",

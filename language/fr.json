@@ -9,9 +9,18 @@
     "settings": "Paramètres"
   },
   "products": [
-    { "label": "Offres", "href": "plans" },
-    { "label": "Solaire & Stockage", "href": "solar-storage" },
-    { "label": "Véhicules Électriques", "href": "electric-vehicles" }
+    {
+      "label": "Offres",
+      "href": "plans"
+    },
+    {
+      "label": "Solaire & Stockage",
+      "href": "solar-storage"
+    },
+    {
+      "label": "Véhicules Électriques",
+      "href": "electric-vehicles"
+    }
   ],
   "home": {
     "cdp": {
@@ -29,10 +38,22 @@
     },
     "trustNumbers": {
       "items": [
-        { "value": "1,2M+", "label": "Clients servis" },
-        { "value": "99,9 %", "label": "Fiabilité du réseau" },
-        { "value": "40 %", "label": "Énergie renouvelable" },
-        { "value": "24/7", "label": "Service client" }
+        {
+          "value": "1,2M+",
+          "label": "Clients servis"
+        },
+        {
+          "value": "99,9 %",
+          "label": "Fiabilité du réseau"
+        },
+        {
+          "value": "40 %",
+          "label": "Énergie renouvelable"
+        },
+        {
+          "value": "24/7",
+          "label": "Service client"
+        }
       ]
     },
     "products": {
@@ -237,7 +258,16 @@
       "subtitle": "Nos conseillers énergie peuvent vous aider à trouver l'offre adaptée à votre foyer et à vos habitudes de consommation.",
       "cta": "Nous contacter"
     },
-    "planOrder": ["fixed-saver", "fixed-green", "flexi-variable", "variable-saver", "smart-tou", "green-tou", "ev-home-charger", "ev-green-drive"],
+    "planOrder": [
+      "fixed-saver",
+      "fixed-green",
+      "flexi-variable",
+      "variable-saver",
+      "smart-tou",
+      "green-tou",
+      "ev-home-charger",
+      "ev-green-drive"
+    ],
     "data": {
       "fixed-saver": {
         "id": "fixed-saver",
@@ -251,7 +281,11 @@
         "discountPercent": 0,
         "greenEnergyPercent": 0,
         "popular": false,
-        "features": ["Tarif garanti pendant 12 mois", "Aucune hausse de prix pendant votre contrat", "Tarif unique simple, facile à budgéter"]
+        "features": [
+          "Tarif garanti pendant 12 mois",
+          "Aucune hausse de prix pendant votre contrat",
+          "Tarif unique simple, facile à budgéter"
+        ]
       },
       "fixed-green": {
         "id": "fixed-green",
@@ -265,7 +299,11 @@
         "discountPercent": 0,
         "greenEnergyPercent": 100,
         "popular": true,
-        "features": ["100 % énergie verte certifiée", "Tarif fixe pendant 12 mois", "Soutenez les projets d'énergie renouvelable"]
+        "features": [
+          "100 % énergie verte certifiée",
+          "Tarif fixe pendant 12 mois",
+          "Soutenez les projets d'énergie renouvelable"
+        ]
       },
       "flexi-variable": {
         "id": "flexi-variable",
@@ -279,7 +317,11 @@
         "discountPercent": 5,
         "greenEnergyPercent": 0,
         "popular": false,
-        "features": ["Sans engagement", "5 % de réduction pour paiement ponctuel", "Tarifs indexés sur le marché"]
+        "features": [
+          "Sans engagement",
+          "5 % de réduction pour paiement ponctuel",
+          "Tarifs indexés sur le marché"
+        ]
       },
       "variable-saver": {
         "id": "variable-saver",
@@ -293,7 +335,11 @@
         "discountPercent": 12,
         "greenEnergyPercent": 0,
         "popular": true,
-        "features": ["Notre tarif variable le plus bas", "12 % de réduction garantie", "Sans frais de résiliation, résiliez à tout moment"]
+        "features": [
+          "Notre tarif variable le plus bas",
+          "12 % de réduction garantie",
+          "Sans frais de résiliation, résiliez à tout moment"
+        ]
       },
       "smart-tou": {
         "id": "smart-tou",
@@ -309,7 +355,11 @@
         "discountPercent": 0,
         "greenEnergyPercent": 0,
         "popular": false,
-        "features": ["Économisez en décalant votre consommation en heures creuses", "Compteur communicant requis", "Idéal pour les foyers équipés de panneaux solaires"]
+        "features": [
+          "Économisez en décalant votre consommation en heures creuses",
+          "Compteur communicant requis",
+          "Idéal pour les foyers équipés de panneaux solaires"
+        ]
       },
       "green-tou": {
         "id": "green-tou",
@@ -325,7 +375,11 @@
         "discountPercent": 0,
         "greenEnergyPercent": 100,
         "popular": false,
-        "features": ["100 % énergie verte certifiée", "Tarifs heures creuses réduits", "Soutenez les énergies renouvelables"]
+        "features": [
+          "100 % énergie verte certifiée",
+          "Tarifs heures creuses réduits",
+          "Soutenez les énergies renouvelables"
+        ]
       },
       "ev-home-charger": {
         "id": "ev-home-charger",
@@ -340,7 +394,11 @@
         "discountPercent": 0,
         "greenEnergyPercent": 0,
         "popular": true,
-        "features": ["Tarif de nuit ultra-bas pour la recharge VE", "Programmation intelligente de la borne incluse", "Comptage séparé pour le VE"]
+        "features": [
+          "Tarif de nuit ultra-bas pour la recharge VE",
+          "Programmation intelligente de la borne incluse",
+          "Comptage séparé pour le VE"
+        ]
       },
       "ev-green-drive": {
         "id": "ev-green-drive",
@@ -355,7 +413,11 @@
         "discountPercent": 0,
         "greenEnergyPercent": 100,
         "popular": false,
-        "features": ["Recharge VE 100 % renouvelable", "Tarif heures creuses bas pour la recharge nocturne", "Conduite neutre en carbone"]
+        "features": [
+          "Recharge VE 100 % renouvelable",
+          "Tarif heures creuses bas pour la recharge nocturne",
+          "Conduite neutre en carbone"
+        ]
       }
     }
   },
@@ -374,10 +436,22 @@
     },
     "stats": {
       "items": [
-        { "value": "30 %", "label": "Réduction moyenne de la facture" },
-        { "value": "25 ans", "label": "Garantie panneaux" },
-        { "value": "8-12 ans", "label": "Retour sur investissement" },
-        { "value": "5 000+", "label": "Installations réalisées" }
+        {
+          "value": "30 %",
+          "label": "Réduction moyenne de la facture"
+        },
+        {
+          "value": "25 ans",
+          "label": "Garantie panneaux"
+        },
+        {
+          "value": "8-12 ans",
+          "label": "Retour sur investissement"
+        },
+        {
+          "value": "5 000+",
+          "label": "Installations réalisées"
+        }
       ]
     },
     "solutions": {
@@ -524,47 +598,28 @@
     },
     "stats": {
       "items": [
-        { "value": "70 %", "label": "Moins cher que l'essence au km" },
-        { "value": "3-8 h", "label": "Temps de recharge à domicile" },
-        { "value": "50 %", "label": "Économies en heures creuses" },
-        { "value": "0 g", "label": "Émissions à l'échappement" }
+        {
+          "value": "70 %",
+          "label": "Moins cher que l'essence au km"
+        },
+        {
+          "value": "3-8 h",
+          "label": "Temps de recharge à domicile"
+        },
+        {
+          "value": "50 %",
+          "label": "Économies en heures creuses"
+        },
+        {
+          "value": "0 g",
+          "label": "Émissions à l'échappement"
+        }
       ]
     },
     "plans": {
       "title": "Offres de recharge VE",
       "subtitle": "Des offres dédiées aux propriétaires de véhicules électriques, avec des tarifs heures creuses avantageux pour limiter les coûts de recharge.",
-      "cards": [
-        {
-          "title": "VE Éco",
-          "description": "Notre offre VE la plus économique avec des tarifs de nuit ultra-bas pour la recharge programmée.",
-          "features": [
-            "Le tarif heures creuses le plus bas disponible",
-            "Idéal pour la recharge nocturne à domicile",
-            "Sans engagement"
-          ],
-          "highlight": "Le plus populaire"
-        },
-        {
-          "title": "VE Flex",
-          "description": "Une offre flexible pour les propriétaires de VE qui souhaitent aussi des tarifs compétitifs pour leur consommation domestique.",
-          "features": [
-            "Tarifs de recharge VE avantageux",
-            "Tarifs domestiques compétitifs",
-            "Programmation intelligente via notre application"
-          ],
-          "highlight": ""
-        },
-        {
-          "title": "VE + Solaire",
-          "description": "Combinez production solaire et recharge VE pour des économies maximales et un impact environnemental minimal.",
-          "features": [
-            "Rechargez votre VE grâce à vos panneaux solaires",
-            "Crédits d'injection pour la production excédentaire",
-            "Compatible avec le stockage par batterie"
-          ],
-          "highlight": "Meilleur rapport qualité-prix"
-        }
-      ]
+      "viewCta": "Voir les détails du plan"
     },
     "charging": {
       "title": "Solutions de recharge à domicile",
@@ -776,7 +831,11 @@
         "email": "ex. marie@exemple.fr",
         "mobile": "ex. 06 12 34 56 78"
       },
-      "titles": ["M.", "Mme", "Dr"]
+      "titles": [
+        "M.",
+        "Mme",
+        "Dr"
+      ]
     },
     "stepBillingPreferences": {
       "title": "Préférences de facturation",

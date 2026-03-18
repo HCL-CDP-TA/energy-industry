@@ -9,9 +9,18 @@
     "settings": "Ajustes"
   },
   "products": [
-    { "label": "Planes", "href": "plans" },
-    { "label": "Solar y almacenamiento", "href": "solar-storage" },
-    { "label": "Vehículos eléctricos", "href": "electric-vehicles" }
+    {
+      "label": "Planes",
+      "href": "plans"
+    },
+    {
+      "label": "Solar y almacenamiento",
+      "href": "solar-storage"
+    },
+    {
+      "label": "Vehículos eléctricos",
+      "href": "electric-vehicles"
+    }
   ],
   "home": {
     "cdp": {
@@ -29,10 +38,22 @@
     },
     "trustNumbers": {
       "items": [
-        { "value": "1,2M+", "label": "Clientes atendidos" },
-        { "value": "99,9%", "label": "Fiabilidad de la red" },
-        { "value": "40%", "label": "Energía renovable" },
-        { "value": "24/7", "label": "Atención al cliente" }
+        {
+          "value": "1,2M+",
+          "label": "Clientes atendidos"
+        },
+        {
+          "value": "99,9%",
+          "label": "Fiabilidad de la red"
+        },
+        {
+          "value": "40%",
+          "label": "Energía renovable"
+        },
+        {
+          "value": "24/7",
+          "label": "Atención al cliente"
+        }
       ]
     },
     "products": {
@@ -237,7 +258,16 @@
       "subtitle": "Nuestros especialistas en energía pueden ayudarle a encontrar el plan adecuado para su hogar y sus hábitos de consumo.",
       "cta": "Contáctenos"
     },
-    "planOrder": ["fixed-saver", "fixed-green", "flexi-variable", "variable-saver", "smart-tou", "green-tou", "ev-home-charger", "ev-green-drive"],
+    "planOrder": [
+      "fixed-saver",
+      "fixed-green",
+      "flexi-variable",
+      "variable-saver",
+      "smart-tou",
+      "green-tou",
+      "ev-home-charger",
+      "ev-green-drive"
+    ],
     "data": {
       "fixed-saver": {
         "id": "fixed-saver",
@@ -251,7 +281,11 @@
         "discountPercent": 0,
         "greenEnergyPercent": 0,
         "popular": false,
-        "features": ["Tarifa fija garantizada durante 12 meses", "Sin subidas de precio durante su contrato", "Tarifa plana sencilla, fácil de presupuestar"]
+        "features": [
+          "Tarifa fija garantizada durante 12 meses",
+          "Sin subidas de precio durante su contrato",
+          "Tarifa plana sencilla, fácil de presupuestar"
+        ]
       },
       "fixed-green": {
         "id": "fixed-green",
@@ -265,7 +299,11 @@
         "discountPercent": 0,
         "greenEnergyPercent": 100,
         "popular": true,
-        "features": ["100% energía verde certificada", "Tarifa fija durante 12 meses", "Apoye proyectos de energía renovable"]
+        "features": [
+          "100% energía verde certificada",
+          "Tarifa fija durante 12 meses",
+          "Apoye proyectos de energía renovable"
+        ]
       },
       "flexi-variable": {
         "id": "flexi-variable",
@@ -279,7 +317,11 @@
         "discountPercent": 5,
         "greenEnergyPercent": 0,
         "popular": false,
-        "features": ["Sin permanencia", "5% de descuento por pago puntual", "Las tarifas se ajustan con el mercado"]
+        "features": [
+          "Sin permanencia",
+          "5% de descuento por pago puntual",
+          "Las tarifas se ajustan con el mercado"
+        ]
       },
       "variable-saver": {
         "id": "variable-saver",
@@ -293,7 +335,11 @@
         "discountPercent": 12,
         "greenEnergyPercent": 0,
         "popular": true,
-        "features": ["Nuestra tarifa variable más baja", "12% de descuento garantizado", "Sin penalización por cancelación"]
+        "features": [
+          "Nuestra tarifa variable más baja",
+          "12% de descuento garantizado",
+          "Sin penalización por cancelación"
+        ]
       },
       "smart-tou": {
         "id": "smart-tou",
@@ -309,7 +355,11 @@
         "discountPercent": 0,
         "greenEnergyPercent": 0,
         "popular": false,
-        "features": ["Ahorre trasladando el consumo a horas valle", "Requiere contador inteligente", "Ideal para hogares con instalación solar"]
+        "features": [
+          "Ahorre trasladando el consumo a horas valle",
+          "Requiere contador inteligente",
+          "Ideal para hogares con instalación solar"
+        ]
       },
       "green-tou": {
         "id": "green-tou",
@@ -325,7 +375,11 @@
         "discountPercent": 0,
         "greenEnergyPercent": 100,
         "popular": false,
-        "features": ["100% energía verde certificada", "Tarifas valle más bajas", "Apoye la energía renovable"]
+        "features": [
+          "100% energía verde certificada",
+          "Tarifas valle más bajas",
+          "Apoye la energía renovable"
+        ]
       },
       "ev-home-charger": {
         "id": "ev-home-charger",
@@ -340,7 +394,11 @@
         "discountPercent": 0,
         "greenEnergyPercent": 0,
         "popular": true,
-        "features": ["Tarifa nocturna ultrarreducida para carga de VE", "Programación de carga inteligente incluida", "Contador independiente para el VE"]
+        "features": [
+          "Tarifa nocturna ultrarreducida para carga de VE",
+          "Programación de carga inteligente incluida",
+          "Contador independiente para el VE"
+        ]
       },
       "ev-green-drive": {
         "id": "ev-green-drive",
@@ -355,7 +413,11 @@
         "discountPercent": 0,
         "greenEnergyPercent": 100,
         "popular": false,
-        "features": ["Carga de VE 100% renovable", "Tarifa valle reducida para carga nocturna", "Conducción neutra en carbono"]
+        "features": [
+          "Carga de VE 100% renovable",
+          "Tarifa valle reducida para carga nocturna",
+          "Conducción neutra en carbono"
+        ]
       }
     }
   },
@@ -374,10 +436,22 @@
     },
     "stats": {
       "items": [
-        { "value": "30%", "label": "Reducción media de factura" },
-        { "value": "25 años", "label": "Garantía de paneles" },
-        { "value": "8-12 años", "label": "Periodo de amortización típico" },
-        { "value": "5.000+", "label": "Sistemas instalados" }
+        {
+          "value": "30%",
+          "label": "Reducción media de factura"
+        },
+        {
+          "value": "25 años",
+          "label": "Garantía de paneles"
+        },
+        {
+          "value": "8-12 años",
+          "label": "Periodo de amortización típico"
+        },
+        {
+          "value": "5.000+",
+          "label": "Sistemas instalados"
+        }
       ]
     },
     "solutions": {
@@ -524,47 +598,28 @@
     },
     "stats": {
       "items": [
-        { "value": "70%", "label": "Más barato que la gasolina por km" },
-        { "value": "3-8h", "label": "Tiempo de carga en el hogar" },
-        { "value": "50%", "label": "Ahorro en horas valle" },
-        { "value": "0g", "label": "Emisiones del tubo de escape" }
+        {
+          "value": "70%",
+          "label": "Más barato que la gasolina por km"
+        },
+        {
+          "value": "3-8h",
+          "label": "Tiempo de carga en el hogar"
+        },
+        {
+          "value": "50%",
+          "label": "Ahorro en horas valle"
+        },
+        {
+          "value": "0g",
+          "label": "Emisiones del tubo de escape"
+        }
       ]
     },
     "plans": {
       "title": "Planes de carga para VE",
       "subtitle": "Planes dedicados diseñados para propietarios de vehículos eléctricos, con tarifas valle reducidas para mantener bajos los costes de carga.",
-      "cards": [
-        {
-          "title": "VE Ahorro",
-          "description": "Nuestro plan de VE más económico con tarifas nocturnas ultrarreducidas para carga programada.",
-          "features": [
-            "La tarifa valle más baja disponible",
-            "Ideal para carga nocturna en el hogar",
-            "Sin permanencia"
-          ],
-          "highlight": "Más popular"
-        },
-        {
-          "title": "VE Flex",
-          "description": "Un plan flexible para propietarios de VE que también desean tarifas competitivas para el consumo del hogar.",
-          "features": [
-            "Tarifas de carga VE reducidas",
-            "Tarifas competitivas para el hogar",
-            "Programación inteligente desde nuestra app"
-          ],
-          "highlight": ""
-        },
-        {
-          "title": "VE + Solar",
-          "description": "Combine la generación solar con la carga de su VE para un ahorro máximo y un impacto medioambiental mínimo.",
-          "features": [
-            "Cargue su VE con sus paneles solares",
-            "Compensación por excedentes de generación",
-            "Compatible con almacenamiento en batería"
-          ],
-          "highlight": "Mejor valor"
-        }
-      ]
+      "viewCta": "Ver detalles del plan"
     },
     "charging": {
       "title": "Soluciones de carga en el hogar",
@@ -776,7 +831,13 @@
         "email": "p. ej. maria@ejemplo.com",
         "mobile": "p. ej. +34 600 000 000"
       },
-      "titles": ["Sr.", "Sra.", "Srta.", "Dr.", "Mx."]
+      "titles": [
+        "Sr.",
+        "Sra.",
+        "Srta.",
+        "Dr.",
+        "Mx."
+      ]
     },
     "stepBillingPreferences": {
       "title": "Preferencias de facturación",

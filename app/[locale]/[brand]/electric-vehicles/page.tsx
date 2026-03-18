@@ -4,16 +4,23 @@ import { useTranslations } from "next-intl"
 import { useSiteContext } from "@/lib/SiteContext"
 import { Car, Zap, Battery, Plug, Leaf, DollarSign, Wrench, Clock, Sun, ArrowRight, CheckCircle, Quote, Fuel } from "lucide-react"
 import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
+import { Plan } from "@/types/plans"
 import Link from "next/link"
 import { CdpPageEvent } from "@hcl-cdp-ta/hclcdp-web-sdk-react"
 import { useCDPTracking } from "@/lib/hooks/useCDPTracking"
 
 export default function ElectricVehiclesPage() {
   const t = useTranslations("electricVehicles")
+  const tPlans = useTranslations("plans")
+  const tPlan = useTranslations("plans.card")
   const { brand, locale, getFullPath } = useSiteContext()
   const { isCDPTrackingEnabled, isLoading: isCDPLoading } = useCDPTracking()
+
+  const planOrder = tPlans.raw("planOrder") as string[]
+  const planData = tPlans.raw("data") as Record<string, Plan>
+  const evPlans = planOrder.map(id => planData[id]).filter(p => p?.type === "ev")
 
   const statIcons = [DollarSign, Clock, Zap, Leaf]
   const stepIcons = [Zap, Plug, Clock, Car]
@@ -72,32 +79,36 @@ export default function ElectricVehiclesPage() {
           <p className="text-lg text-slate-600 text-center mb-12 max-w-2xl mx-auto">{t("plans.subtitle")}</p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {[0, 1, 2].map(i => (
-              <Card key={i} className="hover:shadow-lg transition-shadow border-0 shadow-md relative">
+            {evPlans.map(plan => (
+              <Card key={plan.id} className="hover:shadow-lg transition-shadow border-0 shadow-md relative flex flex-col">
                 <CardHeader className="pb-4">
-                  {t(`plans.cards.${i}.highlight`) && (
+                  {plan.popular && (
                     <Badge className="absolute top-4 right-4 bg-[var(--primary)]">
-                      {t(`plans.cards.${i}.highlight`)}
+                      {tPlan("popular")}
                     </Badge>
                   )}
                   <div className="w-14 h-14 bg-[var(--primary)]/10 rounded-xl flex items-center justify-center mb-4">
                     <Zap className="h-7 w-7 text-[var(--primary)]" />
                   </div>
-                  <CardTitle className="text-xl">{t(`plans.cards.${i}.title`)}</CardTitle>
-                  <CardDescription className="leading-relaxed">{t(`plans.cards.${i}.description`)}</CardDescription>
+                  <CardTitle className="text-xl">{plan.name}</CardTitle>
+                  <div className="text-sm text-slate-500 mt-1">
+                    <span className="font-medium text-slate-700">{tPlan("offPeak")}: </span>
+                    <span className="text-2xl font-bold text-slate-900">{plan.offPeakRate}</span>
+                    <span className="text-slate-500 ml-1">{plan.unit}</span>
+                  </div>
                 </CardHeader>
-                <CardContent>
-                  <ul className="text-sm text-slate-600 space-y-2 mb-6">
-                    {[0, 1, 2].map(j => (
+                <CardContent className="flex flex-col flex-1">
+                  <ul className="text-sm text-slate-600 space-y-2 mb-6 flex-1">
+                    {plan.features.map((feature, j) => (
                       <li key={j} className="flex items-center gap-2">
                         <CheckCircle className="h-4 w-4 text-green-600 shrink-0" />
-                        {t(`plans.cards.${i}.features.${j}`)}
+                        {feature}
                       </li>
                     ))}
                   </ul>
-                  <Link href={getFullPath("plans")}>
+                  <Link href={getFullPath(`plans?plan=ev`)}>
                     <Button variant="outline" className="cursor-pointer w-full">
-                      View plan details
+                      {t("plans.viewCta")}
                       <ArrowRight className="ml-2 h-4 w-4" />
                     </Button>
                   </Link>

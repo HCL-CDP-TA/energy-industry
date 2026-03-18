@@ -9,9 +9,18 @@
     "settings": "Impostazioni"
   },
   "products": [
-    { "label": "Tariffe", "href": "plans" },
-    { "label": "Solare e Accumulo", "href": "solar-storage" },
-    { "label": "Veicoli Elettrici", "href": "electric-vehicles" }
+    {
+      "label": "Tariffe",
+      "href": "plans"
+    },
+    {
+      "label": "Solare e Accumulo",
+      "href": "solar-storage"
+    },
+    {
+      "label": "Veicoli Elettrici",
+      "href": "electric-vehicles"
+    }
   ],
   "home": {
     "cdp": {
@@ -29,10 +38,22 @@
     },
     "trustNumbers": {
       "items": [
-        { "value": "1,2M+", "label": "Clienti serviti" },
-        { "value": "99,9%", "label": "Affidabilità della rete elettrica" },
-        { "value": "40%", "label": "Energia rinnovabile" },
-        { "value": "24/7", "label": "Assistenza clienti" }
+        {
+          "value": "1,2M+",
+          "label": "Clienti serviti"
+        },
+        {
+          "value": "99,9%",
+          "label": "Affidabilità della rete elettrica"
+        },
+        {
+          "value": "40%",
+          "label": "Energia rinnovabile"
+        },
+        {
+          "value": "24/7",
+          "label": "Assistenza clienti"
+        }
       ]
     },
     "products": {
@@ -237,7 +258,16 @@
       "subtitle": "I nostri specialisti energetici possono aiutarLa a trovare la tariffa giusta per la Sua casa e le Sue abitudini di consumo.",
       "cta": "Ci contatti"
     },
-    "planOrder": ["fixed-saver", "fixed-green", "flexi-variable", "variable-saver", "smart-tou", "green-tou", "ev-home-charger", "ev-green-drive"],
+    "planOrder": [
+      "fixed-saver",
+      "fixed-green",
+      "flexi-variable",
+      "variable-saver",
+      "smart-tou",
+      "green-tou",
+      "ev-home-charger",
+      "ev-green-drive"
+    ],
     "data": {
       "fixed-saver": {
         "id": "fixed-saver",
@@ -251,7 +281,11 @@
         "discountPercent": 0,
         "greenEnergyPercent": 0,
         "popular": false,
-        "features": ["Tariffa bloccata per 12 mesi", "Nessun aumento di prezzo durante il contratto", "Tariffa unica semplice, facile da pianificare"]
+        "features": [
+          "Tariffa bloccata per 12 mesi",
+          "Nessun aumento di prezzo durante il contratto",
+          "Tariffa unica semplice, facile da pianificare"
+        ]
       },
       "fixed-green": {
         "id": "fixed-green",
@@ -265,7 +299,11 @@
         "discountPercent": 0,
         "greenEnergyPercent": 100,
         "popular": true,
-        "features": ["100% energia verde certificata", "Tariffa fissa per 12 mesi", "Sostieni progetti di energia rinnovabile"]
+        "features": [
+          "100% energia verde certificata",
+          "Tariffa fissa per 12 mesi",
+          "Sostieni progetti di energia rinnovabile"
+        ]
       },
       "flexi-variable": {
         "id": "flexi-variable",
@@ -279,7 +317,11 @@
         "discountPercent": 5,
         "greenEnergyPercent": 0,
         "popular": false,
-        "features": ["Nessun vincolo contrattuale", "5% di sconto per pagamento puntuale", "Le tariffe seguono l'andamento del mercato"]
+        "features": [
+          "Nessun vincolo contrattuale",
+          "5% di sconto per pagamento puntuale",
+          "Le tariffe seguono l'andamento del mercato"
+        ]
       },
       "variable-saver": {
         "id": "variable-saver",
@@ -293,7 +335,11 @@
         "discountPercent": 12,
         "greenEnergyPercent": 0,
         "popular": true,
-        "features": ["La nostra tariffa variabile più bassa", "12% di sconto garantito", "Nessuna penale di uscita, disdici quando vuoi"]
+        "features": [
+          "La nostra tariffa variabile più bassa",
+          "12% di sconto garantito",
+          "Nessuna penale di uscita, disdici quando vuoi"
+        ]
       },
       "smart-tou": {
         "id": "smart-tou",
@@ -309,7 +355,11 @@
         "discountPercent": 0,
         "greenEnergyPercent": 0,
         "popular": false,
-        "features": ["Risparmia spostando i consumi nelle ore fuori punta", "Contatore intelligente necessario", "Ideale per le famiglie con fotovoltaico"]
+        "features": [
+          "Risparmia spostando i consumi nelle ore fuori punta",
+          "Contatore intelligente necessario",
+          "Ideale per le famiglie con fotovoltaico"
+        ]
       },
       "green-tou": {
         "id": "green-tou",
@@ -325,7 +375,11 @@
         "discountPercent": 0,
         "greenEnergyPercent": 100,
         "popular": false,
-        "features": ["100% energia verde certificata", "Tariffe fuori punta più basse", "Sostieni l'energia rinnovabile"]
+        "features": [
+          "100% energia verde certificata",
+          "Tariffe fuori punta più basse",
+          "Sostieni l'energia rinnovabile"
+        ]
       },
       "ev-home-charger": {
         "id": "ev-home-charger",
@@ -340,7 +394,11 @@
         "discountPercent": 0,
         "greenEnergyPercent": 0,
         "popular": true,
-        "features": ["Tariffa notturna ultra-bassa per la ricarica EV", "Programmazione caricatore intelligente inclusa", "Contatore separato per la ricarica EV"]
+        "features": [
+          "Tariffa notturna ultra-bassa per la ricarica EV",
+          "Programmazione caricatore intelligente inclusa",
+          "Contatore separato per la ricarica EV"
+        ]
       },
       "ev-green-drive": {
         "id": "ev-green-drive",
@@ -355,7 +413,11 @@
         "discountPercent": 0,
         "greenEnergyPercent": 100,
         "popular": false,
-        "features": ["Ricarica EV 100% rinnovabile", "Tariffa fuori punta bassa per la ricarica notturna", "Guida a zero emissioni di carbonio"]
+        "features": [
+          "Ricarica EV 100% rinnovabile",
+          "Tariffa fuori punta bassa per la ricarica notturna",
+          "Guida a zero emissioni di carbonio"
+        ]
       }
     }
   },
@@ -374,10 +436,22 @@
     },
     "stats": {
       "items": [
-        { "value": "30%", "label": "Riduzione media della bolletta" },
-        { "value": "25 anni", "label": "Garanzia pannelli" },
-        { "value": "8-12 anni", "label": "Periodo di ammortamento tipico" },
-        { "value": "5.000+", "label": "Impianti installati" }
+        {
+          "value": "30%",
+          "label": "Riduzione media della bolletta"
+        },
+        {
+          "value": "25 anni",
+          "label": "Garanzia pannelli"
+        },
+        {
+          "value": "8-12 anni",
+          "label": "Periodo di ammortamento tipico"
+        },
+        {
+          "value": "5.000+",
+          "label": "Impianti installati"
+        }
       ]
     },
     "solutions": {
@@ -524,47 +598,28 @@
     },
     "stats": {
       "items": [
-        { "value": "70%", "label": "Più economico della benzina per km" },
-        { "value": "3-8 ore", "label": "Tempo di ricarica domestica" },
-        { "value": "50%", "label": "Risparmio fuori punta" },
-        { "value": "0g", "label": "Emissioni allo scarico" }
+        {
+          "value": "70%",
+          "label": "Più economico della benzina per km"
+        },
+        {
+          "value": "3-8 ore",
+          "label": "Tempo di ricarica domestica"
+        },
+        {
+          "value": "50%",
+          "label": "Risparmio fuori punta"
+        },
+        {
+          "value": "0g",
+          "label": "Emissioni allo scarico"
+        }
       ]
     },
     "plans": {
       "title": "Tariffe di ricarica EV",
       "subtitle": "Tariffe dedicate per i proprietari di veicoli elettrici, con prezzi fuori punta vantaggiosi per contenere i costi di ricarica.",
-      "cards": [
-        {
-          "title": "EV Risparmio",
-          "description": "La nostra tariffa EV più conveniente con prezzi notturni ultra-bassi per la ricarica programmata.",
-          "features": [
-            "Tariffa fuori punta più bassa disponibile",
-            "Ideale per la ricarica notturna domestica",
-            "Nessun vincolo contrattuale"
-          ],
-          "highlight": "Più popolare"
-        },
-        {
-          "title": "EV Flex",
-          "description": "Una tariffa flessibile per i proprietari di EV che desiderano anche tariffe competitive per i consumi domestici.",
-          "features": [
-            "Tariffe di ricarica EV vantaggiose",
-            "Tariffe domestiche competitive",
-            "Programmazione intelligente tramite la nostra app"
-          ],
-          "highlight": ""
-        },
-        {
-          "title": "EV + Solare",
-          "description": "Combini la produzione solare con la ricarica EV per il massimo risparmio e il minimo impatto ambientale.",
-          "features": [
-            "Ricarichi il Suo EV dai pannelli solari",
-            "Crediti per l'energia in eccesso immessa in rete",
-            "Compatibile con sistemi di accumulo"
-          ],
-          "highlight": "Miglior rapporto qualità-prezzo"
-        }
-      ]
+      "viewCta": "Visualizza dettagli piano"
     },
     "charging": {
       "title": "Soluzioni di ricarica domestica",
@@ -776,7 +831,12 @@
         "email": "es. mario@esempio.com",
         "mobile": "es. +39 320 000 0000"
       },
-      "titles": ["Sig.", "Sig.ra", "Dott.", "Dott.ssa"]
+      "titles": [
+        "Sig.",
+        "Sig.ra",
+        "Dott.",
+        "Dott.ssa"
+      ]
     },
     "stepBillingPreferences": {
       "title": "Preferenze di fatturazione",

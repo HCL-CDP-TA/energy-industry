@@ -156,10 +156,22 @@
   "electricVehicles": {
     "stats": {
       "items": [
-        { "value": "70%", "label": "Cheaper than gas per km" },
-        { "value": "3-8hrs", "label": "Home charging time" },
-        { "value": "50%", "label": "Off-peak savings" },
-        { "value": "0g", "label": "Tailpipe emissions" }
+        {
+          "value": "70%",
+          "label": "Cheaper than gas per km"
+        },
+        {
+          "value": "3-8hrs",
+          "label": "Home charging time"
+        },
+        {
+          "value": "50%",
+          "label": "Off-peak savings"
+        },
+        {
+          "value": "0g",
+          "label": "Tailpipe emissions"
+        }
       ]
     },
     "howItWorks": {
@@ -295,7 +307,16 @@
     "copyright": "2026 UniPower. All rights reserved. Energy retailer licence example."
   },
   "plans": {
-    "planOrder": ["fixed-saver", "fixed-green", "flexi-variable", "variable-saver", "smart-tou", "green-tou", "ev-home-charger", "ev-green-drive"],
+    "planOrder": [
+      "fixed-saver",
+      "fixed-green",
+      "flexi-variable",
+      "variable-saver",
+      "smart-tou",
+      "green-tou",
+      "ev-home-charger",
+      "ev-green-drive"
+    ],
     "data": {
       "fixed-saver": {
         "id": "fixed-saver",
