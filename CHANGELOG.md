@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.5.0](https://github.com/HCL-CDP-TA/energy-industry/compare/v1.4.0...v1.5.0) (2026-03-18)
+
+
+### Features
+
+* consistency across EV pages and plans page ([cb5e36b](https://github.com/HCL-CDP-TA/energy-industry/commit/cb5e36b4daa6f96e968e150a922312bb3b5bedc0))
+* updated cdp events and docs ([457cb12](https://github.com/HCL-CDP-TA/energy-industry/commit/457cb120e78d5e3484bd03ded41dcc2f254555c6))
+
 ## [1.4.0](https://github.com/HCL-CDP-TA/energy-industry/compare/v1.3.0...v1.4.0) (2026-03-18)
 
 
