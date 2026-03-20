@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.6.0](https://github.com/HCL-CDP-TA/energy-industry/compare/v1.5.0...v1.6.0) (2026-03-20)
+
+
+### Features
+
+* add plan_checkout_step_X CDP events for each checkout step ([63d8daf](https://github.com/HCL-CDP-TA/energy-industry/commit/63d8daf67f09b3f053ecf1e3285597eb01ead413))
+* **deploy:** add release script ([de4a442](https://github.com/HCL-CDP-TA/energy-industry/commit/de4a442f6a1fe9cf7e6d3a67f33bdf5696501771))
+* make "Enter an address" button scroll to and highlight address input ([1ca76b9](https://github.com/HCL-CDP-TA/energy-industry/commit/1ca76b99cf6770d3d78bbbf692751286c67df47f))
+
 ## [1.5.0](https://github.com/HCL-CDP-TA/energy-industry/compare/v1.4.0...v1.5.0) (2026-03-18)
 
 
