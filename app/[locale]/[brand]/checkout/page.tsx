@@ -165,6 +165,22 @@ function CheckoutContent() {
     setIsComplete(true)
   }
 
+  const trackStep = (step: number, extraProps: Record<string, unknown> = {}) => {
+    if (!isCDPTrackingEnabled || !plan) return
+    track({
+      identifier: `plan_checkout_step_${step}`,
+      properties: {
+        planId: plan.id,
+        planName: plan.name,
+        planType: plan.type,
+        supplyAddress: address,
+        brand: brand.label,
+        locale: locale.code,
+        ...extraProps,
+      },
+    })
+  }
+
   const renderStep = () => {
     switch (currentStep) {
       case 1:
@@ -175,7 +191,10 @@ function CheckoutContent() {
               loggedInName={loggedInUser?.name}
               onSelect={handleCustomerTypeSelect}
               onLogout={handleLogout}
-              onContinue={() => setCurrentStep(2)}
+              onContinue={() => {
+                trackStep(1, { customerType: state.customerType })
+                setCurrentStep(2)
+              }}
             />
             <LoginModal
               open={loginModalOpen}
@@ -192,7 +211,10 @@ function CheckoutContent() {
           <StepProperty
             value={state.propertyType}
             onSelect={(v) => setState(prev => ({ ...prev, propertyType: v }))}
-            onContinue={() => setCurrentStep(3)}
+            onContinue={() => {
+              trackStep(2, { customerType: state.customerType, propertyType: state.propertyType })
+              setCurrentStep(3)
+            }}
             onBack={() => setCurrentStep(1)}
           />
         )
@@ -204,7 +226,20 @@ function CheckoutContent() {
             supplyAddress={address}
             onDetailsChange={(d) => setState(prev => ({ ...prev, personalDetails: d }))}
             onMailingChange={(m) => setState(prev => ({ ...prev, mailingAddress: m }))}
-            onContinue={() => setCurrentStep(4)}
+            onContinue={() => {
+              trackStep(3, {
+                customerType: state.customerType,
+                propertyType: state.propertyType,
+                firstName: state.personalDetails.firstName,
+                lastName: state.personalDetails.lastName,
+                email: state.personalDetails.email,
+                mobile: state.personalDetails.mobile,
+                dob: state.personalDetails.dob,
+                mailingAddressSameAsSupply: state.mailingAddress.sameAsSupply,
+                mailingAddress: state.mailingAddress.sameAsSupply ? address : state.mailingAddress.address,
+              })
+              setCurrentStep(4)
+            }}
             onBack={() => setCurrentStep(2)}
           />
         )
@@ -213,7 +248,15 @@ function CheckoutContent() {
           <StepBillingPreferences
             data={state.billing}
             onChange={(b) => setState(prev => ({ ...prev, billing: b }))}
-            onContinue={() => setCurrentStep(5)}
+            onContinue={() => {
+              trackStep(4, {
+                customerType: state.customerType,
+                propertyType: state.propertyType,
+                billDelivery: state.billing.billDelivery,
+                correspondence: state.billing.correspondence,
+              })
+              setCurrentStep(5)
+            }}
             onBack={() => setCurrentStep(3)}
           />
         )

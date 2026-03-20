@@ -82,6 +82,86 @@ Fired via the `<CdpPageEvent>` component from the HCL CDP SDK on every page load
 
 ---
 
+### `plan_checkout_step_1`
+
+**Trigger:** User clicks "Continue" on the Customer Type step
+**File:** `app/[locale]/[brand]/checkout/page.tsx`
+
+| Property | Type | Description |
+|----------|------|-------------|
+| `planId` | string | Selected plan ID |
+| `planName` | string | Selected plan name |
+| `planType` | string | Plan type |
+| `supplyAddress` | string | Supply address |
+| `customerType` | string | `"new"` or `"existing"` |
+| `brand` | string | Brand label |
+| `locale` | string | Locale code |
+
+---
+
+### `plan_checkout_step_2`
+
+**Trigger:** User clicks "Continue" on the Property step
+**File:** `app/[locale]/[brand]/checkout/page.tsx`
+
+| Property | Type | Description |
+|----------|------|-------------|
+| `planId` | string | Selected plan ID |
+| `planName` | string | Selected plan name |
+| `planType` | string | Plan type |
+| `supplyAddress` | string | Supply address |
+| `customerType` | string | `"new"` or `"existing"` |
+| `propertyType` | string | `"own"` or `"rent"` |
+| `brand` | string | Brand label |
+| `locale` | string | Locale code |
+
+---
+
+### `plan_checkout_step_3`
+
+**Trigger:** User clicks "Continue" on the Personal Details step
+**File:** `app/[locale]/[brand]/checkout/page.tsx`
+
+| Property | Type | Description |
+|----------|------|-------------|
+| `planId` | string | Selected plan ID |
+| `planName` | string | Selected plan name |
+| `planType` | string | Plan type |
+| `supplyAddress` | string | Supply address |
+| `customerType` | string | `"new"` or `"existing"` |
+| `propertyType` | string | `"own"` or `"rent"` |
+| `firstName` | string | Customer first name |
+| `lastName` | string | Customer last name |
+| `email` | string | Customer email |
+| `mobile` | string | Customer mobile phone |
+| `dob` | string | Customer date of birth |
+| `mailingAddressSameAsSupply` | boolean | Whether mailing matches supply address |
+| `mailingAddress` | string | Mailing address (supply address if same) |
+| `brand` | string | Brand label |
+| `locale` | string | Locale code |
+
+---
+
+### `plan_checkout_step_4`
+
+**Trigger:** User clicks "Continue" on the Billing Preferences step
+**File:** `app/[locale]/[brand]/checkout/page.tsx`
+
+| Property | Type | Description |
+|----------|------|-------------|
+| `planId` | string | Selected plan ID |
+| `planName` | string | Selected plan name |
+| `planType` | string | Plan type |
+| `supplyAddress` | string | Supply address |
+| `customerType` | string | `"new"` or `"existing"` |
+| `propertyType` | string | `"own"` or `"rent"` |
+| `billDelivery` | string | Billing delivery preference |
+| `correspondence` | string | Correspondence preference |
+| `brand` | string | Brand label |
+| `locale` | string | Locale code |
+
+---
+
 ### `plan_convert`
 
 **Trigger:** User completes checkout by clicking "Complete" on the review step
@@ -157,11 +237,15 @@ Fired via the `cdpLogin` function from the HCL CDP SDK, wrapped by the `loginWit
 ## Event Flow (Plans Journey)
 
 ```
-Page Load         ->  plan_acquire
-Filter Selected   ->  plan_interest  (with filter + source)
-Address Selected  ->  plan_consider  (with address data)
-Plan Selected     ->  plan_intent    (with plan data)
-Checkout Complete ->  plan_convert   (with full order data)
+Page Load              ->  plan_acquire
+Filter Selected        ->  plan_interest          (with filter + source)
+Address Selected       ->  plan_consider          (with address data)
+Plan Selected          ->  plan_intent            (with plan data)
+Checkout Step 1 Done   ->  plan_checkout_step_1   (customer type)
+Checkout Step 2 Done   ->  plan_checkout_step_2   (+ property type)
+Checkout Step 3 Done   ->  plan_checkout_step_3   (+ personal details + mailing address)
+Checkout Step 4 Done   ->  plan_checkout_step_4   (+ billing preferences)
+Checkout Complete      ->  plan_convert           (with full order data)
 ```
 
 ## Event Flow (EV Journey)
