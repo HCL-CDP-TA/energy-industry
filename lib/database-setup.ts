@@ -169,10 +169,7 @@ export async function ensureCustomerTable(vertical: string = "energy") {
 export async function getIndustryPrismaClient(vertical: string = "energy") {
   const databaseName = vertical
 
-  const isDevelopment =
-    process.env.NODE_ENV === "development" && !process.env.VERCEL && !process.env.RAILWAY_ENVIRONMENT
-
-  if (isDevelopment && !verifiedDatabases.has(databaseName)) {
+  if (!verifiedDatabases.has(databaseName)) {
     await ensureIndustryDatabase(vertical)
   }
 
