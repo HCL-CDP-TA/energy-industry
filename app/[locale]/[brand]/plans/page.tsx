@@ -1,6 +1,6 @@
 "use client"
 
-import { useState, useEffect, useRef } from "react"
+import { useState, useEffect, useRef, useCallback } from "react"
 import { useTranslations } from "next-intl"
 import { useSiteContext } from "@/lib/SiteContext"
 import { AddressLookup } from "@/components/plans/AddressLookup"
@@ -18,6 +18,18 @@ export default function PlansPage() {
   const { track } = useCdp()
   const [address, setAddress] = useState("")
   const hasFiredAcquire = useRef(false)
+  const addressInputRef = useRef<HTMLInputElement>(null)
+
+  const scrollToAddress = useCallback(() => {
+    const el = addressInputRef.current
+    if (!el) return
+    el.scrollIntoView({ behavior: "smooth", block: "center" })
+    setTimeout(() => {
+      el.focus()
+      el.classList.add("address-highlight")
+      setTimeout(() => el.classList.remove("address-highlight"), 1500)
+    }, 400)
+  }, [])
 
   useEffect(() => {
     if (!isCDPLoading && isCDPTrackingEnabled && !hasFiredAcquire.current) {
@@ -39,9 +51,9 @@ export default function PlansPage() {
         </div>
       </section>
 
-      <AddressLookup onAddressChange={setAddress} />
+      <AddressLookup onAddressChange={setAddress} inputRef={addressInputRef} />
 
-      <PlanGrid address={address} />
+      <PlanGrid address={address} onRequestAddress={scrollToAddress} />
 
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">

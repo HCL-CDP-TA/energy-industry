@@ -130,3 +130,13 @@
     @apply bg-background text-foreground;
   }
 }
+
+@keyframes address-highlight {
+  0%   { box-shadow: 0 0 0 0 oklch(54% 0.17 240 / 0.7); }
+  50%  { box-shadow: 0 0 0 6px oklch(54% 0.17 240 / 0.3); }
+  100% { box-shadow: 0 0 0 0 oklch(54% 0.17 240 / 0); }
+}
+
+.address-highlight {
+  animation: address-highlight 1.5s ease-out;
+}

@@ -11,7 +11,7 @@ import { useTranslations } from "next-intl"
 import { useCdp } from "@hcl-cdp-ta/hclcdp-web-sdk-react"
 import { useCDPTracking } from "@/lib/hooks/useCDPTracking"
 
-export function PlanCard({ plan, address }: { plan: Plan; address: string }) {
+export function PlanCard({ plan, address, onRequestAddress }: { plan: Plan; address: string; onRequestAddress?: () => void }) {
   const { getFullPath } = useSiteContext()
   const t = useTranslations("plans.card")
   const { track } = useCdp()
@@ -127,7 +127,7 @@ export function PlanCard({ plan, address }: { plan: Plan; address: string }) {
             </Button>
           </Link>
         ) : (
-          <Button className="w-full" disabled>
+          <Button variant="outline" className="w-full cursor-pointer" onClick={onRequestAddress}>
             {t("enterAddress")}
           </Button>
         )}

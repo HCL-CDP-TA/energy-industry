@@ -11,7 +11,7 @@ import { PlanFilters } from "./PlanFilters"
 
 const VALID_FILTERS = ["all", "fixed", "variable", "tou", "ev"]
 
-export function PlanGrid({ address }: { address: string }) {
+export function PlanGrid({ address, onRequestAddress }: { address: string; onRequestAddress?: () => void }) {
   const searchParams = useSearchParams()
   const planParam = searchParams.get("plan") ?? ""
   const initialFilter = VALID_FILTERS.includes(planParam) ? planParam : "all"
@@ -55,7 +55,7 @@ export function PlanGrid({ address }: { address: string }) {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {filteredPlans.map(plan => (
-            <PlanCard key={plan.id} plan={plan} address={address} />
+            <PlanCard key={plan.id} plan={plan} address={address} onRequestAddress={onRequestAddress} />
           ))}
         </div>
       </div>

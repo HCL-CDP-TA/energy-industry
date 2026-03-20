@@ -1,6 +1,6 @@
 "use client"
 
-import { useRef, useEffect, useCallback, useLayoutEffect } from "react"
+import React, { useRef, useEffect, useCallback, useLayoutEffect } from "react"
 import { useTranslations } from "next-intl"
 import { useSiteContext } from "@/lib/SiteContext"
 import { useCdp } from "@hcl-cdp-ta/hclcdp-web-sdk-react"
@@ -9,10 +9,12 @@ import { MapPin } from "lucide-react"
 
 interface AddressLookupProps {
   onAddressChange: (address: string) => void
+  inputRef?: React.RefObject<HTMLInputElement | null>
 }
 
-export function AddressLookup({ onAddressChange }: AddressLookupProps) {
-  const inputRef = useRef<HTMLInputElement>(null)
+export function AddressLookup({ onAddressChange, inputRef: externalInputRef }: AddressLookupProps) {
+  const internalInputRef = useRef<HTMLInputElement>(null)
+  const inputRef = externalInputRef ?? internalInputRef
   const autocompleteRef = useRef<google.maps.places.Autocomplete | null>(null)
   const t = useTranslations("plans.addressLookup")
   const { brand, locale } = useSiteContext()
