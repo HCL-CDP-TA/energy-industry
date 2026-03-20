@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.1](https://github.com/HCL-CDP-TA/energy-industry/compare/v1.6.0...v1.6.1) (2026-03-20)
+
+
+### Bug Fixes
+
+* ensure Customer table is created in production ([ec1dc06](https://github.com/HCL-CDP-TA/energy-industry/commit/ec1dc067102337c49509a1f8b6ffb07db24516c6))
+
 ## [1.6.0](https://github.com/HCL-CDP-TA/energy-industry/compare/v1.5.0...v1.6.0) (2026-03-20)
 
 
