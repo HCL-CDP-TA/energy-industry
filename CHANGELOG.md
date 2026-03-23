@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.8.0](https://github.com/HCL-CDP-TA/energy-industry/compare/v1.7.0...v1.8.0) (2026-03-23)
+
+
+### Features
+
+* create checkout hero image and move config for all to language files ([6b77045](https://github.com/HCL-CDP-TA/energy-industry/commit/6b77045eff4fa5a249be64c4b175cc0730f13f57))
+
 ## [1.7.0](https://github.com/HCL-CDP-TA/energy-industry/compare/v1.6.0...v1.7.0) (2026-03-23)
 
 
