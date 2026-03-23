@@ -26,7 +26,7 @@ export default function SolarStoragePage() {
       )}
 
       {/* Hero */}
-      <section className="relative text-white py-20 md:py-32 bg-cover bg-center bg-no-repeat" style={{ backgroundImage: "url('https://pixeldock.demo.now.hclsoftware.cloud/api/image/2b46fa76-fef6-4194-b1d9-f8e85dc3f86e?preset=large')" }}>
+      <section className="relative text-white py-20 md:py-32 bg-cover bg-center bg-no-repeat" style={{ backgroundImage: `url('${t("hero.heroImage")}')` }}>
         <div className="absolute inset-0 bg-black/50" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">

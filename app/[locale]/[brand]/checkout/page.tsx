@@ -286,8 +286,9 @@ function CheckoutContent() {
         <CdpPageEvent pageName={t("cdp.pageEventName")} pageProperties={{ brand: brand.label, locale: locale.code }} />
       )}
 
-      <section className="bg-gradient-to-br from-[var(--secondary)] to-slate-800 text-white py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="relative text-white py-20 md:py-32 bg-cover bg-center" style={{ backgroundImage: `url('${t("hero.heroImage")}')` }}>
+        <div className="absolute inset-0 bg-slate-900/60" />
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">{t("hero.title")}</h1>
           <p className="text-xl text-slate-300">{t("hero.subtitle")}</p>
         </div>

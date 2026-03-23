@@ -44,7 +44,7 @@ export default function PlansPage() {
         <CdpPageEvent pageName={t("cdp.pageEventName")} pageProperties={{ brand: brand.label, locale: locale.code }} />
       )}
 
-      <section className="relative text-white py-20 md:py-32 bg-cover bg-center" style={{ backgroundImage: "url('https://pixeldock.demo.now.hclsoftware.cloud/api/image/b01f4ae4-b2cc-480d-8944-d27f497140b9?preset=large')" }}>
+      <section className="relative text-white py-20 md:py-32 bg-cover bg-center" style={{ backgroundImage: `url('${t("hero.heroImage")}')` }}>
         <div className="absolute inset-0 bg-slate-900/60" />
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">{t("hero.title")}</h1>

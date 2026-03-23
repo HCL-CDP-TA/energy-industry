@@ -34,7 +34,8 @@
       "title": "Energy that works for you",
       "subtitle": "Compare our electricity plans and find the right fit for your home. Simple pricing, no hidden fees, and options to go green.",
       "cta": "View plans",
-      "secondaryCta": "Get a quote"
+      "secondaryCta": "Get a quote",
+      "heroImage": "https://pixeldock.demo.now.hclsoftware.cloud/api/image/0862630e-da84-45c4-9a8d-e189a7dd1359?preset=large"
     },
     "trustNumbers": {
       "items": [
@@ -216,7 +217,8 @@
     },
     "hero": {
       "title": "Electricity Plans",
-      "subtitle": "Find the right plan for your home. Compare rates, features, and green energy options."
+      "subtitle": "Find the right plan for your home. Compare rates, features, and green energy options.",
+      "heroImage": "https://pixeldock.demo.now.hclsoftware.cloud/api/image/b01f4ae4-b2cc-480d-8944-d27f497140b9?preset=large"
     },
     "addressLookup": {
       "title": "Enter your address",
@@ -432,7 +434,8 @@
     "hero": {
       "title": "Solar & Storage",
       "subtitle": "Harness solar energy and store it for when you need it most. Reduce your bills and your environmental impact.",
-      "cta": "Get a free quote"
+      "cta": "Get a free quote",
+      "heroImage": "https://pixeldock.demo.now.hclsoftware.cloud/api/image/2b46fa76-fef6-4194-b1d9-f8e85dc3f86e?preset=large"
     },
     "stats": {
       "items": [
@@ -594,7 +597,8 @@
     "hero": {
       "title": "Electric Vehicles",
       "subtitle": "Power your electric vehicle with our dedicated EV charging plans and smart home charging solutions.",
-      "cta": "View EV plans"
+      "cta": "View EV plans",
+      "heroImage": "https://pixeldock.demo.now.hclsoftware.cloud/api/image/65567256-c726-4e09-9718-db167116468a?preset=large"
     },
     "stats": {
       "items": [
@@ -749,7 +753,8 @@
     },
     "hero": {
       "title": "Complete your sign-up",
-      "subtitle": "You're almost there. Review your selected plan and complete your details."
+      "subtitle": "You're almost there. Review your selected plan and complete your details.",
+      "heroImage": "https://pixeldock.demo.now.hclsoftware.cloud/api/image/0862630e-da84-45c4-9a8d-e189a7dd1359?preset=large"
     },
     "selectedPlan": "Your selected plan",
     "popular": "Most Popular",
