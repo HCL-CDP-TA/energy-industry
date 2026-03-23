@@ -47,7 +47,7 @@ export default function HomePage() {
       )}
 
       {/* Hero Section */}
-      <section className="relative text-white py-20 md:py-32 bg-cover bg-center" style={{ backgroundImage: `url('${t("hero.heroImage")}')` }}>
+      <section id="hero-section" className="relative text-white py-20 md:py-32 bg-cover bg-center" style={{ backgroundImage: `url('${t("hero.heroImage")}')` }}>
         <div className="absolute inset-0 bg-slate-900/60" />
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
