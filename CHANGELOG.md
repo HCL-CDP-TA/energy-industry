@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.9.0](https://github.com/HCL-CDP-TA/energy-industry/compare/v1.8.0...v1.9.0) (2026-03-23)
+
+
+### Features
+
+* added id to hero section, reduced image size ([b5fcb7c](https://github.com/HCL-CDP-TA/energy-industry/commit/b5fcb7c6f2150b12078f72b875248fb69f29b4cb))
+
 ## [1.8.0](https://github.com/HCL-CDP-TA/energy-industry/compare/v1.7.0...v1.8.0) (2026-03-23)
 
 
