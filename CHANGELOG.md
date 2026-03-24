@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.10.0](https://github.com/HCL-CDP-TA/energy-industry/compare/v1.9.0...v1.10.0) (2026-03-24)
+
+
+### Features
+
+* add user API ([452ce1e](https://github.com/HCL-CDP-TA/energy-industry/commit/452ce1ed90ed2ca97b148a26bfcc2b0718b11673))
+
 ## [1.9.0](https://github.com/HCL-CDP-TA/energy-industry/compare/v1.8.0...v1.9.0) (2026-03-23)
 
 
