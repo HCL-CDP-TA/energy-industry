@@ -6,7 +6,8 @@
     "themeHeader": "Select Brand",
     "localeTooltip": "Change language",
     "localeHeader": "Language",
-    "settings": "Settings"
+    "settings": "Settings",
+    "myAccount": "My Account"
   },
   "products": [
     {
@@ -956,5 +957,74 @@
       }
     },
     "copyright": "2026 UniPower. All rights reserved. Energy retailer licence example."
+  },
+  "myAccount": {
+    "cdp": {
+      "pageEventName": "My Account"
+    },
+    "meta": {
+      "title": "My Account - UniPower",
+      "description": "Manage your energy account, track usage, and view billing."
+    },
+    "hero": {
+      "title": "Welcome back",
+      "subtitle": "Manage your energy account, track your usage, and stay on top of your bills.",
+      "heroImage": "https://pixeldock.demo.now.hclsoftware.cloud/api/image/0862630e-da84-45c4-9a8d-e189a7dd1359?preset=medium"
+    },
+    "plan": {
+      "title": "Your Current Plan",
+      "name": "Home Saver Fixed",
+      "type": "Fixed Rate",
+      "rate": "24.5c/kWh",
+      "dailySupplyCharge": "$1.20/day",
+      "greenEnergy": "50%",
+      "rateLabel": "Energy rate",
+      "supplyChargeLabel": "Daily supply charge",
+      "contractEndLabel": "Contract ends",
+      "greenEnergyLabel": "Green energy",
+      "changePlan": "Change plan"
+    },
+    "usage": {
+      "title": "Usage Overview",
+      "subtitle": "Your electricity usage at a glance",
+      "items": [
+        { "value": "482 kWh", "label": "Last month" },
+        { "value": "16.1 kWh", "label": "Daily average" },
+        { "value": "-8%", "label": "vs. previous month" },
+        { "value": "6–9 PM", "label": "Peak usage time" }
+      ]
+    },
+    "billing": {
+      "title": "Billing Summary",
+      "nextBillDueLabel": "Next bill due",
+      "estimatedAmountLabel": "Estimated amount",
+      "estimatedAmount": "$142.50",
+      "lastPaymentLabel": "Last payment",
+      "lastPaymentAmount": "$128.30",
+      "paymentMethodLabel": "Payment method",
+      "paymentMethod": "Visa ending 4242"
+    },
+    "quickLinks": {
+      "title": "Manage Your Account",
+      "subtitle": "Everything you need in one place",
+      "items": [
+        {
+          "title": "Detailed Usage",
+          "description": "View daily and hourly breakdowns of your electricity consumption."
+        },
+        {
+          "title": "Bill History",
+          "description": "Access past bills and download statements."
+        },
+        {
+          "title": "Payment Methods",
+          "description": "Update your payment details and set up direct debit."
+        },
+        {
+          "title": "Account Settings",
+          "description": "Update your personal details, notifications, and preferences."
+        }
+      ]
+    }
   }
 }

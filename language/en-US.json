@@ -499,6 +499,16 @@
       }
     }
   },
+  "myAccount": {
+    "plan": {
+      "rate": "12.5¢/kWh",
+      "dailySupplyCharge": "35¢/day"
+    },
+    "billing": {
+      "estimatedAmount": "$118.40",
+      "lastPaymentAmount": "$104.60"
+    }
+  },
   "loginModal": {
     "placeholders": {
       "phone": "+1 555 000 0000"

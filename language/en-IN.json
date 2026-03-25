@@ -220,6 +220,17 @@
       ]
     }
   },
+  "myAccount": {
+    "plan": {
+      "rate": "6.5₹/kWh",
+      "dailySupplyCharge": "₹8/day"
+    },
+    "billing": {
+      "estimatedAmount": "₹3,240",
+      "lastPaymentAmount": "₹2,890",
+      "paymentMethod": "Visa ending 4242"
+    }
+  },
   "checkout": {
     "stepPersonalDetails": {
       "placeholders": {

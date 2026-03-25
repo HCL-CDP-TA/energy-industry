@@ -15,6 +15,7 @@ Fired via the `<CdpPageEvent>` component from the HCL CDP SDK on every page load
 | Checkout | `cdp.pageEventName` | `app/[locale]/[brand]/checkout/page.tsx` |
 | Solar & Storage | `cdp.pageEventName` | `app/[locale]/[brand]/solar-storage/page.tsx` |
 | Electric Vehicles | `cdp.pageEventName` | `app/[locale]/[brand]/electric-vehicles/page.tsx` |
+| My Account | `cdp.pageEventName` | `app/[locale]/[brand]/my-account/page.tsx` |
 
 **Properties sent with all page events:**
 

@@ -99,6 +99,16 @@
       ]
     }
   },
+  "myAccount": {
+    "plan": {
+      "rate": "24.5c/kWh",
+      "dailySupplyCharge": "99c/day"
+    },
+    "billing": {
+      "estimatedAmount": "$185.60",
+      "lastPaymentAmount": "$164.40"
+    }
+  },
   "checkout": {
     "stepPersonalDetails": {
       "placeholders": {

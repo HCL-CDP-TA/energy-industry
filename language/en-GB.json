@@ -202,6 +202,16 @@
       ]
     }
   },
+  "myAccount": {
+    "plan": {
+      "rate": "28.5p/kWh",
+      "dailySupplyCharge": "45p/day"
+    },
+    "billing": {
+      "estimatedAmount": "£98.20",
+      "lastPaymentAmount": "£86.50"
+    }
+  },
   "checkout": {
     "stepPersonalDetails": {
       "mobile": "Mobile number",

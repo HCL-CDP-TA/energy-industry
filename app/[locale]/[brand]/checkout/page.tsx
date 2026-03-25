@@ -313,7 +313,7 @@ function CheckoutContent() {
               <p className="text-sm text-slate-500">
                 {t("success.reference")}: <span className="font-mono font-semibold">{orderReference}</span>
               </p>
-              <Link href={getFullPath("")} className="mt-6 inline-block">
+              <Link href={getFullPath("my-account")} className="mt-6 inline-block">
                 <Button variant="outline" className="cursor-pointer">Return home</Button>
               </Link>
             </div>

@@ -166,6 +166,11 @@ const Header = () => {
                   {item.label}
                 </NavLink>
               ))}
+              {isLoggedIn && (
+                <NavLink href={getFullPath("my-account")}>
+                  {t("myAccount")}
+                </NavLink>
+              )}
             </div>
           </div>
 
@@ -207,6 +212,14 @@ const Header = () => {
                 {item.label}
               </Link>
             ))}
+            {isLoggedIn && (
+              <Link
+                href={getFullPath("my-account")}
+                className="text-[var(--secondary-foreground)] hover:text-[var(--primary)] block px-3 py-2 rounded-md text-base font-medium"
+                onClick={() => setIsOpen(false)}>
+                {t("myAccount")}
+              </Link>
+            )}
             <div className="pt-4">
               {isLoggedIn ? (
                 <Button className="w-full pointer-cursor" onClick={handleLogout}>
