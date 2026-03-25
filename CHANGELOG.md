@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.11.0](https://github.com/HCL-CDP-TA/energy-industry/compare/v1.10.0...v1.11.0) (2026-03-25)
+
+
+### Features
+
+* add My Account page ([f66a82c](https://github.com/HCL-CDP-TA/energy-industry/commit/f66a82c8056703d99df8a34d9ac4da0a05d59710))
+* add users API endpoint & postman collection ([5517de5](https://github.com/HCL-CDP-TA/energy-industry/commit/5517de5ed13ac86157f7422fa97a82d60d482e56))
+
+
+### Bug Fixes
+
+* language in checkout ([fa0cce4](https://github.com/HCL-CDP-TA/energy-industry/commit/fa0cce41dc89908835d3f356941b379fdd7bf1cc))
+
 ## [1.10.0](https://github.com/HCL-CDP-TA/energy-industry/compare/v1.9.0...v1.10.0) (2026-03-24)
 
 
