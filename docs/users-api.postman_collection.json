@@ -59,7 +59,7 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": "{\n  \"email\": \"jane.doe@example.com\",\n  \"password\": \"password123\",\n  \"firstName\": \"Jane\",\n  \"lastName\": \"Doe\",\n  \"phone\": \"+61 400 000 000\"\n}",
+          "raw": "{\n  \"id\": 100,\n  \"email\": \"jane.doe@example.com\",\n  \"password\": \"password123\",\n  \"firstName\": \"Jane\",\n  \"lastName\": \"Doe\",\n  \"phone\": \"+61 400 000 000\"\n}",
           "options": {
             "raw": { "language": "json" }
           }

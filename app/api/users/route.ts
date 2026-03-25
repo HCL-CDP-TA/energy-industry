@@ -49,10 +49,17 @@ export async function GET(request: NextRequest) {
 
 export async function POST(request: NextRequest) {
   try {
-    const { email, password, firstName, lastName, phone } = await request.json()
+    const { id, email, password, firstName, lastName, phone } = await request.json()
 
     if (!email || !password || !firstName || !lastName) {
       return NextResponse.json({ error: "Email, password, first name, and last name are required" }, { status: 400 })
+    }
+
+    if (id !== undefined) {
+      const parsedId = parseInt(String(id))
+      if (isNaN(parsedId) || parsedId < 1) {
+        return NextResponse.json({ error: "Invalid id" }, { status: 400 })
+      }
     }
 
     const vertical = process.env.INDUSTRY_VERTICAL || "energy"
@@ -71,6 +78,7 @@ export async function POST(request: NextRequest) {
 
     const user = await prisma.customer.create({
       data: {
+        ...(id !== undefined ? { id: parseInt(String(id)) } : {}),
         email: email.toLowerCase(),
         password: hashedPassword,
         firstName,
