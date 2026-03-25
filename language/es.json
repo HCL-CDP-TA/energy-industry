@@ -769,6 +769,7 @@
     "discount": "descuento",
     "greenEnergy": "energía verde",
     "noPlanSelected": "No se ha seleccionado ningún plan. Por favor, vuelva atrás y elija un plan.",
+    "backToPlans": "Volver a los planes",
     "supplyAddress": "Dirección de suministro",
     "stepper": {
       "steps": {
@@ -892,7 +893,8 @@
     "success": {
       "title": "¡Pedido completado!",
       "message": "Gracias por darse de alta. Nos pondremos en contacto en un plazo de 1 a 2 días laborables para confirmar los datos de su conexión.",
-      "reference": "Su número de referencia"
+      "reference": "Su número de referencia",
+      "goToMyAccount": "Ir a mi cuenta"
     }
   },
   "loginModal": {

@@ -769,6 +769,7 @@
     "discount": "de réduction",
     "greenEnergy": "d'énergie verte",
     "noPlanSelected": "Aucune offre sélectionnée. Veuillez revenir en arrière et choisir une offre.",
+    "backToPlans": "Retour aux offres",
     "supplyAddress": "Adresse de fourniture",
     "stepper": {
       "steps": {
@@ -890,7 +891,8 @@
     "success": {
       "title": "Commande validée !",
       "message": "Merci pour votre inscription. Nous vous contacterons sous 1 à 2 jours ouvrés pour confirmer les détails de votre raccordement.",
-      "reference": "Votre numéro de référence"
+      "reference": "Votre numéro de référence",
+      "goToMyAccount": "Aller à mon compte"
     }
   },
   "loginModal": {

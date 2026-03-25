@@ -769,6 +769,7 @@
     "discount": "sconto",
     "greenEnergy": "energia verde",
     "noPlanSelected": "Nessun piano selezionato. Torni indietro e scelga un piano.",
+    "backToPlans": "Torna ai piani",
     "supplyAddress": "Indirizzo di fornitura",
     "stepper": {
       "steps": {
@@ -891,7 +892,8 @@
     "success": {
       "title": "Ordine completato!",
       "message": "Grazie per essersi registrato. La contatteremo entro 1-2 giorni lavorativi per confermare i dettagli della Sua connessione.",
-      "reference": "Il Suo numero di riferimento"
+      "reference": "Il Suo numero di riferimento",
+      "goToMyAccount": "Vai al mio account"
     }
   },
   "loginModal": {

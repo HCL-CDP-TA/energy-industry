@@ -300,7 +300,7 @@ function CheckoutContent() {
             <div className="text-center py-12">
               <p className="text-lg text-slate-600 mb-4">{t("noPlanSelected")}</p>
               <Link href={getFullPath("plans")}>
-                <Button className="cursor-pointer">Back to plans</Button>
+                <Button className="cursor-pointer">{t("backToPlans")}</Button>
               </Link>
             </div>
           ) : isComplete ? (
@@ -314,7 +314,7 @@ function CheckoutContent() {
                 {t("success.reference")}: <span className="font-mono font-semibold">{orderReference}</span>
               </p>
               <Link href={getFullPath("my-account")} className="mt-6 inline-block">
-                <Button variant="outline" className="cursor-pointer">Return home</Button>
+                <Button variant="outline" className="cursor-pointer">{t("success.goToMyAccount")}</Button>
               </Link>
             </div>
           ) : (

@@ -775,6 +775,7 @@
     "discount": "discount",
     "greenEnergy": "green energy",
     "noPlanSelected": "No plan selected. Please go back and choose a plan.",
+    "backToPlans": "Back to plans",
     "supplyAddress": "Supply address",
     "stepper": {
       "steps": {
@@ -898,7 +899,8 @@
     "success": {
       "title": "Order complete!",
       "message": "Thanks for signing up. We'll be in touch within 1-2 business days to confirm your connection details.",
-      "reference": "Your reference number"
+      "reference": "Your reference number",
+      "goToMyAccount": "Go to my account"
     }
   },
   "loginModal": {

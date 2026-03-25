@@ -769,6 +769,7 @@
     "discount": "Rabatt",
     "greenEnergy": "grüner Strom",
     "noPlanSelected": "Kein Tarif ausgewählt. Bitte gehen Sie zurück und wählen Sie einen Tarif.",
+    "backToPlans": "Zurück zu den Tarifen",
     "supplyAddress": "Lieferadresse",
     "stepper": {
       "steps": {
@@ -890,7 +891,8 @@
     "success": {
       "title": "Bestellung abgeschlossen!",
       "message": "Vielen Dank für Ihre Anmeldung. Wir melden uns innerhalb von 1-2 Werktagen bei Ihnen, um Ihre Anschlussdaten zu bestätigen.",
-      "reference": "Ihre Referenznummer"
+      "reference": "Ihre Referenznummer",
+      "goToMyAccount": "Zu meinem Konto"
     }
   },
   "loginModal": {

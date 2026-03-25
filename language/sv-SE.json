@@ -769,6 +769,7 @@
     "discount": "rabatt",
     "greenEnergy": "grön energi",
     "noPlanSelected": "Inget avtal valt. Gå tillbaka och välj ett avtal.",
+    "backToPlans": "Tillbaka till avtal",
     "supplyAddress": "Leveransadress",
     "stepper": {
       "steps": {
@@ -891,7 +892,8 @@
     "success": {
       "title": "Beställningen är klar!",
       "message": "Tack för din registrering. Vi hör av oss inom 1–2 arbetsdagar för att bekräfta dina anslutningsuppgifter.",
-      "reference": "Ditt referensnummer"
+      "reference": "Ditt referensnummer",
+      "goToMyAccount": "Gå till mitt konto"
     }
   },
   "loginModal": {
