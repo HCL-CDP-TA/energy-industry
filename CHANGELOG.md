@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.12.0](https://github.com/HCL-CDP-TA/energy-industry/compare/v1.11.0...v1.12.0) (2026-03-27)
+
+
+### Features
+
+* add RTP Script for EnergyAustralia/en-AU ([de47a09](https://github.com/HCL-CDP-TA/energy-industry/commit/de47a096229c97d72e2579ccc515829431c422e4))
+
 ## [1.11.0](https://github.com/HCL-CDP-TA/energy-industry/compare/v1.10.0...v1.11.0) (2026-03-25)
 
 
