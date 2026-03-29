@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.12.1](https://github.com/HCL-CDP-TA/energy-industry/compare/v1.12.0...v1.12.1) (2026-03-29)
+
+
+### Bug Fixes
+
+* update TFP/Interact URL ([c0d86bd](https://github.com/HCL-CDP-TA/energy-industry/commit/c0d86bdf4b0dc8af87cec16e0e10b82022894d30))
+
 ## [1.12.0](https://github.com/HCL-CDP-TA/energy-industry/compare/v1.11.0...v1.12.0) (2026-03-27)
 
 
