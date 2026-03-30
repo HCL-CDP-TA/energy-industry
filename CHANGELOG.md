@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.12.2](https://github.com/HCL-CDP-TA/energy-industry/compare/v1.12.1...v1.12.2) (2026-03-30)
+
+
+### Bug Fixes
+
+* ev filter link ([6662e59](https://github.com/HCL-CDP-TA/energy-industry/commit/6662e59ed0d5f10f0ac9628a8bf1f49fb8d5f1c5))
+
 ## [1.12.1](https://github.com/HCL-CDP-TA/energy-industry/compare/v1.12.0...v1.12.1) (2026-03-29)
 
 
