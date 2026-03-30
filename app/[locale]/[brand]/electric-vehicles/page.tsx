@@ -54,7 +54,7 @@ export default function ElectricVehiclesPage() {
             <p className="text-xl md:text-2xl text-slate-300 mb-8 leading-relaxed">
               {t("hero.subtitle")}
             </p>
-            <Link href={getFullPath("plans")}>
+            <Link href={getFullPath("plans?plan=ev")}>
               <Button size="lg" className="cursor-pointer text-lg px-8 py-6">
                 {t("hero.cta")}
                 <ArrowRight className="ml-2 h-5 w-5" />
