@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.12.3](https://github.com/HCL-CDP-TA/energy-industry/compare/v1.12.2...v1.12.3) (2026-03-31)
+
+
+### Bug Fixes
+
+* add audienceFieldName = _RTP_CustomerID to RTP snippet ([e639189](https://github.com/HCL-CDP-TA/energy-industry/commit/e639189056fa70a8d43b29c280d3a610c1eb2a2e))
+
 ## [1.12.2](https://github.com/HCL-CDP-TA/energy-industry/compare/v1.12.1...v1.12.2) (2026-03-30)
 
 
