@@ -4,6 +4,8 @@ import { useEffect } from "react"
 
 export default function EAEnAUHomeScript() {
   useEffect(() => {
+    ;(window as Window & { audienceFieldName?: string }).audienceFieldName = "_RTP_CustomerID"
+
     function getInteractURL() {
       return "https://unica.prod.hxun.aws.now.hclsoftware.cloud/interact"
     }
