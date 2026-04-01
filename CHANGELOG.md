@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.13.1](https://github.com/HCL-CDP-TA/energy-industry/compare/v1.13.0...v1.13.1) (2026-04-01)
+
+
+### Bug Fixes
+
+* add 100100 to the user id ([ae9467e](https://github.com/HCL-CDP-TA/energy-industry/commit/ae9467e64b5d43b5a792d12c0ca9cdc8a5c1afa4))
+
 ## [1.13.0](https://github.com/HCL-CDP-TA/energy-industry/compare/v1.12.3...v1.13.0) (2026-04-01)
 
 
