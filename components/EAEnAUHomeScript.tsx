@@ -30,7 +30,7 @@ export default function EAEnAUHomeScript() {
           var _customerId = JSON.parse(_appData)?.loginData?.id;
           if (_customerId) {
             localStorage.setItem("AudienceLevel", "Customer1");
-            localStorage.setItem("_RTP_CustomerID", _customerId);
+            localStorage.setItem("_RTP_CustomerID", (parseInt(_customerId) + 100100).toString());
           }
         }
       `}</Script>
