@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.13.0](https://github.com/HCL-CDP-TA/energy-industry/compare/v1.12.3...v1.13.0) (2026-04-01)
+
+
+### Features
+
+* updated RTP script ([eb48416](https://github.com/HCL-CDP-TA/energy-industry/commit/eb48416a15335cf2cbad56880ee7c7ebebe70fd3))
+
 ## [1.12.3](https://github.com/HCL-CDP-TA/energy-industry/compare/v1.12.2...v1.12.3) (2026-03-31)
 
 
