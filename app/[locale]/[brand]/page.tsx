@@ -9,8 +9,6 @@ import Link from "next/link"
 import { useState, useEffect } from "react"
 import { CdpPageEvent } from "@hcl-cdp-ta/hclcdp-web-sdk-react"
 import { useCDPTracking } from "@/lib/hooks/useCDPTracking"
-import EAEnAUHomeScript from "@/components/EAEnAUHomeScript"
-
 export default function HomePage() {
   const t = useTranslations("home")
   const { brand, locale, getFullPath } = useSiteContext()
@@ -43,7 +41,6 @@ export default function HomePage() {
 
   return (
     <main>
-      {brand.key === 'energyaustralia' && locale.code === 'en-AU' && <EAEnAUHomeScript />}
       {!isCDPLoading && isCDPTrackingEnabled && (
         <CdpPageEvent pageName={t("cdp.pageEventName")} pageProperties={{ brand: brand.label, locale: locale.code }} />
       )}
