@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.13.2](https://github.com/HCL-CDP-TA/energy-industry/compare/v1.13.1...v1.13.2) (2026-04-02)
+
+
+### Bug Fixes
+
+* remove RTP script for EnergyAustralia/en-AU ([d46e479](https://github.com/HCL-CDP-TA/energy-industry/commit/d46e479e748b9437c45ead832a1c95a5f2d0d11c))
+
 ## [1.13.1](https://github.com/HCL-CDP-TA/energy-industry/compare/v1.13.0...v1.13.1) (2026-04-01)
 
 
